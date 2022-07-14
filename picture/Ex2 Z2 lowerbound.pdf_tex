@@ -1,0 +1,76 @@
+%% Creator: Inkscape 1.1.1 (3bf5ae0d25, 2021-09-20), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Ex2 Z2 lowerbound.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{534.2761663bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.00946975)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Ex2 Z2 lowerbound.pdf}}%
+    \put(0.52019969,0.4483384){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$O$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Ex2 Z2 lowerbound.pdf}}%
+    \put(0.52019969,0.55437466){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A_1$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Ex2 Z2 lowerbound.pdf}}%
+    \put(0.52019969,0.66041084){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A_2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Ex2 Z2 lowerbound.pdf}}%
+    \put(0.52019969,0.76644701){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A_3$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Ex2 Z2 lowerbound.pdf}}%
+    \put(0.52019969,0.87248323){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A_4$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Ex2 Z2 lowerbound.pdf}}%
+    \put(0.50896953,0.0298087){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A_{-4}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Ex2 Z2 lowerbound.pdf}}%
+    \put(0.50896953,0.13584479){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A_{-3}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{Ex2 Z2 lowerbound.pdf}}%
+    \put(0.50896953,0.24188105){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A_{-2}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{Ex2 Z2 lowerbound.pdf}}%
+    \put(0.50896953,0.34791731){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A_{-1}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{Ex2 Z2 lowerbound.pdf}}%
+  \end{picture}%
+\endgroup%

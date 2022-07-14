@@ -1,6 +1,6 @@
 %% Creator: Inkscape 1.1.1 (3bf5ae0d25, 2021-09-20), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file '456.pdf' (pdf, eps, ps)
+%% Accompanies image file 'Ex2 Z2 upperbound.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{491.10054209bp}%
+    \setlength{\unitlength}{484.93056049bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,18 +50,13 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.70580713)%
+  \begin{picture}(1,0.88536569)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0.25130799,0.23721744){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$O$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{456.pdf}}%
-    \put(0.07940787,0.00504686){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Figure}\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{456.pdf}}%
-    \put(0.7822574,0.06659809){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\mathbb{Z}^2$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{456.pdf}}%
-    \put(0.60455222,0.41046197){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{456.pdf}}%
-    \put(0.77178045,0.59092906){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$B$\end{tabular}}}}%
-    \put(0.292104,0.00491563){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\lambda_{19}\leq \lambda_{5}\cdot \lambda_{14}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Ex2 Z2 upperbound.pdf}}%
+    \put(0.3789059,0.39030301){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$O$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Ex2 Z2 upperbound.pdf}}%
+    \put(0.9556074,0.39969646){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}%
+    \put(0.37738112,0.86632303){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

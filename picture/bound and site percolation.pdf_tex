@@ -1,6 +1,6 @@
 %% Creator: Inkscape 1.1.1 (3bf5ae0d25, 2021-09-20), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'a1.pdf' (pdf, eps, ps)
+%% Accompanies image file 'bound and site percolation.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -54,12 +54,12 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0.10000882,0.00251498){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}A bond percolation\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{a1.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{bound and site percolation.pdf}}%
     \put(0.40022055,0.03400598){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\mathbb{Z}^2$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{a1.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{bound and site percolation.pdf}}%
     \put(0.58369739,0.00251494){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}A site percolation\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{a1.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{bound and site percolation.pdf}}%
     \put(0.88859797,0.03400594){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\mathbb{Z}^2$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{a1.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{bound and site percolation.pdf}}%
   \end{picture}%
 \endgroup%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.2)  14 JUL 2022 13:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.2)  14 JUL 2022 22:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -352,7 +352,7 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count288
 \l__pdf_internal_box=\box57
 )
-No file main.aux.
+(C:\Users\我\Desktop\2022USRP-Group-7\build\main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -433,6 +433,7 @@ LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -513,137 +514,150 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (picture/123.pdf_tex
-<./picture//123.pdf, id=1, page=1, 492.94218pt x 347.68478pt>
-File: ./picture//123.pdf Graphic file (type pdf)
-<use ./picture//123.pdf, page 1>
-Package pdftex.def Info: ./picture//123.pdf , page1 used on input line 57.
-(pdftex.def)             Requested size: 199.16928pt x 140.47733pt.
-<./picture//123.pdf, id=2, page=2, 492.94218pt x 347.68478pt>
-File: ./picture//123.pdf Graphic file (type pdf)
-<use ./picture//123.pdf, page 2>
-Package pdftex.def Info: ./picture//123.pdf , page2 used on input line 59.
-(pdftex.def)             Requested size: 199.16928pt x 140.47733pt.
-<./picture//123.pdf, id=3, page=3, 492.94218pt x 347.68478pt>
-File: ./picture//123.pdf Graphic file (type pdf)
-<use ./picture//123.pdf, page 3>
-Package pdftex.def Info: ./picture//123.pdf , page3 used on input line 61.
-(pdftex.def)             Requested size: 199.16928pt x 140.47733pt.
+) (picture/SAW1.pdf_tex
+<./picture//SAW1.pdf, id=1, page=1, 492.94218pt x 347.92209pt>
+File: ./picture//SAW1.pdf Graphic file (type pdf)
+<use ./picture//SAW1.pdf, page 1>
+Package pdftex.def Info: ./picture//SAW1.pdf , page1 used on input line 57.
+(pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
+<./picture//SAW1.pdf, id=2, page=2, 492.94218pt x 347.92209pt>
+File: ./picture//SAW1.pdf Graphic file (type pdf)
+<use ./picture//SAW1.pdf, page 2>
+Package pdftex.def Info: ./picture//SAW1.pdf , page2 used on input line 59.
+(pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
+<./picture//SAW1.pdf, id=3, page=3, 492.94218pt x 347.92209pt>
+File: ./picture//SAW1.pdf Graphic file (type pdf)
+<use ./picture//SAW1.pdf, page 3>
+Package pdftex.def Info: ./picture//SAW1.pdf , page3 used on input line 61.
+(pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
 )
-(picture/456.pdf_tex
-<./picture//456.pdf, id=4, page=1, 492.94218pt x 347.92209pt>
-File: ./picture//456.pdf Graphic file (type pdf)
-<use ./picture//456.pdf, page 1>
-Package pdftex.def Info: ./picture//456.pdf , page1 used on input line 57.
+(picture/SAW2.pdf_tex
+<./picture//SAW2.pdf, id=4, page=1, 492.94218pt x 347.92209pt>
+File: ./picture//SAW2.pdf Graphic file (type pdf)
+<use ./picture//SAW2.pdf, page 1>
+Package pdftex.def Info: ./picture//SAW2.pdf , page1 used on input line 57.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
-<./picture//456.pdf, id=5, page=2, 492.94218pt x 347.92209pt>
-File: ./picture//456.pdf Graphic file (type pdf)
-<use ./picture//456.pdf, page 2>
-Package pdftex.def Info: ./picture//456.pdf , page2 used on input line 59.
+<./picture//SAW2.pdf, id=5, page=2, 492.94218pt x 347.92209pt>
+File: ./picture//SAW2.pdf Graphic file (type pdf)
+<use ./picture//SAW2.pdf, page 2>
+Package pdftex.def Info: ./picture//SAW2.pdf , page2 used on input line 59.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
-<./picture//456.pdf, id=6, page=3, 492.94218pt x 347.92209pt>
-File: ./picture//456.pdf Graphic file (type pdf)
-<use ./picture//456.pdf, page 3>
-Package pdftex.def Info: ./picture//456.pdf , page3 used on input line 61.
+<./picture//SAW2.pdf, id=6, page=3, 492.94218pt x 347.92209pt>
+File: ./picture//SAW2.pdf Graphic file (type pdf)
+<use ./picture//SAW2.pdf, page 3>
+Package pdftex.def Info: ./picture//SAW2.pdf , page3 used on input line 61.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
-<./picture//456.pdf, id=7, page=4, 492.94218pt x 347.92209pt>
-File: ./picture//456.pdf Graphic file (type pdf)
-<use ./picture//456.pdf, page 4>
-Package pdftex.def Info: ./picture//456.pdf , page4 used on input line 63.
+<./picture//SAW2.pdf, id=7, page=4, 492.94218pt x 347.92209pt>
+File: ./picture//SAW2.pdf Graphic file (type pdf)
+<use ./picture//SAW2.pdf, page 4>
+Package pdftex.def Info: ./picture//SAW2.pdf , page4 used on input line 63.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
 ) [1
 
-{C:/Users/我/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./picture//123
-.pdf> <./picture//123.pdf
+{C:/Users/我/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./picture//SAW
+1.pdf> <./picture//SAW1.pdf
 
-pdfTeX warning: pdflatex (file ./picture//123.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
-> <./picture//123.pdf
+pdfTeX warning: pdflatex (file ./picture//SAW1.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./picture//SAW1.pdf
 
-pdfTeX warning: pdflatex (file ./picture//123.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
-> <./picture//456.pdf
+pdfTeX warning: pdflatex (file ./picture//SAW1.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./picture//SAW2.pdf
 
-pdfTeX warning: pdflatex (file ./picture//456.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
-> <./picture//456.pdf
+pdfTeX warning: pdflatex (file ./picture//SAW2.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./picture//SAW2.pdf
 
-pdfTeX warning: pdflatex (file ./picture//456.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
-> <./picture//456.pdf
+pdfTeX warning: pdflatex (file ./picture//SAW2.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./picture//SAW2.pdf
 
-pdfTeX warning: pdflatex (file ./picture//456.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
-> <./picture//456.pdf
+pdfTeX warning: pdflatex (file ./picture//SAW2.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./picture//SAW2.pdf
 
-pdfTeX warning: pdflatex (file ./picture//456.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
->] (picture/789.pdf_tex
-<./picture//789.pdf, id=26, page=1, 686.1139pt x 427.90462pt>
-File: ./picture//789.pdf Graphic file (type pdf)
-<use ./picture//789.pdf, page 1>
-Package pdftex.def Info: ./picture//789.pdf , page1 used on input line 56.
+pdfTeX warning: pdflatex (file ./picture//SAW2.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>] (picture/Ex2 meshes.pdf_tex
+<./picture//Ex2 meshes.pdf, id=26, page=1, 686.1139pt x 427.90462pt>
+File: ./picture//Ex2 meshes.pdf Graphic file (type pdf)
+<use ./picture//Ex2 meshes.pdf, page 1>
+Package pdftex.def Info: ./picture//Ex2 meshes.pdf , page1 used on input line 5
+6.
 (pdftex.def)             Requested size: 426.79134pt x 266.17957pt.
-<./picture//789.pdf, id=27, page=2, 686.1139pt x 427.90462pt>
-File: ./picture//789.pdf Graphic file (type pdf)
-<use ./picture//789.pdf, page 2>
-Package pdftex.def Info: ./picture//789.pdf , page2 used on input line 59.
+<./picture//Ex2 meshes.pdf, id=27, page=2, 686.1139pt x 427.90462pt>
+File: ./picture//Ex2 meshes.pdf Graphic file (type pdf)
+<use ./picture//Ex2 meshes.pdf, page 2>
+Package pdftex.def Info: ./picture//Ex2 meshes.pdf , page2 used on input line 5
+9.
 (pdftex.def)             Requested size: 426.79134pt x 266.17957pt.
-<./picture//789.pdf, id=28, page=3, 686.1139pt x 427.90462pt>
-File: ./picture//789.pdf Graphic file (type pdf)
-<use ./picture//789.pdf, page 3>
-Package pdftex.def Info: ./picture//789.pdf , page3 used on input line 61.
+<./picture//Ex2 meshes.pdf, id=28, page=3, 686.1139pt x 427.90462pt>
+File: ./picture//Ex2 meshes.pdf Graphic file (type pdf)
+<use ./picture//Ex2 meshes.pdf, page 3>
+Package pdftex.def Info: ./picture//Ex2 meshes.pdf , page3 used on input line 6
+1.
 (pdftex.def)             Requested size: 426.79134pt x 266.17957pt.
-<./picture//789.pdf, id=29, page=4, 686.1139pt x 427.90462pt>
-File: ./picture//789.pdf Graphic file (type pdf)
-<use ./picture//789.pdf, page 4>
-Package pdftex.def Info: ./picture//789.pdf , page4 used on input line 64.
+<./picture//Ex2 meshes.pdf, id=29, page=4, 686.1139pt x 427.90462pt>
+File: ./picture//Ex2 meshes.pdf Graphic file (type pdf)
+<use ./picture//Ex2 meshes.pdf, page 4>
+Package pdftex.def Info: ./picture//Ex2 meshes.pdf , page4 used on input line 6
+4.
 (pdftex.def)             Requested size: 426.79134pt x 266.17957pt.
-) [2 <./picture//789.pdf> <./picture//789.pdf
+) [2 <./picture//Ex2 meshes.pdf> <./picture//Ex2 meshes.pdf
 
-pdfTeX warning: pdflatex (file ./picture//789.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
-> <./picture//789.pdf
+pdfTeX warning: pdflatex (file ./picture//Ex2 meshes.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./picture//Ex2 meshes.pdf
 
-pdfTeX warning: pdflatex (file ./picture//789.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
-> <./picture//789.pdf
+pdfTeX warning: pdflatex (file ./picture//Ex2 meshes.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./picture//Ex2 meshes.pdf
 
-pdfTeX warning: pdflatex (file ./picture//789.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
->] [3] (picture/a1.pdf_tex
-<./picture//a1.pdf, id=52, page=1, 963.48788pt x 347.85742pt>
-File: ./picture//a1.pdf Graphic file (type pdf)
-<use ./picture//a1.pdf, page 1>
-Package pdftex.def Info: ./picture//a1.pdf , page1 used on input line 57.
+pdfTeX warning: pdflatex (file ./picture//Ex2 meshes.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>] [3] (picture/bound and site percolation.pdf_tex
+<./picture//bound and site percolation.pdf, id=52, page=1, 963.48788pt x 347.85
+742pt>
+File: ./picture//bound and site percolation.pdf Graphic file (type pdf)
+<use ./picture//bound and site percolation.pdf, page 1>
+Package pdftex.def Info: ./picture//bound and site percolation.pdf , page1 used
+ on input line 57.
 (pdftex.def)             Requested size: 426.79134pt x 154.08745pt.
-<./picture//a1.pdf, id=53, page=2, 963.48788pt x 347.85742pt>
-File: ./picture//a1.pdf Graphic file (type pdf)
-<use ./picture//a1.pdf, page 2>
-Package pdftex.def Info: ./picture//a1.pdf , page2 used on input line 59.
+<./picture//bound and site percolation.pdf, id=53, page=2, 963.48788pt x 347.85
+742pt>
+File: ./picture//bound and site percolation.pdf Graphic file (type pdf)
+<use ./picture//bound and site percolation.pdf, page 2>
+Package pdftex.def Info: ./picture//bound and site percolation.pdf , page2 used
+ on input line 59.
 (pdftex.def)             Requested size: 426.79134pt x 154.08745pt.
-<./picture//a1.pdf, id=54, page=3, 963.48788pt x 347.85742pt>
-File: ./picture//a1.pdf Graphic file (type pdf)
-<use ./picture//a1.pdf, page 3>
-Package pdftex.def Info: ./picture//a1.pdf , page3 used on input line 61.
+<./picture//bound and site percolation.pdf, id=54, page=3, 963.48788pt x 347.85
+742pt>
+File: ./picture//bound and site percolation.pdf Graphic file (type pdf)
+<use ./picture//bound and site percolation.pdf, page 3>
+Package pdftex.def Info: ./picture//bound and site percolation.pdf , page3 used
+ on input line 61.
 (pdftex.def)             Requested size: 426.79134pt x 154.08745pt.
-<./picture//a1.pdf, id=55, page=4, 963.48788pt x 347.85742pt>
-File: ./picture//a1.pdf Graphic file (type pdf)
-<use ./picture//a1.pdf, page 4>
-Package pdftex.def Info: ./picture//a1.pdf , page4 used on input line 63.
+<./picture//bound and site percolation.pdf, id=55, page=4, 963.48788pt x 347.85
+742pt>
+File: ./picture//bound and site percolation.pdf Graphic file (type pdf)
+<use ./picture//bound and site percolation.pdf, page 4>
+Package pdftex.def Info: ./picture//bound and site percolation.pdf , page4 used
+ on input line 63.
 (pdftex.def)             Requested size: 426.79134pt x 154.08745pt.
-) [4 <./picture//a1.pdf> <./picture//a1.pdf
+) [4 <./picture//bound and site percolation.pdf> <./picture//bound and site per
+colation.pdf
 
-pdfTeX warning: pdflatex (file ./picture//a1.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
-> <./picture//a1.pdf
+pdfTeX warning: pdflatex (file ./picture//bound and site percolation.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./picture//bound and site percolation.pdf
 
-pdfTeX warning: pdflatex (file ./picture//a1.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
-> <./picture//a1.pdf
+pdfTeX warning: pdflatex (file ./picture//bound and site percolation.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./picture//bound and site percolation.pdf
 
-pdfTeX warning: pdflatex (file ./picture//a1.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
+pdfTeX warning: pdflatex (file ./picture//bound and site percolation.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
 >] (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.bdg
 File: UTF8.bdg 2021/10/16 4.8.5
 )
@@ -662,35 +676,34 @@ File: c70bkai.fd 2021/10/16 4.8.5
 (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\c70bkai.fdx
 File: c70bkai.fdx 2021/10/16 4.8.5
 ) [5] [6]
-(C:\Users\我\Documents\GitHub\2022USRP-Group-7\build\main.aux) ) 
+(C:\Users\我\Desktop\2022USRP-Group-7\build\main.aux) ) 
 Here is how much of TeX's memory you used:
- 6680 strings out of 478593
- 100219 string characters out of 2854426
- 411271 words of memory out of 3000000
+ 6682 strings out of 478593
+ 100909 string characters out of 2854426
+ 411262 words of memory out of 3000000
  24668 multiletter control sequences out of 15000+600000
  477985 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,16n,76p,645b,982s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\我
-\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Progra
-m Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu54.pfb><C:/Program Files/MiKTeX/fo
-nts/type1/arphic/bkaiu/bkaiu80.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Fi
-les/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
-:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
-les/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmtt12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msa
-m10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb
->
-Output written on C:\Users\我\Documents\GitHub\2022USRP-Group-7\build\main.pdf
- (6 pages, 216832 bytes).
+ <C:\Users\我\AppData\
+Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/M
+iKTeX/fonts/type1/arphic/bkaiu/bkaiu54.pfb><C:/Program Files/MiKTeX/fonts/type1
+/arphic/bkaiu/bkaiu80.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pf
+b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.p
+fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program
+ Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt1
+2.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><
+C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on C:\Users\我\Desktop\2022USRP-Group-7\build\main.pdf (6 pages
+, 217042 bytes).
 PDF statistics:
  149 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
