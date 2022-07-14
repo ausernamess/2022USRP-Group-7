@@ -1,0 +1,193 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{indentfirst}
+\usepackage{mathrsfs}
+\usepackage{amsthm}
+\usepackage{CJKutf8}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{overpic}
+\usepackage{setspace}
+\pagestyle{empty}
+\newcommand{\bbar}[1]{\overline{#1}}
+\newcommand{\ul}[1]{\underline{#1}}
+\newcommand{\SOL}{\fbox{ \tt s\parbox[b][2pt][c]{6pt}{o}\hspace*{-7pt} L:}}
+\newcommand{\incfig}[1]{%
+\import{./}{#1.pdf_tex}
+}
+\begin{document}
+\begin{flushleft}
+	\Large \textbf{0.2) First Model (Polymer Model)}
+\end{flushleft}
+\begin{enumerate}
+	\item[•] Regular lattices, e.g., $\mathbb{Z}^d$
+	\item[•] Self-avoiding walk (SAW) (a polymer)
+	\begin{figure}[htp]
+	\centering
+	\def\svgwidth{7cm}
+	\incfig{123}
+	\end{figure}
+	\item[•] Consider $\Omega=\{\mbox{ all SAWs } \},$ define $H(\omega)=|\omega|$ where $\omega\in\Omega$\\
+	Let $n\in \mathbb{N},$ define $\lambda_n=\#$ SAWs of length $n.$
+	\item[\underline{Observe} : ] Given $n,m\geq 1$\\
+	Any SAW of length $n+m$ can be decomposed into 2 SAWs of length $n$ and $m.$\\
+	$\Rightarrow \lambda_{n+m}\leq \lambda_n\cdot \lambda_m.$
+	\begin{figure}[htp]
+	\centering
+	\def\svgwidth{7cm}
+	\incfig{456}
+	\end{figure}
+	\item[\textbf{Exercise 1}] $\mu\equiv \lim\limits_{n\to\infty}(\lambda_n)^{\frac{1}{n}}$ exists and $\lambda_N\geq \mu^N$ for all $N\geq 1.$
+	\item[\fbox{SOL}] Note that $\forall n\in \mathbb{N},$ we have $(\lambda_n)^{\frac{1}{n}}\geq 0,$ thus $0$ is a lower bound of $\{(\lambda_n)^{\frac{1}{n}}\}_{n=0}^\infty,$ therefore
+	\[
+	\inf_{n\in\mathbb{N}_0}(\lambda_n)^{\frac{1}{n}}=K\in\mathbb{R}
+	\]
+	Now, given $\varepsilon>0,\ 1^{\circ}\ \exists N_1\in\mathbb{N}$ s.t.
+	\[
+	K+\frac{\varepsilon}{2}>(\lambda_{N_1})^\frac{1}{N_1}
+	\]
+	$2^{\circ}$ By division algorithm, $\forall n\geq N_1,\ \exists m,\ell \in \mathbb{Z}$ with $0\leq \ell\leq N_1$ such that $n=mN_1+\ell$, thus
+	\begin{align*}
+	\lambda_n=\lambda_{mN_1+\ell}\leq (\lambda_{N_1})^m\cdot \lambda_\ell
+	\end{align*}
+	therefore,
+	\begin{align*}
+	(\lambda_n)^{\frac{1}{n}}&\leq (\lambda_{N_1})^{\frac{m}{n}}\cdot (\lambda_\ell)^{\frac{1}{n}}=(\lambda_{N_1})^{\cfrac{1}{N_1+\frac{\ell}{m}}}\cdot (\lambda_\ell)^\frac{1}{n}\leq (\lambda_{N_1})^\frac{1}{N_1}\cdot (\lambda_\ell)^\frac{1}{n}\\
+	&\leq (\lambda_{N_1})^\frac{1}{N_1}\cdot (\lambda_1)^\frac{\ell}{n}\leq (\lambda_{N_1})^\frac{1}{N_1}\cdot (\lambda_1)^\frac{N_1}{n}
+	\end{align*}
+	Because of $\lim\limits_{n\to\infty}(\lambda_{N_1})^{\frac{1}{N_1}}\cdot (\lambda_1)^{\frac{N_1}{n}}=(\lambda_{N_1})^\frac{1}{N_1},\ \exists N\in\mathbb{N}$ such that $n\geq N\Rightarrow$
+	\[
+	(\lambda_{N_1})^\frac{1}{N_1}+\frac{\varepsilon}{2}>(\lambda_{N_1})^\frac{1}{N_1}\cdot (\lambda_1)^{\frac{N_1}{n}}\geq (\lambda_n)^{\frac{1}{n}}
+	\]
+	Therefore 
+	\[
+	K+\varepsilon=K+\frac{\varepsilon}{2}+\frac{\varepsilon}{2}>\lambda_{N_1}^{\frac{1}{N_1}}+\frac{\varepsilon}{2}>(\lambda_n)^{\frac{1}{n}}\geq K.
+	\]
+	Thus, $\mu=\lim\limits_{n\to\infty}(\lambda_n)^\frac{1}{n}=K$ exists.\\
+	Next, for $N>1,$ we have $\forall n\in \mathbb{N}, \lambda_{nN}\leq (\lambda_N)^n,$ thus $(\lambda_{nN})^\frac{1}{nN}\leq (\lambda_N)^\frac{1}{N}.$ Note that $\{(\lambda_{nN})^{\frac{1}{nN}}\}_{n=1}^{\infty}$ is a subsequence of $\{(\lambda_{n})^{\frac{1}{n}}\}_{n=1}^{\infty},$ therefore $\mu=\lim\limits_{n\to\infty}(\lambda_{nN})^\frac{1}{nN}\leq (\lambda_N)\frac{1}{N}\quad \blacksquare$
+	\item[\textbf{Exercise 2}] \begin{enumerate}
+		\item In $\mathbb{Z}^2,\ \mu\in (2,3)$
+		\item In $\mathbb{Z}^3,\ \mu>3$
+		\item In the triangular mesh, $\mu>3$;
+		\item In the hexagonal mesh, $\mu<2$
+		\item In $\mathbb{Z}\times \{0,1\}$ ( i.e. a ladder ), $\mu=\frac{1+\sqrt{5}}{2}.$
+	\end{enumerate}
+	\begin{figure}[htp]
+	\centering
+	\def\svgwidth{15cm}
+	\incfig{789}
+	\end{figure}
+	\item[\SOL] We first show a fact : 
+	\newpage
+	\textbf{Fact(ratio test and root test) :} Let $\{a_n\}_{n=1}^\infty$ be a sequence that take value in $(0,\infty).$ Then
+	\[
+	\lim_{n\to\infty}\frac{a_{n+1}}{a_n}=K\in\mathbb{R}\Rightarrow \lim_{n\to\infty}\sqrt[n]{a_n}=K.
+	\]
+	\begin{proof}
+	If $\lim\limits_{n\to\infty}\cfrac{a_{n+1}}{a_n}=K\in\mathbb{R},$ then given $\varepsilon>0,$ there exists $N_1>0$ such that 
+	\[
+    	n\geq N_1\Rightarrow \Big|\frac{a_{n+1}}{a_n}-K\Big|<\frac{\varepsilon}{2}\Rightarrow K-\frac{\varepsilon}{2}<\frac{a_{n+1}}{a_n}<K+\frac{\varepsilon}{2}
+	\]
+	Note that $a_n=a_1\times \cfrac{a_2}{a_1}\times \cfrac{a_3}{a_2}\times \cdots \times \cfrac{a_n}{a_{n-1}}=a_1\times{\displaystyle \prod_{k=1}^{n-1} \frac{a_{k+1}}{a_k}}=a_1\times{\displaystyle \prod_{k=1}^{N_1-1} \frac{a_{k+1}}{a_k}}\times{\displaystyle \prod_{k=N_1}^{n-1} \frac{a_{k+1}}{a_k}}$ . \\
+	Now define $\mathcal{Q}=a_1\times{\displaystyle \prod_{k=1}^{N_1-1} \frac{a_{k+1}}{a_k}}\ ,$ then $\sqrt[n]{a_n}=\sqrt[n]{\mathcal{Q}}\times {\displaystyle \prod_{k=N_1}^{n-1} \Big(\frac{a_{k+1}}{a_k}\Big)^{\frac{1}{n}}}\ , $ thus
+	\begin{align*}
+	    	\sqrt[n]{\mathcal{Q}}\times\Big(K-\frac{\varepsilon}{2}\Big)^{\frac{n-N_1-1}{n}}&= \sqrt[n]{\mathcal{Q}}\times{\displaystyle \prod_{k=N_1}^{n-1}\Big(K-\frac{\varepsilon}{2}\Big)^{\frac{1}{n}}}<\sqrt[n]{a_n}=\sqrt[n]{\mathcal{Q}}\times {\displaystyle \prod_{k=N_1}^{n-1} \Big(\frac{a_{k+1}}{a_k}\Big)^{\frac{1}{n}}}\\
+	    	&<\sqrt[n]{\mathcal{Q}}\times{\displaystyle \prod_{k=N_1}^{n-1}\Big(K+\frac{\varepsilon}{2}\Big)^{\frac{1}{n}}}=\sqrt[n]{\mathcal{Q}}\times\Big(K+\frac{\varepsilon}{2}\Big)^{\frac{n-N_1-1}{n}}.
+	\end{align*}
+	By the fact that \\
+	$A(n)=\sqrt[n]{\mathcal{Q}}\times\Big(K-\cfrac{\varepsilon}{2}\,\Big)^{\frac{n-N_1-1}{n}}\to K-\cfrac{\varepsilon}{2}\ ,\ B(n)=\sqrt[n]{\mathcal{Q}}\times\Big(K+\cfrac{\varepsilon}{2}\,\Big)^{\frac{n-N_1-1}{n}}\to K+\cfrac{\varepsilon}{2} $ as\\[3pt] $n\to\infty,$ there is $N>N_1$ such that $n\geq N\Rightarrow A(n)>K-\varepsilon$ and $B(n)<K+\varepsilon,$ thus 
+	\[
+	K-\varepsilon<A(n)<\sqrt[n]{a_n}<B(n)<K+\varepsilon.
+	\]
+	Therefore, $\lim\limits_{n\to\infty}\sqrt[n]{a_n}=K.$
+	\end{proof}
+	\begin{enumerate}
+		\item 
+	\end{enumerate}
+	\item[\textbf{Remark.}] \begin{enumerate}
+		\item Highly non-trivial to compute $\mu.$
+		\item On the hexagonal lattice, it is shown that $\mu=\sqrt{2+\sqrt{2}}$ (2010, Copin at el.)
+		\item By computer simulation,\\
+		\textbf{Conjecture} : $Z_\beta=(\beta-\beta_c)^{-\gamma+o(1)}$ for $\beta\to \beta_c^+,$ where $\gamma$ only depends on that dimension of the lattice. In 2D, $\gamma=\frac{43}{32}$ (conjectured)
+		\item If we have $\lambda_N\sim \mu^NN^\alpha ,$ then $Z_\beta$ can be computed to satisfy $Z_\beta\sim (\beta-\beta_c)^{-1+\alpha},$ $\alpha=\frac{11}{32}$ in 2D (conjectured) 
+	\end{enumerate}
+	\item[\textbf{Exercise 3}] How to sample SAWs with computer.
+\end{enumerate}
+\newpage
+\begin{flushleft}
+	\Large \textbf{0.3) Bernoulli Percolation}
+\end{flushleft}
+\begin{flushleft}
+We first consider $\mathbb{Z}^d$ lattices,
+\begin{enumerate}
+	\item[•] \textbf{Bond percolation} Give $p\in [0,1],$ consider $\omega=(\omega(e))_{e\in\mathbb{Z}^d}$ such that $\{\omega(e)\}_{e\in\mathbb{Z}^d}$ is i.i.d with $\omega(e)\sim\mathrm{Brenoulli}(p).$\\
+	If $\omega(e)=1,$ we say that $e$ is open. If $\omega(e)=0,$ we say that $e$ is closed.\\
+	\textbf{Remark} We got a model of random subgraph. By above of notation, we may also write $\omega$ for the random subgraph (consisting of that open edges).
+	\item[•] \textbf{Site percolation} Same thing with i.i.d $\mathrm{Bernoulli}(p),$\\
+	open means that the node can pass, closed means that the node can not pass.
+	\item[•] Notation : \\
+	$\mathbb{P}_p=$ The Bernoulli percolation of parameter $p.$\\
+	$\omega_p$ a sample of $\mathbb{P}_p$
+	\begin{figure}[htp]
+	\centering
+	\def\svgwidth{15cm}
+	\incfig{a1}
+	\end{figure}
+	\item[\textbf{Remark}] The terminology ``Bernoulli percolation" stands for \textbf{i.i.d}, on the other hand, without independence, we simply say that we have a ``percolation model", e.g. random cluster model.\\
+	For the following classes we use ``percolation" to refer to Bernoulli percolation.
+	\item[\textbf{Exercise 1}] Show that a bond percolation is equivalent to a site percolation. How about the other way? Construct an example.
+	\item[\textbf{Question :}] What are the interesting behavior when $p$ varies? e.g. \# component, size of component etc.\\
+	$p=0$ is an empty graph, $p=1$ is a full graph. 
+	\item[•] \textbf{Connected component (cluster)}\\
+	Let $a,b$ be two vertex of $\mathbb{Z}^d,$ we say that $a\sim b$ if exists an path in $\omega_p$ from $a$ to $b$. It is clearly that $\sim$ is an equivalence relation. \\
+	A \textbf{connected component}(cluster) is an element in equivalence classes of $\sim$ 
+	\item[•] \textbf{Infinite cluster}\\
+	A infinite cluster is a cluster of $\omega_p$ that has infinite edges and infinite vertex.\\
+	Let $[O\leftrightarrow \infty]$ be the event in $\mathbb{P}_p$ that $O$ belongs to a infinite cluster.\\
+	$\theta(p)=\mathbb{P}_p[O\leftrightarrow\infty].$
+\end{enumerate}
+\end{flushleft}
+\newpage
+\begin{flushleft}
+\vspace*{5cm}
+\Huge \textbf{1. Basic Properties of \\ \quad the Bernoulli Percolation}
+\vspace*{3cm}
+\end{flushleft}
+\begin{flushleft}
+	Consider $G=\mathbb{Z}^d$ or some ``nice" graph.\\[1cm]
+	\Large \textbf{1.1) Coupling} \begin{CJK}{UTF8}{bkai}(耦合)\end{CJK}
+\end{flushleft}
+\begin{enumerate}
+	\item[•] Given $p\leq p',$ how to compute $X\sim \mathrm{Bernoulli}(p),\ X'\sim\mathrm{Bernoulli}(p')$?\\
+	Consider $\mathcal{U}\sim\mathrm{Uniform}([0,1]),$ define $Y=\mathbf{1}_{\, \mathcal{U}\leq p},$ $Y'=\mathbf{1}_{\, \mathcal{U}\leq p'}$, we get 
+	\[
+	X\overset{(id)}{=}Y,\quad X'\overset{(id)}{=}Y',\quad Y\leq Y'.\quad a.s. (almost\ sure)
+	\]
+	This is called a coupling.
+	\item[\textbf{Remark.}] In coupling, usually we do not want independence, so that we can compute values between random variables.
+	\item[\textbf{Exercise 1}] Construct a coupling between $\omega\sim\mathbb{P}_p,\ \omega'\sim\mathbb{P}_{p'}$ with $p\leq p',$ so that values between edges can be computed.\\
+	Wanted : $p\leq p'\Rightarrow \omega_p\leq \omega_p'(\Leftrightarrow \omega_p(e)\leq \omega_{p'}(e),\ \forall e\in E)$
+	\item[\SOL] Let $\omega=(\omega(e))_{e\in G}$ such that $\{\omega(e)\}_{e\in G}$ is i.i.d. and $\omega(e)\sim \mathrm{Uniform}([0,1]).$ \\
+	Define $\omega_p\sim\mathbb{P}_p,\ \omega_{p'}\sim\mathbb{P}_{p'}$ as $\forall e\in E,\ \omega_p(e)=\mathbf{1}_{\omega(e)\leq p},\ \omega_{p'}(e)=\mathbf{1}_{\omega(e)\leq p'},$ thus, $p\leq p'\Rightarrow \forall e\in E,\ \omega_p(e)\leq \omega_{p'}(e).$
+	\item[\textbf{Exercise 2}] Given $O\in V(G),$ define $\theta:\begin{array}[t]{ccl}
+	[0,1]&\to&\mathbb{R}\\
+	p&\mapsto&\mathbb{P}_p([O\leftrightarrow\infty])
+	\end{array}	 $ (percolation function).\\
+	Show that $\theta$ is increasing. In more general case, at must how many different $\theta$ function can be obtain?
+	\item[\SOL] If $p\leq p',$ let $\omega_1\sim \mathbb{P}_p,\ \omega_2\sim \mathbb{P}_{p'},$ we use the definition of \textbf{Exercise 1}, we have\\ $\omega_1\overset{(id)}{=}\omega_p,\ \omega_2\overset{(id)}{=}\omega_{p'},$ thus $\mathbb{P}_p([O\leftrightarrow\infty])=\mathbb{P}_p([O\leftrightarrow\infty]\mbox{ in }\omega_1)=\mathbb{P}_p([O\leftrightarrow\infty]\mbox{ in }\omega_p),$ 
+	\newpage
+	similarly, $\mathbb{P}_{p'}([O\leftrightarrow\infty])=\mathbb{P}_{p'}([O\leftrightarrow\infty]\mbox{ in }\omega_1)=\mathbb{P}_{p'}([O\leftrightarrow\infty]\mbox{ in }\omega_{p'}).$ We note that $\omega_p$ is always a subgraph of $\omega_{p'}$ (by \textbf{Exercise 1}), thus $\{[O\leftrightarrow\infty]\mbox{ in }\omega_p\}\subseteq\{[O\leftrightarrow\infty]\mbox{ in }\omega_{p'}\},$ we have $\mathbb{P}_p([O\leftrightarrow\infty])=\mathbb{P}_p([O\leftrightarrow\infty]\mbox{ in }\omega_p)\leq \mathbb{P}_{p'}([O\leftrightarrow\infty]\mbox{ in }\omega_{p'})=\mathbb{P}_{p'}([O\leftrightarrow\infty]).$\\
+	And, because of $\omega_1\overset{(id)}{=}\omega_p,$ where $\omega_1$ is a arbitrary random variable with $\omega_1\sim\mathbb{P}_p$ thus there are only one choice of $\theta.$ i.e., $\theta$ is well-defined. $\blacksquare$
+	\item[•] Define $p_c=\sup\{p\in [0,1]\,|\,\theta(p)=0\}$
+	\item[\textbf{Exercise 3}] Check the following properties : 
+	\begin{enumerate}
+		\item The function $p\mapsto\theta(p)$ is right-continuous on $[0,1].$
+		\item The function $p\mapsto\theta(p)$ is left-continuous on $(p_c,1).$
+		\item Show that $p\mapsto \theta(p)$ is strictly increasing in $(p_c,1].$
+	\end{enumerate}
+\end{enumerate}
+\end{document}
