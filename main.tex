@@ -16,6 +16,7 @@
 \newcommand{\bbar}[1]{\overline{#1}}
 \newcommand{\ul}[1]{\underline{#1}}
 \newcommand{\SOL}{\fbox{ \tt s\parbox[b][2pt][c]{6pt}{o}\hspace*{-7pt} L:}}
+\newcommand{\sixedge}{\mbox{\parbox[t][-2pt][c]{10pt}{\scriptsize$\blacktriangledown\hspace{-3.6pt}\blacktriangle\hspace{-4pt}\blacktriangledown$}\hspace{-10.2pt}\parbox[b][10.7pt][c]{10pt}{\scriptsize$\blacktriangle\hspace{-3.6pt}\blacktriangledown\hspace{-3.6pt}\blacktriangle$}}}
 \newcommand{\incfig}[1]{%
 \import{./picture/}{#1.pdf_tex}
 }
@@ -292,6 +293,18 @@
 		And therefore
 		\[
 		\mu(\triangle)=\lim_{n\to\infty}\sqrt[n]{\lambda_n}\geq \lim_{n\to\infty}\sqrt[n]{S(n)}=\frac{3+\sqrt{17}}{2}>3.
+		\]
+		\item  Similar way to prove $\mu(\mathbb{Z}^2)<3,$ we use a simple calculate, deduce that 
+		\[
+		\lambda_{1+5}=(3\times 2^5-2)=\lambda_1\times 30
+		\]
+		Thus,
+		\[
+		\lambda_{1+5n}\leq \lambda_1\times 30^{n}
+		\]
+		Therefore,
+		\[
+		\mu(\sixedge)=\lim_{n\to\infty}\sqrt[1+5n]{\lambda_{1+5n}}\leq \lim_{n\to\infty}\sqrt[1+5n]{\lambda_1\times 30^n}=\sqrt[5]{30}<2
 		\]
 	\end{enumerate}
 	\item[\textbf{Remark.}] \begin{enumerate}
