@@ -232,7 +232,67 @@
 		S(n-1)
 		\end{bmatrix}
 		\]
-		
+		We note that 
+		\[
+		\begin{bmatrix}
+		3 & 2\\
+		1 & 0
+		\end{bmatrix}=P\begin{bmatrix}
+		\frac{3+\sqrt{17}}{2} & 0\\
+		0 & \frac{3-\sqrt{17}}{2}
+		\end{bmatrix}P^{-1},\quad\mbox{where }P=\begin{bmatrix}
+		3+\sqrt{17} & 3-\sqrt{17}\\
+		2 & 2
+		\end{bmatrix}
+		\]
+		And
+		\[
+		P^{-1}=\frac{1}{4\sqrt{17}}\begin{bmatrix}
+		2 & -3+\sqrt{17}\\
+		-2 & 3+\sqrt{17}
+		\end{bmatrix}
+		\]
+		Therefore,
+		\begin{align*}
+		    \begin{bmatrix}
+		    S(n+1)\\
+		    S(n)
+		    \end{bmatrix}&=\begin{bmatrix}
+		    3 & 2\\
+		    1 & 0
+		    \end{bmatrix}^n\begin{bmatrix}
+		    S(1)\\
+		    S(0)
+		    \end{bmatrix}=P\begin{bmatrix}
+    		\frac{3+\sqrt{17}}{2} & 0\\
+    		0 & \frac{3-\sqrt{17}}{2}
+    		\end{bmatrix}^n\hspace{-5pt} P^{-1}\begin{bmatrix}
+    		4\\
+    		1
+    		\end{bmatrix}\\
+    		&=\frac{1}{4\sqrt{17}}P\begin{bmatrix}
+    		\big(\frac{3+\sqrt{17}}{2}\big)^n & 0\\
+    		0 & \big(\frac{3-\sqrt{17}}{2}\big)^n
+    		\end{bmatrix}\begin{bmatrix}
+    		5+\sqrt{17}\\
+    		-5+\sqrt{17}
+    		\end{bmatrix}\\
+    		&=\frac{1}{4\sqrt{17}}\begin{bmatrix}
+    		3+\sqrt{17} & 3-\sqrt{17}\\
+    		2 & 2
+    		\end{bmatrix}\begin{bmatrix}
+    		\big(\frac{3+\sqrt{17}}{2}\big)^n(5+\sqrt{17})\\[3pt]
+    		\big(\frac{3-\sqrt{17}}{2}\big)^n(-5+\sqrt{17})
+    		\end{bmatrix}
+		\end{align*}
+		Thus implies that
+		\[
+		S(n)=\frac{2}{4\sqrt{17}}\bigg(\Big(\frac{3+\sqrt{17}}{2}\Big)^n(5+\sqrt{17})+\Big(\frac{3-\sqrt{17}}{2}\Big)^n(-5+\sqrt{17})\bigg)
+		\]
+		And therefore
+		\[
+		\mu(\triangle)=\lim_{n\to\infty}\sqrt[n]{\lambda_n}\geq \lim_{n\to\infty}\sqrt[n]{S(n)}=\frac{3+\sqrt{17}}{2}>3.
+		\]
 	\end{enumerate}
 	\item[\textbf{Remark.}] \begin{enumerate}
 		\item Highly non-trivial to compute $\mu.$
