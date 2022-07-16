@@ -12,11 +12,15 @@
 \usepackage{transparent}
 \usepackage{overpic}
 \usepackage{setspace}
+\usepackage{rotating}
 \pagestyle{empty}
 \newcommand{\bbar}[1]{\overline{#1}}
 \newcommand{\ul}[1]{\underline{#1}}
 \newcommand{\SOL}{\fbox{ \tt s\parbox[b][2pt][c]{6pt}{o}\hspace*{-7pt} L:}}
 \newcommand{\sixedge}{\mbox{\parbox[t][-2pt][c]{10pt}{\scriptsize$\blacktriangledown\hspace{-3.6pt}\blacktriangle\hspace{-4pt}\blacktriangledown$}\hspace{-10.2pt}\parbox[b][10.7pt][c]{10pt}{\scriptsize$\blacktriangle\hspace{-3.6pt}\blacktriangledown\hspace{-3.6pt}\blacktriangle$}}}
+\newcommand{\indecate}{\mbox{\begin{turn}{65.9}
+$>$
+\end{turn}\hspace{-10.5pt}\parbox[t][-5pt][c]{10pt}{$\bot$}\hspace{-4.35pt}\parbox[t][-3.4pt][c]{4pt}{$\shortmid$}}}
 \newcommand{\incfig}[1]{%
 \import{./picture/}{#1.pdf_tex}
 }
@@ -214,7 +218,7 @@
 		\incfig{Ex2 triangular meshes}
 		\end{figure}
 		\\
-		But, we are not going to use this fact. Instead, we'll prove $\mu(\triangle)>3$ by using the similar way to prove $\mu(\mathbb{Z}^2)>2.$ Define $S(n)$ be \# of SAWs that every move only choose the four blue directions (\textbf{Figure 1}), if we define $S(0)=1,$ it is easy to see that 
+		But, we are not going to use this fact. Instead, we'll prove $\mu(\triangle)>3$ by using the similar way to prove $\mu(\mathbb{Z}^2)>2.$ Define $S(n)$ be \# of SAWs with length $n$ that every move only choose the four blue directions (\textbf{Figure 1}), if we define $S(0)=1,$ it is easy to see that 
 		\begin{align*}
 		S(n)&=2S(n-1)+4S(n-2)+\cdots +4S(0)+2=2+2S(n-1)+4\sum_{k=0}^{n-2}S(k)\\
 		S(n+1)&=2S(n)+4S(n-1)+\cdots +4S(0)+2=2+2S(n)+4\sum_{k=0}^{n-1}S(k)\quad n\geq 2.
@@ -305,6 +309,58 @@
 		Therefore,
 		\[
 		\mu(\sixedge)=\lim_{n\to\infty}\sqrt[1+5n]{\lambda_{1+5n}}\leq \lim_{n\to\infty}\sqrt[1+5n]{\lambda_1\times 30^n}=\sqrt[5]{30}<2
+		\]
+		\item \textit{Claim} `` $\mu(\mathbb{Z}\times\{0,1\})\geq \frac{1+\sqrt{5}}{2}$ " : \\
+		Let $S(n)$ be \# of SAWs with length $n$ that only move $\uparrow,\ \downarrow,\ \rightarrow$ in every step, and it is easy to see that $S(n)=S(n-1)+S(n_2),\quad n\geq 3,$ therefore
+		\[
+		\mu(\mathbb{Z}\times\{0,1\})=\lim_{n\to\infty}\sqrt[n]{\lambda_n}\geq\lim_{n\to\infty}\sqrt[n]{S(n)}=\frac{1+\sqrt{5}}{2}
+		\]
+		\newpage
+		\textit{Claim} `` $\mu(\mathbb{Z}\times\{0,1\})\leq\frac{1+\sqrt{5}}{2}$ " :\\
+		Define $T(n)$ be \# of SAWs in $\mathbb{N}_0\times \{0,1\}$ of length $n$, $n\in \mathbb{N},$ and define $T(0)=1.$ You well find that recursive formula is a great way to slove these problem.
+		\[
+		T(n)=T(n-2)+T(n-3)+\cdots +T(0)+\gamma(n), 
+		\]
+		where $ \gamma(n)=\bigg\{\begin{array}[c]{l}
+		\frac{n+3}{2},\quad \mbox{if } n \mbox{ is odd.}\\
+		\frac{n+2}{2},\quad \mbox{if }n \mbox{ is even.}
+		\end{array} $
+		\begin{figure}[htp]
+		\centering
+		\def\svgwidth{10cm}
+		\incfig{Ex2 ladder}
+		\end{figure}
+		We find that 
+		\[
+		T(n+1)-T(n)=T(n-1)+\gamma(n+1)-\gamma(n)=T(n-1)+\indecate_{even}(n),
+		\]
+		where $\indecate_{even}(n)=\bigg\{\begin{array}[c]{l}
+		0,\quad \mbox{if } n \mbox{ is odd.}\\
+		1,\quad \mbox{if }n \mbox{ is even.}
+		\end{array}$\\[3pt]
+		Moreover, $\lambda_n\leq 2T(n)+2(T(n-4)+T(n-6)+\cdots )$,\quad $n\in\mathbb{N}$, thus
+		\begin{align*}
+		    \lambda_n&\leq\lambda_n+\lambda_{n+1}\leq 2(T(n+1)+T(n))+2(T(n-3)+\cdots +T(0))\\
+		    &=2(T(n+1)+T(n)+T(n-1)-\gamma(n-1))\\
+		    &=2(2T(n+1)+\indecate_{even}(n)-\gamma(n))\leq 4T(n+1),\ \forall n\in\mathbb{N}
+		\end{align*}
+		Because of $T(0)=1,\ T(1)=2,$ and 
+		\[ 
+		T(n+1)\geq T(n)+T(n_1),\ T(n+1)+1\leq (T(n)+1)+(T(n-1)+1)
+		\]
+		Define\\
+		$\{a_n\}_{n=0}^\infty$ as $a_0=1,\ a_1=2,\ a_{n+1}=a_n+a_{n-1},\quad n\geq 1$\\
+		$\{b_n\}_{n=0}^\infty$ as $b_0=2,\ b_1=3,\ b_{n+1}=b_n+b_{n-1},\quad n\geq 1$, then 
+		\[
+		a_n\leq T(n)<T(n)+1\leq b_n,\quad \forall n\in\mathbb{N}.
+		\]
+		We note that both $a_n$ and $b_n$ are Fibonacci sequence, thus
+		\[
+		\lim_{n\to\infty}\sqrt[n]{a_n}=\lim_{n\to\infty}\sqrt[n]{b_n}=\frac{1+\sqrt{5}}{2}\Rightarrow \lim_{n\to\infty}\sqrt[n]{T(n)}=\frac{1+\sqrt{5}}{2}
+		\]
+		Therefore,
+		\[
+		\mu(\mathbb{Z}\times \{0,1\})=\lim_{n\to\infty}\sqrt[n]{\lambda_n}\leq \lim_{n\to\infty}\sqrt[n]{4T(n+1)}=\frac{1+\sqrt{5}}{2}\quad \blacksquare
 		\]
 	\end{enumerate}
 	\item[\textbf{Remark.}] \begin{enumerate}

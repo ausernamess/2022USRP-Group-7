@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.2)  15 JUL 2022 20:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.2)  16 JUL 2022 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -347,92 +347,100 @@ Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 ) (C:\Program Files\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
+(C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count288
+\rotFPtop=\skip58
+\rotFPbot=\skip59
+\rot@float@box=\box57
+\rot@mess@toks=\toks34
+)
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count288
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count289
+\l__pdf_internal_box=\box58
 )
 (C:\Users\我\Desktop\2022USRP-Group-7\build\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -470,17 +478,17 @@ LaTeX Font Info:    ... okay on input line 23.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
+\scratchcounter=\count290
 \scratchdimen=\dimen171
-\scratchbox=\box58
-\nofMPsegments=\count290
-\nofMParguments=\count291
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count292
+\scratchbox=\box59
+\nofMPsegments=\count291
+\nofMParguments=\count292
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count293
 \MPscratchDim=\dimen172
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
-\everyMPtoPDFconversion=\toks35
+\MPnumerator=\count294
+\makeMPintoPDFobject=\count295
+\everyMPtoPDFconversion=\toks36
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -497,19 +505,19 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 28
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 32
 .
 
 (C:\Program Files\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -765,36 +773,73 @@ sion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./picture//Ex2 triangular meshes.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
->] [6] (picture/bound and site percolation.pdf_tex
-<./picture//bound and site percolation.pdf, id=93, page=1, 963.48788pt x 347.85
-742pt>
+>] [6] (picture/Ex2 ladder.pdf_tex
+<./picture//Ex2 ladder.pdf, id=93, page=1, 377.33357pt x 201.2108pt>
+File: ./picture//Ex2 ladder.pdf Graphic file (type pdf)
+<use ./picture//Ex2 ladder.pdf, page 1>
+Package pdftex.def Info: ./picture//Ex2 ladder.pdf , page1 used on input line 5
+6.
+(pdftex.def)             Requested size: 284.52756pt x 151.73053pt.
+<./picture//Ex2 ladder.pdf, id=94, page=2, 377.33357pt x 201.2108pt>
+File: ./picture//Ex2 ladder.pdf Graphic file (type pdf)
+<use ./picture//Ex2 ladder.pdf, page 2>
+Package pdftex.def Info: ./picture//Ex2 ladder.pdf , page2 used on input line 5
+8.
+(pdftex.def)             Requested size: 284.52756pt x 151.73053pt.
+<./picture//Ex2 ladder.pdf, id=95, page=3, 377.33357pt x 201.2108pt>
+File: ./picture//Ex2 ladder.pdf Graphic file (type pdf)
+<use ./picture//Ex2 ladder.pdf, page 3>
+Package pdftex.def Info: ./picture//Ex2 ladder.pdf , page3 used on input line 6
+3.
+(pdftex.def)             Requested size: 284.52756pt x 151.73053pt.
+<./picture//Ex2 ladder.pdf, id=96, page=4, 377.33357pt x 201.2108pt>
+File: ./picture//Ex2 ladder.pdf Graphic file (type pdf)
+<use ./picture//Ex2 ladder.pdf, page 4>
+Package pdftex.def Info: ./picture//Ex2 ladder.pdf , page4 used on input line 6
+5.
+(pdftex.def)             Requested size: 284.52756pt x 151.73053pt.
+) [7 <./picture//Ex2 ladder.pdf> <./picture//Ex2 ladder.pdf
+
+pdfTeX warning: pdflatex (file ./picture//Ex2 ladder.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./picture//Ex2 ladder.pdf
+
+pdfTeX warning: pdflatex (file ./picture//Ex2 ladder.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./picture//Ex2 ladder.pdf
+
+pdfTeX warning: pdflatex (file ./picture//Ex2 ladder.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>] [8] (picture/bound and site percolation.pdf_tex
+<./picture//bound and site percolation.pdf, id=112, page=1, 963.48788pt x 347.8
+5742pt>
 File: ./picture//bound and site percolation.pdf Graphic file (type pdf)
 <use ./picture//bound and site percolation.pdf, page 1>
 Package pdftex.def Info: ./picture//bound and site percolation.pdf , page1 used
  on input line 57.
 (pdftex.def)             Requested size: 426.79134pt x 154.08745pt.
-<./picture//bound and site percolation.pdf, id=94, page=2, 963.48788pt x 347.85
-742pt>
+<./picture//bound and site percolation.pdf, id=113, page=2, 963.48788pt x 347.8
+5742pt>
 File: ./picture//bound and site percolation.pdf Graphic file (type pdf)
 <use ./picture//bound and site percolation.pdf, page 2>
 Package pdftex.def Info: ./picture//bound and site percolation.pdf , page2 used
  on input line 59.
 (pdftex.def)             Requested size: 426.79134pt x 154.08745pt.
-<./picture//bound and site percolation.pdf, id=95, page=3, 963.48788pt x 347.85
-742pt>
+<./picture//bound and site percolation.pdf, id=114, page=3, 963.48788pt x 347.8
+5742pt>
 File: ./picture//bound and site percolation.pdf Graphic file (type pdf)
 <use ./picture//bound and site percolation.pdf, page 3>
 Package pdftex.def Info: ./picture//bound and site percolation.pdf , page3 used
  on input line 61.
 (pdftex.def)             Requested size: 426.79134pt x 154.08745pt.
-<./picture//bound and site percolation.pdf, id=96, page=4, 963.48788pt x 347.85
-742pt>
+<./picture//bound and site percolation.pdf, id=115, page=4, 963.48788pt x 347.8
+5742pt>
 File: ./picture//bound and site percolation.pdf Graphic file (type pdf)
 <use ./picture//bound and site percolation.pdf, page 4>
 Package pdftex.def Info: ./picture//bound and site percolation.pdf , page4 used
  on input line 63.
 (pdftex.def)             Requested size: 426.79134pt x 154.08745pt.
-) [7 <./picture//bound and site percolation.pdf> <./picture//bound and site per
+) [9 <./picture//bound and site percolation.pdf> <./picture//bound and site per
 colation.pdf
 
 pdfTeX warning: pdflatex (file ./picture//bound and site percolation.pdf): PDF 
@@ -817,20 +862,20 @@ File: UTF8.enc 2021/10/16 4.8.5
 File: UTF8.chr 2021/10/16 4.8.5
 )
 LaTeX Font Info:    Trying to load font information for C70+bkai on input line 
-361.
+417.
 
 (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\c70bkai.fd
 File: c70bkai.fd 2021/10/16 4.8.5
 )
 (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\c70bkai.fdx
 File: c70bkai.fdx 2021/10/16 4.8.5
-) [8] [9]
+) [10] [11]
 (C:\Users\我\Desktop\2022USRP-Group-7\build\main.aux) ) 
 Here is how much of TeX's memory you used:
- 6761 strings out of 478593
- 104321 string characters out of 2854426
- 414367 words of memory out of 3000000
- 24736 multiletter control sequences out of 15000+600000
+ 6866 strings out of 478593
+ 106541 string characters out of 2854426
+ 414610 words of memory out of 3000000
+ 24835 multiletter control sequences out of 15000+600000
  478794 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,18n,76p,645b,982s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -851,10 +896,10 @@ X/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1
 nts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt1
 2.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><
 C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on C:\Users\我\Desktop\2022USRP-Group-7\build\main.pdf (9 pages
-, 249315 bytes).
+Output written on C:\Users\我\Desktop\2022USRP-Group-7\build\main.pdf (11 page
+s, 260596 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
+ 210 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 159 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 179 words of extra memory for PDF output out of 10000 (max. 10000000)
 
