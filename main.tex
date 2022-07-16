@@ -12,15 +12,10 @@
 \usepackage{transparent}
 \usepackage{overpic}
 \usepackage{setspace}
-\usepackage{rotating}
 \pagestyle{empty}
 \newcommand{\bbar}[1]{\overline{#1}}
 \newcommand{\ul}[1]{\underline{#1}}
 \newcommand{\SOL}{\fbox{ \tt s\parbox[b][2pt][c]{6pt}{o}\hspace*{-7pt} L:}}
-\newcommand{\sixedge}{\mbox{\parbox[t][-2pt][c]{10pt}{\scriptsize$\blacktriangledown\hspace{-3.6pt}\blacktriangle\hspace{-4pt}\blacktriangledown$}\hspace{-10.2pt}\parbox[b][10.7pt][c]{10pt}{\scriptsize$\blacktriangle\hspace{-3.6pt}\blacktriangledown\hspace{-3.6pt}\blacktriangle$}}}
-\newcommand{\indecate}{\mbox{\begin{turn}{65.9}
-$>$
-\end{turn}\hspace{-10.5pt}\parbox[t][-5pt][c]{10pt}{$\bot$}\hspace{-4.35pt}\parbox[t][-3.4pt][c]{4pt}{$\shortmid$}}}
 \newcommand{\incfig}[1]{%
 \import{./picture/}{#1.pdf_tex}
 }
@@ -84,7 +79,7 @@ $>$
 	\begin{figure}[htp]
 	\centering
 	\def\svgwidth{15cm}
-	\incfig{Ex2 meshes}
+	\incfig{789}
 	\end{figure}
 	\item[\SOL] We first show a fact : 
 	\newpage
@@ -111,257 +106,7 @@ $>$
 	Therefore, $\lim\limits_{n\to\infty}\sqrt[n]{a_n}=K.$
 	\end{proof}
 	\begin{enumerate}
-		\item We first show that $\mu(\mathbb{Z}^2)>2:$
-		\begin{figure}[htp]
-		\centering
-		\def\svgwidth{8cm}
-		\incfig{Ex2 Z2 lowerbound}
-		\end{figure}
-		\newpage
-		If we only consider the 3 direction $\uparrow,\rightarrow,\downarrow$ to choice for next step, ex : red line and blue line, we define $S(n)=\#$ SAWs with length $n$ that under this restriction, $n\geq 1$ and $S(0)=1.$ Now considering the samples SAWs are of length $n,$ then 
-		\begin{align*}
-	    	S(n)=&\#\mbox{ SAWs passing } O\mbox{ with } \rightarrow\\
-	    	+\sum_{k=1}^n &\#\mbox{ SAWs passing } A_i\mbox{ with } \rightarrow + \sum_{k=1}^n \#\mbox{ SAWs passing } A_{-i}\mbox{ with } \rightarrow\\
-	    	+&\#\mbox{ SAWs lying in } y\mbox{- axis}\\
-	    	=& S(n-1)+2S(n-2)+\cdots +2S(1)+2S(0)+2\\
-	    	=&S(n-1)+2+2\sum_{k=0}^{n-2}S(k),\quad n\geq 2
-	    \end{align*}
-	    Similarly, $S(n+1)=S(n)+2+2\sum\limits_{k=0}^{n-1}S(k),$ by subtraction of the two equation, we get a recursive formula :
-	    \[
-	    S(n+1)=2S(n)+S(n-1),\quad n\geq 1,\ \cdots\cdots(*)
-	    \]
-	    We get $\{S(n)\}_{n=0}^\infty:1,3,7,17,31,\cdots,$ we use matrix representation of $(*):$
-	    \[
-	    \begin{bmatrix}
-	    S(n+1)\\
-	    S(n)
-	    \end{bmatrix}=\begin{bmatrix}
-	    2 & 1\\
-	    1 & 0
-	    \end{bmatrix}\begin{bmatrix}
-	    S(n)\\
-	    S(n-1)
-	    \end{bmatrix}.
-	    \]
-	    And note that by calculating eigenvalue and eigenvector, we have 
-	    \begin{align*}
-	    \begin{bmatrix}
-	    2 & 1\\
-	    1 & 0
-	    \end{bmatrix}=P&\begin{bmatrix}
-	    1+\sqrt{2} & 0\\
-	    0 & 1-\sqrt{2}
-	    \end{bmatrix}P^{-1},\quad P=\begin{bmatrix}
-	    1 & -1\\
-	    -1+\sqrt{2} & 1+\sqrt{2}
-	    \end{bmatrix}\\
-	    \Rightarrow & \begin{bmatrix}
-	    2 & 1\\
-	    1 & 0
-	    \end{bmatrix}^n=P\begin{bmatrix}
-	    (1+\sqrt{2})^n & 0\\
-	    0 & (1-\sqrt{2})^n
-	    \end{bmatrix}P^{-1}\\
-	    \Rightarrow &\begin{bmatrix}
-	    S(n+1)\\
-	    S(n)
-	    \end{bmatrix}=\begin{bmatrix}
-	    2 & 1\\
-	    1 & 0
-	    \end{bmatrix}^n\begin{bmatrix}
-	    S(1)\\
-	    S(0)
-	    \end{bmatrix}=\begin{bmatrix}
-	    2 & 1\\
-	    1 & 0
-	    \end{bmatrix}^n\begin{bmatrix}
-	    3\\
-	    1
-	    \end{bmatrix}\\
-	    =& \frac{1}{2}P\begin{bmatrix}
-	    (1+\sqrt{2})^n & 0\\
-	    0 & (1-\sqrt{2})^n
-	    \end{bmatrix}\begin{bmatrix}
-	    4+3\sqrt{2}\\
-	    4-3\sqrt{2}
-	    \end{bmatrix}\\
-	    =& \frac{1}{2}\begin{bmatrix}
-	    1 & -1\\
-	    -1+\sqrt{2} & 1+\sqrt{2}
-	    \end{bmatrix}\begin{bmatrix}
-	    (1+\sqrt{2})^n(4+3\sqrt{2})\\
-	    (1-\sqrt{2})^n(4-3\sqrt{2})
-	    \end{bmatrix}\\
-	    \Rightarrow S(n+1)=& \frac{1}{2}\Big((1+\sqrt{2})^n(4+3\sqrt{2})-(1-\sqrt{2})^n(4-3\sqrt{2})\Big)
-	    \end{align*}
-	    Thus, $\mu(\mathbb{Z}^2)=\lim\limits_{n\to\infty}\sqrt[n+1]{\lambda_{n+1}}\geq \lim\limits_{n\to\infty}\sqrt[n+1]{S(n+1)}=1+\sqrt{2}>2.$\\[5pt]
-	    Next, we show that $\mu<3:$\\
-	    First, we calculate the number of SAWs of length 4 with the first move is $``\rightarrow"$
-	    \newpage
-		\begin{figure}[htp]
-		\centering
-		\def\svgwidth{8cm}
-		\incfig{Ex2 Z2 upperbound}
-		\end{figure}
-		We got that number is 25 (blue points),this figure concentrate about the direction of next move of SAWs instead of the distance between two connected points (it is always 1). we get $\lambda_{4}=4\times 25=100$ Now we replace blue point by red point, and then we got $\lambda_7\leq \lambda_4\times 25=2500,$ continue this process, we got $\lambda_{1+3n}\leq 4\times 25^n.$ Thus 
-		\[
-		\mu(\mathbb{Z}^2)=\lim_{n\to\infty}(\lambda_{3n+1})^{\frac{1}{3n+1}}\leq \lim_{n\to\infty}4^{\frac{1}{3n+1}}\times 25^{\frac{n}{3n+1}}=\sqrt[3]{25}<3.
-		\]
-		\item Because of $\mathbb{Z}^3=\mathbb{Z}^2\times \mathbb{Z},$ thus we define $\beta_n$ be the number of SAWs of length $n$ in $\mathbb{Z}^2,$ by (a), we have $\lim\limits_{n\to\infty}\sqrt[n]{\beta_n}=\mu(\mathbb{Z}^2)\in(2,3).$ Note that $\lambda_{n+1}\geq \beta_n\times 2^{n+1},$ therefore 
-		\[
-		\mu(\mathbb{Z}^3)=\lim_{n\to\infty}\sqrt[n+1]{\lambda_{n+1}}\geq \lim_{n\to\infty}\sqrt[n+1]{\beta^n}\times 2^{\frac{n+1}{n+1}}\geq \lim_{n\to\infty}\Big(\frac{\beta_{n+1}}{4}\Big)^{\frac{1}{n+1}}\times 2>2\times 2>3
-		\]
-		\item If we look more seriously, we can find that there's a hidden $\mathbb{Z}^2$ in the triangular mesh :
-		\begin{figure}[htp]
-		\centering
-		\def\svgwidth{6cm}
-		\incfig{Ex2 triangular meshes}
-		\end{figure}
-		\\
-		But, we are not going to use this fact. Instead, we'll prove $\mu(\triangle)>3$ by using the similar way to prove $\mu(\mathbb{Z}^2)>2.$ Define $S(n)$ be \# of SAWs with length $n$ that every move only choose the four blue directions (\textbf{Figure 1}), if we define $S(0)=1,$ it is easy to see that 
-		\begin{align*}
-		S(n)&=2S(n-1)+4S(n-2)+\cdots +4S(0)+2=2+2S(n-1)+4\sum_{k=0}^{n-2}S(k)\\
-		S(n+1)&=2S(n)+4S(n-1)+\cdots +4S(0)+2=2+2S(n)+4\sum_{k=0}^{n-1}S(k)\quad n\geq 2.
-		\end{align*}
-		\newpage
-		Thus, $S(n+1)-S(n)=2S(n)+2S(n-1)\Rightarrow S(n+1)=3S(n)+2S(n-1),\quad n\geq 2,\ S(0)=1,\ S(1)=4,\ S(2)=14,$ thus
-		\[
-		\begin{bmatrix}
-		S(n+1)\\
-		S(n)
-		\end{bmatrix}=\begin{bmatrix}
-		3 & 2\\
-		1 & 0
-		\end{bmatrix}\begin{bmatrix}
-		S(n)\\
-		S(n-1)
-		\end{bmatrix}
-		\]
-		We note that 
-		\[
-		\begin{bmatrix}
-		3 & 2\\
-		1 & 0
-		\end{bmatrix}=P\begin{bmatrix}
-		\frac{3+\sqrt{17}}{2} & 0\\
-		0 & \frac{3-\sqrt{17}}{2}
-		\end{bmatrix}P^{-1},\quad\mbox{where }P=\begin{bmatrix}
-		3+\sqrt{17} & 3-\sqrt{17}\\
-		2 & 2
-		\end{bmatrix}
-		\]
-		And
-		\[
-		P^{-1}=\frac{1}{4\sqrt{17}}\begin{bmatrix}
-		2 & -3+\sqrt{17}\\
-		-2 & 3+\sqrt{17}
-		\end{bmatrix}
-		\]
-		Therefore,
-		\begin{align*}
-		    \begin{bmatrix}
-		    S(n+1)\\
-		    S(n)
-		    \end{bmatrix}&=\begin{bmatrix}
-		    3 & 2\\
-		    1 & 0
-		    \end{bmatrix}^n\begin{bmatrix}
-		    S(1)\\
-		    S(0)
-		    \end{bmatrix}=P\begin{bmatrix}
-    		\frac{3+\sqrt{17}}{2} & 0\\
-    		0 & \frac{3-\sqrt{17}}{2}
-    		\end{bmatrix}^n\hspace{-5pt} P^{-1}\begin{bmatrix}
-    		4\\
-    		1
-    		\end{bmatrix}\\
-    		&=\frac{1}{4\sqrt{17}}P\begin{bmatrix}
-    		\big(\frac{3+\sqrt{17}}{2}\big)^n & 0\\
-    		0 & \big(\frac{3-\sqrt{17}}{2}\big)^n
-    		\end{bmatrix}\begin{bmatrix}
-    		5+\sqrt{17}\\
-    		-5+\sqrt{17}
-    		\end{bmatrix}\\
-    		&=\frac{1}{4\sqrt{17}}\begin{bmatrix}
-    		3+\sqrt{17} & 3-\sqrt{17}\\
-    		2 & 2
-    		\end{bmatrix}\begin{bmatrix}
-    		\big(\frac{3+\sqrt{17}}{2}\big)^n(5+\sqrt{17})\\[3pt]
-    		\big(\frac{3-\sqrt{17}}{2}\big)^n(-5+\sqrt{17})
-    		\end{bmatrix}
-		\end{align*}
-		Thus implies that
-		\[
-		S(n)=\frac{2}{4\sqrt{17}}\bigg(\Big(\frac{3+\sqrt{17}}{2}\Big)^n(5+\sqrt{17})+\Big(\frac{3-\sqrt{17}}{2}\Big)^n(-5+\sqrt{17})\bigg)
-		\]
-		And therefore
-		\[
-		\mu(\triangle)=\lim_{n\to\infty}\sqrt[n]{\lambda_n}\geq \lim_{n\to\infty}\sqrt[n]{S(n)}=\frac{3+\sqrt{17}}{2}>3.
-		\]
-		\item  Similar way to prove $\mu(\mathbb{Z}^2)<3,$ we use a simple calculate, deduce that 
-		\[
-		\lambda_{1+5}=(3\times 2^5-2)=\lambda_1\times 30
-		\]
-		Thus,
-		\[
-		\lambda_{1+5n}\leq \lambda_1\times 30^{n}
-		\]
-		Therefore,
-		\[
-		\mu(\sixedge)=\lim_{n\to\infty}\sqrt[1+5n]{\lambda_{1+5n}}\leq \lim_{n\to\infty}\sqrt[1+5n]{\lambda_1\times 30^n}=\sqrt[5]{30}<2
-		\]
-		\item \textit{Claim} `` $\mu(\mathbb{Z}\times\{0,1\})\geq \frac{1+\sqrt{5}}{2}$ " : \\
-		Let $S(n)$ be \# of SAWs with length $n$ that only move $\uparrow,\ \downarrow,\ \rightarrow$ in every step, and it is easy to see that $S(n)=S(n-1)+S(n_2),\quad n\geq 3,$ therefore
-		\[
-		\mu(\mathbb{Z}\times\{0,1\})=\lim_{n\to\infty}\sqrt[n]{\lambda_n}\geq\lim_{n\to\infty}\sqrt[n]{S(n)}=\frac{1+\sqrt{5}}{2}
-		\]
-		\newpage
-		\textit{Claim} `` $\mu(\mathbb{Z}\times\{0,1\})\leq\frac{1+\sqrt{5}}{2}$ " :\\
-		Define $T(n)$ be \# of SAWs in $\mathbb{N}_0\times \{0,1\}$ of length $n$, $n\in \mathbb{N},$ and define $T(0)=1.$ You well find that recursive formula is a great way to slove these problem.
-		\[
-		T(n)=T(n-2)+T(n-3)+\cdots +T(0)+\gamma(n), 
-		\]
-		where $ \gamma(n)=\bigg\{\begin{array}[c]{l}
-		\frac{n+3}{2},\quad \mbox{if } n \mbox{ is odd.}\\
-		\frac{n+2}{2},\quad \mbox{if }n \mbox{ is even.}
-		\end{array} $
-		\begin{figure}[htp]
-		\centering
-		\def\svgwidth{10cm}
-		\incfig{Ex2 ladder}
-		\end{figure}
-		We find that 
-		\[
-		T(n+1)-T(n)=T(n-1)+\gamma(n+1)-\gamma(n)=T(n-1)+\indecate_{even}(n),
-		\]
-		where $\indecate_{even}(n)=\bigg\{\begin{array}[c]{l}
-		0,\quad \mbox{if } n \mbox{ is odd.}\\
-		1,\quad \mbox{if }n \mbox{ is even.}
-		\end{array}$\\[3pt]
-		Moreover, $\lambda_n\leq 2T(n)+2(T(n-4)+T(n-6)+\cdots )$,\quad $n\in\mathbb{N}$, thus
-		\begin{align*}
-		    \lambda_n&\leq\lambda_n+\lambda_{n+1}\leq 2(T(n+1)+T(n))+2(T(n-3)+\cdots +T(0))\\
-		    &=2(T(n+1)+T(n)+T(n-1)-\gamma(n-1))\\
-		    &=2(2T(n+1)+\indecate_{even}(n)-\gamma(n))\leq 4T(n+1),\ \forall n\in\mathbb{N}
-		\end{align*}
-		Because of $T(0)=1,\ T(1)=2,$ and 
-		\[ 
-		T(n+1)\geq T(n)+T(n_1),\ T(n+1)+1\leq (T(n)+1)+(T(n-1)+1)
-		\]
-		Define\\
-		$\{a_n\}_{n=0}^\infty$ as $a_0=1,\ a_1=2,\ a_{n+1}=a_n+a_{n-1},\quad n\geq 1$\\
-		$\{b_n\}_{n=0}^\infty$ as $b_0=2,\ b_1=3,\ b_{n+1}=b_n+b_{n-1},\quad n\geq 1$, then 
-		\[
-		a_n\leq T(n)<T(n)+1\leq b_n,\quad \forall n\in\mathbb{N}.
-		\]
-		We note that both $a_n$ and $b_n$ are Fibonacci sequence, thus
-		\[
-		\lim_{n\to\infty}\sqrt[n]{a_n}=\lim_{n\to\infty}\sqrt[n]{b_n}=\frac{1+\sqrt{5}}{2}\Rightarrow \lim_{n\to\infty}\sqrt[n]{T(n)}=\frac{1+\sqrt{5}}{2}
-		\]
-		Therefore,
-		\[
-		\mu(\mathbb{Z}\times \{0,1\})=\lim_{n\to\infty}\sqrt[n]{\lambda_n}\leq \lim_{n\to\infty}\sqrt[n]{4T(n+1)}=\frac{1+\sqrt{5}}{2}\quad \blacksquare
-		\]
+		\item 
 	\end{enumerate}
 	\item[\textbf{Remark.}] \begin{enumerate}
 		\item Highly non-trivial to compute $\mu.$
@@ -390,7 +135,7 @@ We first consider $\mathbb{Z}^d$ lattices,
 	\begin{figure}[htp]
 	\centering
 	\def\svgwidth{15cm}
-	\incfig{bound and site percolation}
+	\incfig{a1}
 	\end{figure}
 	\item[\textbf{Remark}] The terminology ``Bernoulli percolation" stands for \textbf{i.i.d}, on the other hand, without independence, we simply say that we have a ``percolation model", e.g. random cluster model.\\
 	For the following classes we use ``percolation" to refer to Bernoulli percolation.
@@ -445,5 +190,12 @@ We first consider $\mathbb{Z}^d$ lattices,
 		\item Show that $p\mapsto \theta(p)$ is strictly increasing in $(p_c,1].$
 	\end{enumerate}
 \end{enumerate}
- I add a line.
+\begin{flushleft}
+	\Large \textbf{1.2) 1.2 Uniqueness of the Infinite Cluster (on $\mathbb{Z}^d$)} \begin{CJK}{UTF8}{bkai}(耦合)\end{CJK}
+\end{flushleft}
+\begin{enumerate}
+	\item[\textbf{Exercise 1}] Any event a can be "approximated" by a sequence  of events that depend only on finitely many edges. i.e. we can find $(a_n)_{n \geq 1}$ s.t. a_n only depends on edges in [$-m_n,m_n$]^d and $\mathbb{p}(a\delta a_n)\to 0$. ($a\delta a_n$ is the symmetric difference of the two set)
+	
+\end{enumerate}	
+
 \end{document}
