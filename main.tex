@@ -25,6 +25,61 @@ $>$
 \import{./picture/}{#1.pdf_tex}
 }
 \begin{document}
+\begin{center}
+\Huge    \textbf{Group 7 Note of Planar Statistical Physics and Bernoulli Percolation}
+\end{center}
+\begin{center}
+\includegraphics[width=15cm]{./picture/new.jpg}
+\end{center}
+\vspace{2cm}
+\begin{flushleft}
+    \begin{CJK}{UTF8}{bkai}
+    學生：
+    \begin{enumerate}
+        \item[•] 洪偉傑
+        \item[•] 郝嘉誠
+        \item[•] 蘇彥維
+        \item[•] 蘇士紘
+        \item[•] 徐樂融
+    \end{enumerate}
+    \end{CJK}
+\end{flushleft}
+\newpage
+\begin{flushleft}
+    \vspace*{5cm}
+    \Huge \textbf{0. (Planer) Statistical Mechanics}
+    \vspace*{3cm}
+\end{flushleft}
+\begin{flushleft}
+	\Large \textbf{0.1) Motivation}
+\end{flushleft}
+\begin{enumerate}
+    \item[•] We want to describe the (macroscopic) behavior of a system composed of huge number of (microscopic) particles. Theoretically, if the behavior of each particle can be described, then one should be able to say something about the system. However, the number of particles are astronomical (1 mole $\approx 10^{23}$) and it is costly (even impossible) to solve the system.
+    \item[•] Boltzmann (end $19^{th}$ century ) gives a probabilistic formalism
+    \begin{enumerate}
+        \item $\Omega=$ sample space (discrete, countable, possibly infinite)
+        \item $H:\Omega\to\mathbb{R}$ energy function (Hamiltonian) 
+        \item $\beta=\frac{1}{T}$ inverse temperature.
+    \end{enumerate}
+    $\Rightarrow$ \textbf{Boltzmann distribution} 
+    \[
+    \mathbb{P}_{\beta}(\omega)=\frac{1}{z_\beta}\exp(-\beta H(\omega))
+    \]
+    Where $z_\beta=\sum\limits_{\omega\in\Omega}\exp(-\beta H(\omega))$ is called \textbf{partition function} 
+    \item[•] Interpretations
+    \begin{enumerate}
+        \item[$*$)] At a fixed temperature, an exponential weight is associated to each configuration
+        \item[$*$)] At high temperature ($\beta\to 0^+$) the weights are almost a constant function of configurations, so each state equiprobable.
+        \item[$*$)] At low temperature, ($\beta\to +\infty$), the weight concentrate on minimizers of the energy function $H.$ 
+    \end{enumerate}
+    $\Rightarrow$ this corresponds to the intuitions we have in physics (thermodynamics?)
+    \newpage
+    \item[\textbf{Remark}] \begin{enumerate}
+        \item $z_\beta<\infty$ if $\Omega$ is finite, so $\mathbb{P}_\beta$ is well defined.
+        \item If $\Omega$ is infinite, then $z_\beta$ is not always finite. The finiteness of $z_\beta$ may depend on $\beta.$
+    \end{enumerate}
+\end{enumerate}
+\newpage
 \begin{flushleft}
 	\Large \textbf{0.2) First Model (Polymer Model)}
 \end{flushleft}

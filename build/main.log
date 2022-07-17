@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.2)  16 JUL 2022 13:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.2)  17 JUL 2022 08:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -505,65 +505,89 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 32
+<./picture/new.jpg, id=1, 655.69969pt x 656.4525pt>
+File: ./picture/new.jpg Graphic file (type jpg)
+<use ./picture/new.jpg>
+Package pdftex.def Info: ./picture/new.jpg  used on input line 32.
+(pdftex.def)             Requested size: 426.79134pt x 427.28004pt.
+
+(C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.bdg
+File: UTF8.bdg 2021/10/16 4.8.5
+)
+(C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
+File: UTF8.enc 2021/10/16 4.8.5
+)
+(C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.chr
+File: UTF8.chr 2021/10/16 4.8.5
+)
+LaTeX Font Info:    Trying to load font information for C70+bkai on input line 
+37.
+
+(C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\c70bkai.fd
+File: c70bkai.fd 2021/10/16 4.8.5
+)
+(C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\c70bkai.fdx
+File: c70bkai.fdx 2021/10/16 4.8.5
+) [1
+
+{C:/Users/我/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./picture/new.
+jpg>]
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 57
 .
 
 (C:\Program Files\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (picture/SAW1.pdf_tex
-<./picture//SAW1.pdf, id=1, page=1, 492.94218pt x 347.92209pt>
+) [2] [3]
+(picture/SAW1.pdf_tex
+<./picture//SAW1.pdf, id=50, page=1, 492.94218pt x 347.92209pt>
 File: ./picture//SAW1.pdf Graphic file (type pdf)
 <use ./picture//SAW1.pdf, page 1>
 Package pdftex.def Info: ./picture//SAW1.pdf , page1 used on input line 57.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
-<./picture//SAW1.pdf, id=2, page=2, 492.94218pt x 347.92209pt>
+<./picture//SAW1.pdf, id=51, page=2, 492.94218pt x 347.92209pt>
 File: ./picture//SAW1.pdf Graphic file (type pdf)
 <use ./picture//SAW1.pdf, page 2>
 Package pdftex.def Info: ./picture//SAW1.pdf , page2 used on input line 59.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
-<./picture//SAW1.pdf, id=3, page=3, 492.94218pt x 347.92209pt>
+<./picture//SAW1.pdf, id=52, page=3, 492.94218pt x 347.92209pt>
 File: ./picture//SAW1.pdf Graphic file (type pdf)
 <use ./picture//SAW1.pdf, page 3>
 Package pdftex.def Info: ./picture//SAW1.pdf , page3 used on input line 61.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
-)
-(picture/SAW2.pdf_tex
-<./picture//SAW2.pdf, id=4, page=1, 492.94218pt x 347.92209pt>
+) (picture/SAW2.pdf_tex
+<./picture//SAW2.pdf, id=53, page=1, 492.94218pt x 347.92209pt>
 File: ./picture//SAW2.pdf Graphic file (type pdf)
 <use ./picture//SAW2.pdf, page 1>
 Package pdftex.def Info: ./picture//SAW2.pdf , page1 used on input line 57.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
-<./picture//SAW2.pdf, id=5, page=2, 492.94218pt x 347.92209pt>
+<./picture//SAW2.pdf, id=54, page=2, 492.94218pt x 347.92209pt>
 File: ./picture//SAW2.pdf Graphic file (type pdf)
 <use ./picture//SAW2.pdf, page 2>
 Package pdftex.def Info: ./picture//SAW2.pdf , page2 used on input line 59.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
-<./picture//SAW2.pdf, id=6, page=3, 492.94218pt x 347.92209pt>
+<./picture//SAW2.pdf, id=55, page=3, 492.94218pt x 347.92209pt>
 File: ./picture//SAW2.pdf Graphic file (type pdf)
 <use ./picture//SAW2.pdf, page 3>
 Package pdftex.def Info: ./picture//SAW2.pdf , page3 used on input line 61.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
-<./picture//SAW2.pdf, id=7, page=4, 492.94218pt x 347.92209pt>
+<./picture//SAW2.pdf, id=56, page=4, 492.94218pt x 347.92209pt>
 File: ./picture//SAW2.pdf Graphic file (type pdf)
 <use ./picture//SAW2.pdf, page 4>
 Package pdftex.def Info: ./picture//SAW2.pdf , page4 used on input line 63.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
-) [1
-
-{C:/Users/我/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./picture//SAW
-1.pdf> <./picture//SAW1.pdf
+) [4 <./picture//SAW1.pdf> <./picture//SAW1.pdf
 
 pdfTeX warning: pdflatex (file ./picture//SAW1.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
@@ -588,31 +612,31 @@ fs with page group included in a single page
 pdfTeX warning: pdflatex (file ./picture//SAW2.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
 >] (picture/Ex2 meshes.pdf_tex
-<./picture//Ex2 meshes.pdf, id=26, page=1, 686.1139pt x 427.90462pt>
+<./picture//Ex2 meshes.pdf, id=65, page=1, 686.1139pt x 427.90462pt>
 File: ./picture//Ex2 meshes.pdf Graphic file (type pdf)
 <use ./picture//Ex2 meshes.pdf, page 1>
 Package pdftex.def Info: ./picture//Ex2 meshes.pdf , page1 used on input line 5
 6.
 (pdftex.def)             Requested size: 426.79134pt x 266.17957pt.
-<./picture//Ex2 meshes.pdf, id=27, page=2, 686.1139pt x 427.90462pt>
+<./picture//Ex2 meshes.pdf, id=66, page=2, 686.1139pt x 427.90462pt>
 File: ./picture//Ex2 meshes.pdf Graphic file (type pdf)
 <use ./picture//Ex2 meshes.pdf, page 2>
 Package pdftex.def Info: ./picture//Ex2 meshes.pdf , page2 used on input line 5
 9.
 (pdftex.def)             Requested size: 426.79134pt x 266.17957pt.
-<./picture//Ex2 meshes.pdf, id=28, page=3, 686.1139pt x 427.90462pt>
+<./picture//Ex2 meshes.pdf, id=67, page=3, 686.1139pt x 427.90462pt>
 File: ./picture//Ex2 meshes.pdf Graphic file (type pdf)
 <use ./picture//Ex2 meshes.pdf, page 3>
 Package pdftex.def Info: ./picture//Ex2 meshes.pdf , page3 used on input line 6
 1.
 (pdftex.def)             Requested size: 426.79134pt x 266.17957pt.
-<./picture//Ex2 meshes.pdf, id=29, page=4, 686.1139pt x 427.90462pt>
+<./picture//Ex2 meshes.pdf, id=68, page=4, 686.1139pt x 427.90462pt>
 File: ./picture//Ex2 meshes.pdf Graphic file (type pdf)
 <use ./picture//Ex2 meshes.pdf, page 4>
 Package pdftex.def Info: ./picture//Ex2 meshes.pdf , page4 used on input line 6
 4.
 (pdftex.def)             Requested size: 426.79134pt x 266.17957pt.
-) [2 <./picture//Ex2 meshes.pdf> <./picture//Ex2 meshes.pdf
+) [5 <./picture//Ex2 meshes.pdf> <./picture//Ex2 meshes.pdf
 
 pdfTeX warning: pdflatex (file ./picture//Ex2 meshes.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
@@ -625,67 +649,67 @@ ple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./picture//Ex2 meshes.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >] (picture/Ex2 Z2 lowerbound.pdf_tex
-<./picture//Ex2 Z2 lowerbound.pdf, id=46, page=1, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=85, page=1, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 1>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page1 used on input
  line 56.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=47, page=2, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=86, page=2, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 2>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page2 used on input
  line 58.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=48, page=3, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=87, page=3, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 3>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page3 used on input
  line 60.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=49, page=4, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=88, page=4, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 4>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page4 used on input
  line 62.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=50, page=5, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=89, page=5, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 5>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page5 used on input
  line 64.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=51, page=6, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=90, page=6, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 6>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page6 used on input
  line 66.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=52, page=7, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=91, page=7, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 7>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page7 used on input
  line 68.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=53, page=8, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=92, page=8, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 8>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page8 used on input
  line 70.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=54, page=9, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=93, page=9, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 9>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page9 used on input
  line 72.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=55, page=10, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=94, page=10, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 10>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page10 used on inpu
 t line 74.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-) [3 <./picture//Ex2 Z2 lowerbound.pdf> <./picture//Ex2 Z2 lowerbound.pdf
+) [6 <./picture//Ex2 Z2 lowerbound.pdf> <./picture//Ex2 Z2 lowerbound.pdf
 
 pdfTeX warning: pdflatex (file ./picture//Ex2 Z2 lowerbound.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
@@ -721,14 +745,14 @@ pdfTeX warning: pdflatex (file ./picture//Ex2 Z2 lowerbound.pdf): PDF inclusion
 
 pdfTeX warning: pdflatex (file ./picture//Ex2 Z2 lowerbound.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
->] [4] (picture/Ex2 Z2 upperbound.pdf_tex
-<./picture//Ex2 Z2 upperbound.pdf, id=70, page=1, 486.74907pt x 430.95091pt>
+>] [7] (picture/Ex2 Z2 upperbound.pdf_tex
+<./picture//Ex2 Z2 upperbound.pdf, id=109, page=1, 486.74907pt x 430.95091pt>
 File: ./picture//Ex2 Z2 upperbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 upperbound.pdf, page 1>
 Package pdftex.def Info: ./picture//Ex2 Z2 upperbound.pdf , page1 used on input
  line 56.
 (pdftex.def)             Requested size: 227.62204pt x 201.53429pt.
-<./picture//Ex2 Z2 upperbound.pdf, id=71, page=2, 486.74907pt x 430.95091pt>
+<./picture//Ex2 Z2 upperbound.pdf, id=110, page=2, 486.74907pt x 430.95091pt>
 File: ./picture//Ex2 Z2 upperbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 upperbound.pdf, page 2>
 Package pdftex.def Info: ./picture//Ex2 Z2 upperbound.pdf , page2 used on input
@@ -736,28 +760,28 @@ Package pdftex.def Info: ./picture//Ex2 Z2 upperbound.pdf , page2 used on input
 (pdftex.def)             Requested size: 227.62204pt x 201.53429pt.
 )
 (picture/Ex2 triangular meshes.pdf_tex
-<./picture//Ex2 triangular meshes.pdf, id=72, page=1, 304.19656pt x 285.66019pt
->
+<./picture//Ex2 triangular meshes.pdf, id=111, page=1, 304.19656pt x 285.66019p
+t>
 File: ./picture//Ex2 triangular meshes.pdf Graphic file (type pdf)
 <use ./picture//Ex2 triangular meshes.pdf, page 1>
 Package pdftex.def Info: ./picture//Ex2 triangular meshes.pdf , page1 used on i
 nput line 56.
 (pdftex.def)             Requested size: 170.71652pt x 160.3173pt.
-<./picture//Ex2 triangular meshes.pdf, id=73, page=2, 304.19656pt x 285.66019pt
->
+<./picture//Ex2 triangular meshes.pdf, id=112, page=2, 304.19656pt x 285.66019p
+t>
 File: ./picture//Ex2 triangular meshes.pdf Graphic file (type pdf)
 <use ./picture//Ex2 triangular meshes.pdf, page 2>
 Package pdftex.def Info: ./picture//Ex2 triangular meshes.pdf , page2 used on i
 nput line 58.
 (pdftex.def)             Requested size: 170.71652pt x 160.3173pt.
-<./picture//Ex2 triangular meshes.pdf, id=74, page=3, 304.19656pt x 285.66019pt
->
+<./picture//Ex2 triangular meshes.pdf, id=113, page=3, 304.19656pt x 285.66019p
+t>
 File: ./picture//Ex2 triangular meshes.pdf Graphic file (type pdf)
 <use ./picture//Ex2 triangular meshes.pdf, page 3>
 Package pdftex.def Info: ./picture//Ex2 triangular meshes.pdf , page3 used on i
 nput line 60.
 (pdftex.def)             Requested size: 170.71652pt x 160.3173pt.
-) [5 <./picture//Ex2 Z2 upperbound.pdf> <./picture//Ex2 Z2 upperbound.pdf
+) [8 <./picture//Ex2 Z2 upperbound.pdf> <./picture//Ex2 Z2 upperbound.pdf
 
 pdfTeX warning: pdflatex (file ./picture//Ex2 Z2 upperbound.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
@@ -773,32 +797,32 @@ sion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./picture//Ex2 triangular meshes.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
->] [6] (picture/Ex2 ladder.pdf_tex
-<./picture//Ex2 ladder.pdf, id=93, page=1, 377.33357pt x 201.2108pt>
+>] [9] (picture/Ex2 ladder.pdf_tex
+<./picture//Ex2 ladder.pdf, id=132, page=1, 377.33357pt x 201.2108pt>
 File: ./picture//Ex2 ladder.pdf Graphic file (type pdf)
 <use ./picture//Ex2 ladder.pdf, page 1>
 Package pdftex.def Info: ./picture//Ex2 ladder.pdf , page1 used on input line 5
 6.
 (pdftex.def)             Requested size: 284.52756pt x 151.73053pt.
-<./picture//Ex2 ladder.pdf, id=94, page=2, 377.33357pt x 201.2108pt>
+<./picture//Ex2 ladder.pdf, id=133, page=2, 377.33357pt x 201.2108pt>
 File: ./picture//Ex2 ladder.pdf Graphic file (type pdf)
 <use ./picture//Ex2 ladder.pdf, page 2>
 Package pdftex.def Info: ./picture//Ex2 ladder.pdf , page2 used on input line 5
 8.
 (pdftex.def)             Requested size: 284.52756pt x 151.73053pt.
-<./picture//Ex2 ladder.pdf, id=95, page=3, 377.33357pt x 201.2108pt>
+<./picture//Ex2 ladder.pdf, id=134, page=3, 377.33357pt x 201.2108pt>
 File: ./picture//Ex2 ladder.pdf Graphic file (type pdf)
 <use ./picture//Ex2 ladder.pdf, page 3>
 Package pdftex.def Info: ./picture//Ex2 ladder.pdf , page3 used on input line 6
 3.
 (pdftex.def)             Requested size: 284.52756pt x 151.73053pt.
-<./picture//Ex2 ladder.pdf, id=96, page=4, 377.33357pt x 201.2108pt>
+<./picture//Ex2 ladder.pdf, id=135, page=4, 377.33357pt x 201.2108pt>
 File: ./picture//Ex2 ladder.pdf Graphic file (type pdf)
 <use ./picture//Ex2 ladder.pdf, page 4>
 Package pdftex.def Info: ./picture//Ex2 ladder.pdf , page4 used on input line 6
 5.
 (pdftex.def)             Requested size: 284.52756pt x 151.73053pt.
-) [7 <./picture//Ex2 ladder.pdf> <./picture//Ex2 ladder.pdf
+) [10 <./picture//Ex2 ladder.pdf> <./picture//Ex2 ladder.pdf
 
 pdfTeX warning: pdflatex (file ./picture//Ex2 ladder.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
@@ -810,37 +834,37 @@ ple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./picture//Ex2 ladder.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
->] [8] (picture/bound and site percolation.pdf_tex
-<./picture//bound and site percolation.pdf, id=112, page=1, 963.48788pt x 347.8
+>] [11] (picture/bound and site percolation.pdf_tex
+<./picture//bound and site percolation.pdf, id=150, page=1, 963.48788pt x 347.8
 5742pt>
 File: ./picture//bound and site percolation.pdf Graphic file (type pdf)
 <use ./picture//bound and site percolation.pdf, page 1>
 Package pdftex.def Info: ./picture//bound and site percolation.pdf , page1 used
  on input line 57.
 (pdftex.def)             Requested size: 426.79134pt x 154.08745pt.
-<./picture//bound and site percolation.pdf, id=113, page=2, 963.48788pt x 347.8
+<./picture//bound and site percolation.pdf, id=151, page=2, 963.48788pt x 347.8
 5742pt>
 File: ./picture//bound and site percolation.pdf Graphic file (type pdf)
 <use ./picture//bound and site percolation.pdf, page 2>
 Package pdftex.def Info: ./picture//bound and site percolation.pdf , page2 used
  on input line 59.
 (pdftex.def)             Requested size: 426.79134pt x 154.08745pt.
-<./picture//bound and site percolation.pdf, id=114, page=3, 963.48788pt x 347.8
+<./picture//bound and site percolation.pdf, id=152, page=3, 963.48788pt x 347.8
 5742pt>
 File: ./picture//bound and site percolation.pdf Graphic file (type pdf)
 <use ./picture//bound and site percolation.pdf, page 3>
 Package pdftex.def Info: ./picture//bound and site percolation.pdf , page3 used
  on input line 61.
 (pdftex.def)             Requested size: 426.79134pt x 154.08745pt.
-<./picture//bound and site percolation.pdf, id=115, page=4, 963.48788pt x 347.8
+<./picture//bound and site percolation.pdf, id=153, page=4, 963.48788pt x 347.8
 5742pt>
 File: ./picture//bound and site percolation.pdf Graphic file (type pdf)
 <use ./picture//bound and site percolation.pdf, page 4>
 Package pdftex.def Info: ./picture//bound and site percolation.pdf , page4 used
  on input line 63.
 (pdftex.def)             Requested size: 426.79134pt x 154.08745pt.
-) [9 <./picture//bound and site percolation.pdf> <./picture//bound and site per
-colation.pdf
+) [12 <./picture//bound and site percolation.pdf> <./picture//bound and site pe
+rcolation.pdf
 
 pdfTeX warning: pdflatex (file ./picture//bound and site percolation.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
@@ -852,54 +876,53 @@ inclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./picture//bound and site percolation.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
->] (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.bdg
-File: UTF8.bdg 2021/10/16 4.8.5
-)
-(C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
+>] (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
 )
 (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
-)
-LaTeX Font Info:    Trying to load font information for C70+bkai on input line 
-417.
-
-(C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\c70bkai.fd
-File: c70bkai.fd 2021/10/16 4.8.5
-)
-(C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\c70bkai.fdx
-File: c70bkai.fdx 2021/10/16 4.8.5
-) [10] [11]
+) [13] [14]
 (C:\Users\我\Desktop\2022USRP-Group-7\build\main.aux) ) 
 Here is how much of TeX's memory you used:
- 6866 strings out of 478593
- 106541 string characters out of 2854426
- 414610 words of memory out of 3000000
- 24835 multiletter control sequences out of 15000+600000
- 478794 words of font info for 65 fonts, out of 8000000 for 9000
+ 6980 strings out of 478593
+ 108244 string characters out of 2854426
+ 414612 words of memory out of 3000000
+ 24914 multiletter control sequences out of 15000+600000
+ 485214 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,18n,76p,645b,982s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,18n,76p,645b,952s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\我\AppData\
 Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/M
-iKTeX/fonts/type1/arphic/bkaiu/bkaiu54.pfb><C:/Program Files/MiKTeX/fonts/type1
-/arphic/bkaiu/bkaiu80.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pf
-b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.p
-fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program
- Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt1
-2.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><
-C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on C:\Users\我\Desktop\2022USRP-Group-7\build\main.pdf (11 page
-s, 260596 bytes).
+iKTeX/fonts/type1/arphic/bkaiu/bkaiu50.pfb><C:/Program Files/MiKTeX/fonts/type1
+/arphic/bkaiu/bkaiu54.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bka
+iu56.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu58.pfb><C:/Prog
+ram Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5b.pfb><C:/Program Files/MiKTeX/
+fonts/type1/arphic/bkaiu/bkaiu5f.pfb><C:/Program Files/MiKTeX/fonts/type1/arphi
+c/bkaiu/bkaiu6a.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu6d.p
+fb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu75.pfb><C:/Program Fi
+les/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu7d.pfb><C:/Program Files/MiKTeX/fonts/
+type1/arphic/bkaiu/bkaiu80.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkai
+u/bkaiu86.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu87.pfb><C:
+/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu8a.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/arphic/bkaiu/bkaiu90.pfb><C:/Program Files/MiKTeX/fonts/type1/
+arphic/bkaiu/bkaiuff.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb
+><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program
+ Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pf
+b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program 
+Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12
+.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on C:\Users\我\Desktop\2022USRP-Group-7\build\main.pdf (14 page
+s, 413162 bytes).
 PDF statistics:
- 210 PDF objects out of 1000 (max. 8388607)
+ 305 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
