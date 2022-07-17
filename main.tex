@@ -510,7 +510,29 @@ We first consider $\mathbb{Z}^d$ lattices,
 	\Large \textbf{1.2) 1.2 Uniqueness of the Infinite Cluster (on $\mathbb{Z}^d$)} 
 \end{flushleft}
 \begin{enumerate}
-	\item[\textbf{Exercise 1}] Any event $A$ a can be "approximated" by a sequence  of events that depend only on finitely many edges.  i.e. we can find $(A_n)_{n \geq 1}$ s.t $A_n$ only depends on edges in $[-m_n,m_n]^d$ and $\mathbb{P}(A\Delta A_n) \to 0$ ($A\Delta A_n$ is the symmetric difference of the two sets.)
+	\item[\textbf{Exercise 1}] Any event $A$ a can be "approximated" by a sequence  of events that depend only on finitely many edges.  
+		i.e. we can find $(A_n)_{n \geq 1}$ s.t $A_n$ only depends on edges in $[-m_n,m_n]^d$ and $\mathbb{P}(A\triangle A_n) \to 0$ ($A\triangle A_n$ is the symmetric difference of the two sets.)
+	\item[\SOL] We use monotone class theorem to show. "The theorem says that the smallest monotone class containing an algebra of sets $\mathcal{G}$ is precisely the smallest $\sigma$-algebra containing $\mathcal{G}$"- wiki
+	
+				First, we note that it is true the collection of finite dimensional cylinder set is an algebra that generate the $\sigma$-algebra $\mathcal{F}$. We define the desired class $\mathcal{M}$ to be 
+				$$
+				\mathcal{M} = \{A \in \mathcal{F} | \forall \epsilon > 0, \exists A_\epsilon \text{ depend only on finitely many edges s.t }  \mathbb{P}(A\triangle A_\epsilon) < \epsilon\}.
+				$$
+				Then, by definition the cylinder set is a subset of $\mathcal{M}$. We proceed to check that $\mathcal{M}$ is a monotone class.
+				For countable monotone unions, consider the union $A = \bigcup_{i =1}^\infty A_i$, where $A_1, A_2, \dots \in \mathcal{M}$ and $A_1\subseteq A_2 \subseteq \dots$, since $\mathbb{P}(A) \leq 1$, for any given $\epsilon > 0$, there exists $N \in \mathbb{N}$ such that $\mathbb{P}(A\setminus  A_{N}  ) < \epsilon/2$. 
+				On the other hand, the set $A_{N}$ is in $\mathcal{M}$, so there is a set $\tilde{A_{N}}$ defined on finitely many edges that satisfies $\mathbb{P}(A_{N} \triangle \tilde{A_{N}}) < \epsilon/2$. 
+				Therefore, 
+				$$
+					\mathbb{P}(A\triangle \tilde{A_N}) < \mathbb{P}(A\setminus A_N) + \mathbb{P}(A_N\triangle \tilde{A_N}) < \epsilon .
+				$$
+				$\epsilon$ is arbitrary, so $A \in \mathcal{M}$
+				The countable monotone intersection is shown in a similar fasion. Let $B = \bigcap_{i = 1}^\infty B_i$, where $B_1, B_2, \dots \in \mathcal{M}$ and $B_1 \subseteq B_2 \subseteq \dots$. WLOG we may assume $B \neq \emptyset$, then given any $\epsilon > 0$,there exists $N \in \mathbb{N}$ such that $\mathbb{P}(B_N \setminus B) < \epsilon/2$.
+				Also, there is $\tilde{B_N}$ that defined on finitely many edges and $\mathbb{P}(B_N \triangle \tilde{B_N}) < \epsilon /2$. Hence,
+				$$
+					\mathbb{P}(B \triangle \tilde{B_N}) < \mathbb{P}(B_N \setminus B) + \mathbb{P}(B_N \triangle \tilde{B_N}) < \epsilon
+				$$
+				this implies $B \in \mathcal{M}$.
+				Finally,  $\mathcal{M}$ is a monotone class containing the generating algebra (i.e cylinder set) of the $\sigma$-algebra $\mathcal{F}$, so by monotone class theorem, $\mathcal{F} \subseteq \mathcal{M}$. $\square$
 \end{enumerate}	
 
 
