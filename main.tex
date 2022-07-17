@@ -15,6 +15,7 @@
 \usepackage{rotating}
 \usepackage{graphicx}
 \pagestyle{empty}
+\newcommand{\oversim}[1]{\parbox[t][-18pt][c]{10pt}{\scriptsize$\sim$}\hspace*{-12pt}{#1}}
 \newcommand{\bbar}[1]{\overline{#1}}
 \newcommand{\ul}[1]{\underline{#1}}
 \newcommand{\SOL}{\fbox{ \tt s\parbox[b][2pt][c]{6pt}{o}\hspace*{-7pt} L:}}
@@ -506,13 +507,39 @@ We first consider $\mathbb{Z}^d$ lattices,
 	\incfig{1.Ex3}
 	\end{figure}
 \end{enumerate}
+\newpage
 \begin{flushleft}
-	\Large \textbf{1.2) 1.2 Uniqueness of the Infinite Cluster (on $\mathbb{Z}^d$)} 
+	\Large \textbf{1.2) Uniqueness of the Infinite Cluster (on $\mathbb{Z}^d$)}
 \end{flushleft}
 \begin{enumerate}
-	\item[\textbf{Exercise 1}] Any event $A$ a can be "approximated" by a sequence  of events that depend only on finitely many edges.  
-		i.e. we can find $(A_n)_{n \geq 1}$ s.t $A_n$ only depends on edges in $[-m_n,m_n]^d$ and $\mathbb{P}(A\triangle A_n) \to 0$ ($A\triangle A_n$ is the symmetric difference of the two sets.)
-	\item[\SOL] We use monotone class theorem to show. "The theorem says that the smallest monotone class containing an algebra of sets $\mathcal{G}$ is precisely the smallest $\sigma$-algebra containing $\mathcal{G}$"- wiki
+	\item[\textbf{Theorem.}] For a fixed $p\in [0,1],$ we have 
+	\begin{enumerate}
+		\item[$*$)] Either a.s. (almost surely) there is no infinite cluster.
+		\item[$*$)] or a.s. there is a unique infinite cluster.
+	\end{enumerate}
+	\item[\textbf{Remark}] $N=\#$ infinite clusters. (a random variable)\\
+	We have $\mathbb{P}(N=0)=1$ or $\mathbb{P}(N=1)=1.$
+	\begin{proof}
+	We decompose the proof in 3 steps :\\
+	\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+	\begin{enumerate}
+		\item[\textbf{Step 1}] Show that if an event $A$ is invariant under some vector $e$ \begin{CJK}{UTF8}{bkai}(平移不變性)\end{CJK}, then 
+		\[
+		\mathbb{P}(A)=0\mbox{ or }\mathbb{P}(A)=1.
+		\]
+		$\rightarrow$ Kolmogorov's 0-1 law / ``approximation" method.\\
+		$\Rightarrow$ For $k\in\mathbb{N}\cup\{0\}\cup\{\infty\},$ the event $\{N=k\}$ satisfy the property. Thus, there exist $k=k(p)$ s.t. $\mathbb{P}_p(N=k)=1.$
+		\item[\textbf{Step 2}] Exclude the case $N=k$ a.s. for $k\geq 2,\ k\neq \infty$ using the ``finite energy property".
+		\item[\textbf{Step 3}] Exclude the case $N=\infty$ by looking at ``\textbf{trifurcation points}".
+	\end{enumerate}
+	\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+	\begin{enumerate}
+		\item[\textbf{Step 1}] \textit{Claim} : (\textbf{Exercise 1})\\
+		Any event $A$ can be ``approximated" by a sequence of events that depend only on a finitely many edges. In other words, we can find a sequence of events $(A_n)_{n\geq 0}$ such that $A_n$ only depends on edges in $[-m_n,m_n]^d$ for all $n\geq 0$ and 
+		\[
+		\lim_{n\to\infty}\mathbb{P}(A\,\triangle\, A_n)=0,\quad \mbox{where } A\,\triangle\, A_n=(A\backslash A_n)\cup (A_n\backslash A).
+		\]
+		\item[\SOL] We use monotone class theorem to show. "The theorem says that the smallest monotone class containing an algebra of sets $\mathcal{G}$ is precisely the smallest $\sigma$-algebra containing $\mathcal{G}$"- wiki
 	
 				First, we note that it is true the collection of finite dimensional cylinder set is an algebra that generate the $\sigma$-algebra $\mathcal{F}$. We define the desired class $\mathcal{M}$ to be 
 				$$
@@ -533,7 +560,46 @@ We first consider $\mathbb{Z}^d$ lattices,
 				$$
 				this implies $B \in \mathcal{M}$.
 				Finally,  $\mathcal{M}$ is a monotone class containing the generating algebra (i.e cylinder set) of the $\sigma$-algebra $\mathcal{F}$, so by monotone class theorem, $\mathcal{F} \subseteq \mathcal{M}$. $\square$
-\end{enumerate}	
+		\item[] \qquad Given an event $A$ that is invariant under a vector $e\neq 0,$ we approximate $A$ by $(A_n)_{n\geq 1},$ i.e., $\mathbb{P}(A\,\triangle\, A_n)\to 0$ as $n\to\infty.$ Where $A_n$ depends only on edges in $[-m_n,m_n]^d.$\\
+		Define $\oversim{A}_n:=s^{3m_n}(A_n)$ where 
+		\[
+		s:\begin{array}[c]{rcl}
+		\Omega & \to & \Omega\\
+		\omega(\cdot) & \mapsto & \omega(\cdot-e)
+		\end{array}(\mbox{translation operator})
+		\]
+		\begin{figure}[htp]
+		\centering
+		\def\svgwidth{10cm}
+		\incfig{shift function}
+		\end{figure}
+		Moreover, because of $A$ is invariant under vector $e,$ we have $s(A)=A.$ Now, using the independence between $A_n$ and $\oversim{A}_n,$
+		\[
+		\mathbb{P}(A_n\cap\oversim{A}_n)=\mathbb{P}(A_n)\mathbb{P}(\oversim{A}_n)=\mathbb{P}(A_n)^2\underset{n\to\infty}{\longrightarrow}\mathbb{P}(A)^2
+		\]
+		Therefore,
+		\begin{align*}
+		&\mathbb{P}(A\,\triangle\, (A_n\cap \oversim{A}_n))\leq \mathbb{P}(A\,\triangle\, A_n)+\mathbb{P}(A\,\triangle\, \oversim{A}_n)\underset{n\to\infty}{\longrightarrow}0\\
+		&\Rightarrow \mathbb{P}(A)=\mathbb{P}(A)^2\Rightarrow \mathbb{P}(A)=0\mbox{ or }1
+		\end{align*}
+		\item[\textbf{Remark}] If $\lim\limits_{n\to\infty}(A\,\triangle\,(A_n\cap\oversim{A}_n))=0,$ then
+		\begin{align*}
+		\lim_{n\to\infty}\mathbb{P}(A\, \triangle \, (A_n\cap\oversim{A}_n))=&\lim_{n\to\infty}\mathbb{P}\big((A\cap(A_n\cap\oversim{A}_n)^\complement)\cup (A^\complement\cap(A_n\cap\oversim{A}_n))\big)\\
+		=&\lim_{n\to\infty}\mathbb{P}(A\cap(A_n\cap\oversim{A}_n)^\complement)+\mathbb{P} (A^\complement\cap(A_n\cap\oversim{A}_n))=0\\
+		\Rightarrow & \lim_{n\to\infty}\mathbb{P}(A\cap(A_n\cap\oversim{A}_n)^\complement)=0 \mbox{ and }\\
+		 &\lim_{n\to\infty}\mathbb{P} (A^\complement\cap(A_n\cap\oversim{A}_n))=0.\\
+		\Rightarrow & \lim_{n\to\infty}\mathbb{P}(A)-\mathbb{P}(A_n\cap\oversim{A}_n)\\
+		= & \lim_{n\to\infty}\mathbb{P}(A\cap(A_n\cap\oversim{A}_n))-\mathbb{P}(A\cap (A_n\cap\oversim{A}_n))=0.
+		\end{align*}
+		\item[\textbf{Step 2}] We want to show that it is impossible to have $N=k$ as for $k\geq 2,\ k\neq \infty.$ \\
+	We assume that $\mathbb{P}(N=k)=1$ for some $k\geq 2,$ consider 
+	\[
+	B_n=\{N=k \mbox{ and } k \mbox{ infinite clusters intersect } [-n,n]^d\}
+	\]
+	Note that there exist $n\in \mathbb{N}$ such that $\mathbb{P}(B_n)>0$
+	\end{enumerate}
+	\end{proof}
+\end{enumerate}
 
 
 \end{document}

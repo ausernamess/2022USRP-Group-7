@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="shift function.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74118967"
+     inkscape:cx="727.88386"
+     inkscape:cy="501.22123"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path5024" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path5036" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.49836066"
+       d="M 30.132291,52.795673 V 202.79567"
+       id="path857"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.49836066"
+       d="M 60.132291,52.795672 V 202.79567"
+       id="path857-3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.49836066"
+       d="M 90.132286,52.795675 V 202.79567"
+       id="path857-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.49836066"
+       d="M 120.13229,52.795672 V 202.79567"
+       id="path857-9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.49836066"
+       d="m 150.1323,52.79567 v 150"
+       id="path857-93"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.49836066"
+       d="m 161.54434,188.69298 h -150"
+       id="path857-37"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.49836066"
+       d="m 161.54434,158.69297 h -150"
+       id="path857-37-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.49836066"
+       d="m 161.54434,98.692972 h -150"
+       id="path857-37-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.49836066"
+       d="m 161.54434,68.692972 h -150"
+       id="path857-37-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.49836066"
+       d="m 161.54434,128.69297 h -150"
+       id="path857-37-3"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="16.659504"
+       y="198.90437"
+       id="text2735"><tspan
+         sodipodi:role="line"
+         id="tspan2733"
+         style="stroke-width:0.264583"
+         x="16.659504"
+         y="198.90437">$O$</tspan></text>
+    <circle
+       style="fill:#000000;stroke:none;stroke-width:0.9;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.498361;stop-color:#000000"
+       id="path3737"
+       cx="30.118999"
+       cy="188.73599"
+       r="3" />
+    <path
+       id="rect3896"
+       style="fill:none;stroke:#000000;stroke-width:0.9;stroke-linejoin:round;stop-color:#000000"
+       d="m 30.1325,158.69276 h 30 v 30 h -30 z" />
+    <path
+       id="rect3896-5"
+       style="fill:none;stroke:#000000;stroke-width:0.9;stroke-linejoin:round;stop-color:#000000"
+       d="m 60.1325,158.69276 h 30 v 30 h -30 z" />
+    <path
+       id="rect3896-6"
+       style="fill:none;stroke:#000000;stroke-width:0.89999995;stroke-linejoin:round;stop-color:#000000;stroke-miterlimit:4;stroke-dasharray:3.5999998,0.89999995;stroke-dashoffset:0"
+       d="m 90.1325,128.69276 h 30 v 30 h -30 z" />
+    <path
+       id="rect3896-1"
+       style="fill:none;stroke:#000000;stroke-width:0.9;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3.6, 0.9;stroke-dashoffset:0;stop-color:#000000"
+       d="m 120.1325,128.69276 h 30 v 30 h -30"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="rect3896-7"
+       style="fill:none;stroke:#000000;stroke-width:0.9;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3.6, 0.9;stroke-dashoffset:0;stop-color:#000000"
+       d="M 90.1325,128.69276 V 98.692764 h 30 v 29.999996"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="rect3896-17"
+       style="fill:none;stroke:#000000;stroke-width:0.9;stroke-linejoin:round;stop-color:#000000"
+       d="m 30.1325,128.69276 h 30 v 30 h -30 z" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.9;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
+       d="m 30.132499,188.69276 60,-30"
+       id="path5013" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="74.142052"
+       y="173.98352"
+       id="text7031"><tspan
+         sodipodi:role="line"
+         id="tspan7029"
+         style="stroke-width:0.264583"
+         x="74.142052"
+         y="173.98352">$e$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="11.081193"
+       y="138.91205"
+       id="text8457"><tspan
+         sodipodi:role="line"
+         id="tspan8455"
+         style="stroke-width:0.264583"
+         x="11.081193"
+         y="138.91205">$\omega$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="73.076073"
+       y="108.99177"
+       id="text10945"><tspan
+         sodipodi:role="line"
+         id="tspan10943"
+         style="stroke-width:0.264583"
+         x="73.076073"
+         y="108.99177">$\omega'$</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.899999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect12095"
+       width="67.110573"
+       height="54.616585"
+       x="178.5275"
+       y="117.08654" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.899999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:5.39999402,0.899999;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect12095-0"
+       width="67.110573"
+       height="54.616585"
+       x="277.40796"
+       y="117.08654" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="202.78894"
+       y="147.37505"
+       id="text13309"><tspan
+         sodipodi:role="line"
+         id="tspan13307"
+         style="stroke-width:0.264583"
+         x="202.78894"
+         y="147.37505">$A_n$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="305.55435"
+       y="147.34302"
+       id="text13309-4"><tspan
+         sodipodi:role="line"
+         id="tspan13307-2"
+         style="stroke-width:0.264583"
+         x="305.55435"
+         y="147.34302">$\oversim{A}_n$</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.9;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 226.7811,145.64423 h 72.82212"
+       id="path15852" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="249.26399"
+       y="139.39723"
+       id="text19833"><tspan
+         sodipodi:role="line"
+         id="tspan19831"
+         style="stroke-width:0.264583"
+         x="249.26399"
+         y="139.39723">$s^{3m_n}$</tspan></text>
+  </g>
+</svg>
