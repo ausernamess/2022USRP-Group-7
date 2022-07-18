@@ -592,11 +592,38 @@ We first consider $\mathbb{Z}^d$ lattices,
 		= & \lim_{n\to\infty}\mathbb{P}(A\cap(A_n\cap\oversim{A}_n))-\mathbb{P}(A\cap (A_n\cap\oversim{A}_n))=0.
 		\end{align*}
 		\item[\textbf{Step 2}] We want to show that it is impossible to have $N=k$ as for $k\geq 2,\ k\neq \infty.$ \\
-	We assume that $\mathbb{P}(N=k)=1$ for some $k\geq 2,$ consider 
-	\[
-	B_n=\{N=k \mbox{ and } k \mbox{ infinite clusters intersect } [-n,n]^d\}
-	\]
-	Note that there exist $n\in \mathbb{N}$ such that $\mathbb{P}(B_n)>0$
+		We assume that $\mathbb{P}(N=k)=1$ for some $k\geq 2,$ consider 
+		\[	
+		B_n=\{N=k \mbox{ and } k \mbox{ infinite clusters intersect } [-n,n]^d\}
+		\]
+		Note that there exist $n\in \mathbb{N}$ such that $\mathbb{P}(B_n)>0.$ Define 
+		\[
+		C_n=\{\mbox{ all infinite clusters intersect }[-n,n]^d\}
+		\]
+		Note that 
+		\begin{enumerate}
+			\item $B_n\subseteq C_n.$
+			\item $B_n$ depends on the edges in $[-n,n]^d,$ but $C_n$ does not.
+		\end{enumerate}
+		\newpage
+		\begin{figure}[htp]
+		\centering
+		\def\svgwidth{6cm}
+		\incfig{intersect}
+		\end{figure}
+		We use $\blacksquare_n$ to be the event that all edges in $[-n,n]^d$ are open, then
+		\[
+		\mathbb{P}(C_n\cap\blacksquare_n)=\mathbb{P}(C_n)\mathbb{P}(\blacksquare_n)>0.
+		\]
+		Moreover, $C_n\cap \blacksquare_n\subseteq\{N=1\},$ we find  that $\mathbb{P}(N=1)>0\Rightarrow \mathbb{P}(N=1)=1$ (contradicts).
+		\item[\textbf{Remark}] The fact that we can modify the state of the edges in $[-n,n]$ while keeping the probability positive is called \textbf{finite-energy property}
+		\item[\textbf{Step 3}] Now, we want to show that it is impossible to have $\mathbb{P}(N=\infty)=1.$\\
+		Assume that $0<p<1,$ A \textbf{trifurcation point} \begin{CJK}{UTF8}{bkai}(三叉點)\end{CJK}  $x$ in $\omega_p$ is defined by 
+		\begin{figure}[htp]
+		\centering
+		\def\svgwidth{8cm}
+		\incfig{trifurcation point}
+		\end{figure}
 	\end{enumerate}
 	\end{proof}
 \end{enumerate}

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="intersect.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74118967"
+     inkscape:cx="-78.927165"
+     inkscape:cy="395.98501"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect846"
+       style="fill:none;stroke:#000000;stroke-width:0.899999;stroke-linejoin:round;stroke-dasharray:5.39999, 0.899999;stop-color:#000000"
+       d="M 9.6382208,66.039665 H 39.638221 v 30 H 9.6382208 Z" />
+    <path
+       id="rect846-0"
+       style="fill:none;stroke:#000000;stroke-width:0.899999;stroke-linejoin:round;stroke-dasharray:none;stop-color:#000000;stroke-miterlimit:4"
+       d="m 69.638221,126.03966 h 30 v 30 h -30 z" />
+    <path
+       id="rect846-7"
+       style="fill:none;stroke:#000000;stroke-width:0.899999;stroke-linejoin:round;stroke-dasharray:5.39999, 0.899999;stop-color:#000000"
+       d="m 39.638221,66.039665 h 30 v 29.999997 h -30 z" />
+    <path
+       id="rect846-74"
+       style="fill:none;stroke:#000000;stroke-width:0.899999;stroke-linejoin:round;stroke-dasharray:5.39999, 0.899999;stop-color:#000000"
+       d="m 39.638221,96.039665 v 30.000005 h -30 l 0,-30.000005"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="rect846-3"
+       style="fill:none;stroke:#000000;stroke-width:0.899999;stroke-linejoin:round;stroke-dasharray:5.39999, 0.899999;stop-color:#000000"
+       d="m 69.638221,96.039662 v 29.999998 h -30"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -20,96.04 H 148.96139"
+       id="path1068"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 39.638221,-12.806206 V 160"
+       id="path1068-4"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-32.070061"
+       y="120.29929"
+       id="text4889"><tspan
+         sodipodi:role="line"
+         id="tspan4887"
+         style="stroke-width:0.264583"
+         x="-32.070061"
+         y="120.29929">$[-1,1]^2$</tspan></text>
+    <path
+       id="rect7647"
+       style="fill:none;stroke:#000000;stroke-width:0.899999;stroke-linejoin:round;stop-color:#000000"
+       d="m 69.638221,66.039665 h 59.999999 v 30 H 69.638221 Z" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="95.489784"
+       y="83.709732"
+       id="text9822"><tspan
+         sodipodi:role="line"
+         id="tspan9820"
+         style="stroke-width:0.264583"
+         x="95.489784"
+         y="83.709732">$A$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="78.922066"
+       y="145.61903"
+       id="text12661"><tspan
+         sodipodi:role="line"
+         id="tspan12659"
+         style="stroke-width:0.264583"
+         x="78.922066"
+         y="145.61903">$B$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="137.79086"
+       y="103.16467"
+       id="text15305"><tspan
+         sodipodi:role="line"
+         id="tspan15303"
+         style="stroke-width:0.264583"
+         x="137.79086"
+         y="103.16467">$x$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="43.193508"
+       y="-5.3545675"
+       id="text17721"><tspan
+         sodipodi:role="line"
+         id="tspan17719"
+         style="stroke-width:0.264583"
+         x="43.193508"
+         y="-5.3545675">$y$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-1.1338139"
+       y="170.63222"
+       id="text19496"><tspan
+         sodipodi:role="line"
+         id="tspan19494"
+         style="stroke-width:0.264583"
+         x="-1.1338139"
+         y="170.63222"> both $A$ and $B$ intersect $[-1,1]^2$</tspan></text>
+  </g>
+</svg>

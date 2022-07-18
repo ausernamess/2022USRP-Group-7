@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="trifurcation point.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4823793"
+     inkscape:cx="211.48433"
+     inkscape:cy="417.23464"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#000000;stroke:none;stroke-width:0.899999;stroke-linejoin:round;stop-color:#000000"
+       id="path846"
+       cx="62.648438"
+       cy="109.59014"
+       r="1.5" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="66.849136"
+       y="115.47388"
+       id="text1986"><tspan
+         sodipodi:role="line"
+         id="tspan1984"
+         style="stroke-width:0.264583"
+         x="66.849136"
+         y="115.47388">$x$</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1.58999992,0.26499999;stroke-dashoffset:0"
+       d="m 62.648438,109.67939 -0.267729,12.04777"
+       id="path3355" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458299;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1.58749792,0.26458299;stroke-dashoffset:0"
+       d="m 62.648438,109.67939 12.583231,-9.54898"
+       id="path3470" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458299;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1.58749792,0.26458299;stroke-dashoffset:0"
+       d="M 62.648438,109.67939 50.332933,99.951922"
+       id="path3472" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 118.33594,103.8786 C 109.23317,110.30409 82.460332,94.418871 75.231669,100.13041 86.74399,90.849159 68.895433,58.721755 78.176683,50.868389"
+       id="path3587" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="84.098152"
+       y="85.654213"
+       id="text5197"><tspan
+         sodipodi:role="line"
+         id="tspan5195"
+         style="stroke-width:0.264583"
+         x="84.098152"
+         y="85.654213">infinite cluster $A$</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 26.415865,142.60997 c 2.498799,-9.8167 35.697114,-8.83504 35.964844,-20.88281 -0.08924,10.88762 29.896334,12.31551 32.930589,20.34736"
+       id="path6500" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="36.946514"
+       y="141.87085"
+       id="text8242"><tspan
+         sodipodi:role="line"
+         id="tspan8240"
+         style="stroke-width:0.264583"
+         x="36.946514"
+         y="141.87085">Infinite cluster $B$</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 3.9266825,114.76622 C 15.706731,120.65625 38.017428,90.224453 50.332933,99.95192 33.555288,87.279447 73.179087,70.858774 57.829327,57.650841"
+       id="path10059" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="8.3888216"
+       y="72.10817"
+       id="text12131"><tspan
+         sodipodi:role="line"
+         id="tspan12129"
+         style="stroke-width:0.264583"
+         x="8.3888216"
+         y="72.10817">Infinite cluster $C$</tspan></text>
+  </g>
+</svg>

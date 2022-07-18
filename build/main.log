@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.2)  17 JUL 2022 21:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.2)  18 JUL 2022 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -958,51 +958,118 @@ ultiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./picture//shift function.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
+>] (picture/intersect.pdf_tex
+<./picture//intersect.pdf, id=199, page=1, 514.0375pt x 524.23833pt>
+File: ./picture//intersect.pdf Graphic file (type pdf)
+<use ./picture//intersect.pdf, page 1>
+Package pdftex.def Info: ./picture//intersect.pdf , page1 used on input line 56
+.
+(pdftex.def)             Requested size: 170.71652pt x 174.10307pt.
+<./picture//intersect.pdf, id=200, page=2, 514.0375pt x 524.23833pt>
+File: ./picture//intersect.pdf Graphic file (type pdf)
+<use ./picture//intersect.pdf, page 2>
+Package pdftex.def Info: ./picture//intersect.pdf , page2 used on input line 58
+.
+(pdftex.def)             Requested size: 170.71652pt x 174.10307pt.
+)
+(C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
+File: UTF8.enc 2021/10/16 4.8.5
+)
+(C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.chr
+File: UTF8.chr 2021/10/16 4.8.5
+)
+(picture/trifurcation point.pdf_tex
+<./picture//trifurcation point.pdf, id=203, page=1, 341.31767pt x 261.41028pt>
+File: ./picture//trifurcation point.pdf Graphic file (type pdf)
+<use ./picture//trifurcation point.pdf, page 1>
+Package pdftex.def Info: ./picture//trifurcation point.pdf , page1 used on inpu
+t line 56.
+(pdftex.def)             Requested size: 227.62204pt x 174.33424pt.
+<./picture//trifurcation point.pdf, id=204, page=2, 341.31767pt x 261.41028pt>
+File: ./picture//trifurcation point.pdf Graphic file (type pdf)
+<use ./picture//trifurcation point.pdf, page 2>
+Package pdftex.def Info: ./picture//trifurcation point.pdf , page2 used on inpu
+t line 58.
+(pdftex.def)             Requested size: 227.62204pt x 174.33424pt.
+<./picture//trifurcation point.pdf, id=205, page=3, 341.31767pt x 261.41028pt>
+File: ./picture//trifurcation point.pdf Graphic file (type pdf)
+<use ./picture//trifurcation point.pdf, page 3>
+Package pdftex.def Info: ./picture//trifurcation point.pdf , page3 used on inpu
+t line 60.
+(pdftex.def)             Requested size: 227.62204pt x 174.33424pt.
+<./picture//trifurcation point.pdf, id=206, page=4, 341.31767pt x 261.41028pt>
+File: ./picture//trifurcation point.pdf Graphic file (type pdf)
+<use ./picture//trifurcation point.pdf, page 4>
+Package pdftex.def Info: ./picture//trifurcation point.pdf , page4 used on inpu
+t line 62.
+(pdftex.def)             Requested size: 227.62204pt x 174.33424pt.
+) [17 <./picture//intersect.pdf> <./picture//intersect.pdf
+
+pdfTeX warning: pdflatex (file ./picture//intersect.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <./picture//trifurcation point.pdf
+
+pdfTeX warning: pdflatex (file ./picture//trifurcation point.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./picture//trifurcation point.pdf
+
+pdfTeX warning: pdflatex (file ./picture//trifurcation point.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./picture//trifurcation point.pdf
+
+pdfTeX warning: pdflatex (file ./picture//trifurcation point.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./picture//trifurcation point.pdf
+
+pdfTeX warning: pdflatex (file ./picture//trifurcation point.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
 >] (C:\Users\我\Desktop\2022USRP-Group-7\build\main.aux) ) 
 Here is how much of TeX's memory you used:
- 7059 strings out of 478593
- 110444 string characters out of 2854426
+ 7113 strings out of 478593
+ 112322 string characters out of 2854426
  414653 words of memory out of 3000000
- 24972 multiletter control sequences out of 15000+600000
- 486910 words of font info for 95 fonts, out of 8000000 for 9000
+ 25012 multiletter control sequences out of 15000+600000
+ 487498 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,20n,76p,645b,952s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\我\AppDa
 ta\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program File
 s/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu4e.pfb><C:/Program Files/MiKTeX/fonts/ty
 pe1/arphic/bkaiu/bkaiu50.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/
-bkaiu54.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu56.pfb><C:/P
-rogram Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu58.pfb><C:/Program Files/MiKT
-eX/fonts/type1/arphic/bkaiu/bkaiu5b.pfb><C:/Program Files/MiKTeX/fonts/type1/ar
-phic/bkaiu/bkaiu5e.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5
-f.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu60.pfb><C:/Program
- Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu6a.pfb><C:/Program Files/MiKTeX/fon
-ts/type1/arphic/bkaiu/bkaiu6d.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/b
-kaiu/bkaiu75.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu79.pfb>
-<C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu7d.pfb><C:/Program Files
-/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu80.pfb><C:/Program Files/MiKTeX/fonts/typ
-e1/arphic/bkaiu/bkaiu86.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/b
-kaiu87.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu8a.pfb><C:/Pr
-ogram Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu8b.pfb><C:/Program Files/MiKTe
-X/fonts/type1/arphic/bkaiu/bkaiu90.pfb><C:/Program Files/MiKTeX/fonts/type1/arp
-hic/bkaiu/bkaiuff.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
-les/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><
-C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
-es/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pf
-b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/P
-rogram Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on C:\Users\我\Desktop\2022USRP-Group-7\build\main.pdf (16 page
-s, 450146 bytes).
+bkaiu53.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu54.pfb><C:/P
+rogram Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu56.pfb><C:/Program Files/MiKT
+eX/fonts/type1/arphic/bkaiu/bkaiu58.pfb><C:/Program Files/MiKTeX/fonts/type1/ar
+phic/bkaiu/bkaiu5b.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5
+e.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5f.pfb><C:/Program
+ Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu60.pfb><C:/Program Files/MiKTeX/fon
+ts/type1/arphic/bkaiu/bkaiu6a.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/b
+kaiu/bkaiu6d.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu75.pfb>
+<C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu79.pfb><C:/Program Files
+/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu7d.pfb><C:/Program Files/MiKTeX/fonts/typ
+e1/arphic/bkaiu/bkaiu80.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/b
+kaiu86.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu87.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu8a.pfb><C:/Program Files/MiKTe
+X/fonts/type1/arphic/bkaiu/bkaiu8b.pfb><C:/Program Files/MiKTeX/fonts/type1/arp
+hic/bkaiu/bkaiu90.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu9e
+.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiuff.pfb><C:/Program 
+Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
+ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6
+.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Prog
+ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX/fonts/t
+ype1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
+blic/amsfonts/symbols/msbm10.pfb>
+Output written on C:\Users\我\Desktop\2022USRP-Group-7\build\main.pdf (17 page
+s, 464566 bytes).
 PDF statistics:
- 353 PDF objects out of 1000 (max. 8388607)
+ 377 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 300 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 338 words of extra memory for PDF output out of 10000 (max. 10000000)
 
