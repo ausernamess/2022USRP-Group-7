@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.2)  18 JUL 2022 17:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.2)  19 JUL 2022 14:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1023,12 +1023,32 @@ n: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./picture//trifurcation point.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
+>] (picture/proof of infinite infinite clusters.pdf_tex
+<./picture//proof of infinite infinite clusters.pdf, id=215, page=1, 428.35184p
+t x 219.5463pt>
+File: ./picture//proof of infinite infinite clusters.pdf Graphic file (type pdf
+)
+<use ./picture//proof of infinite infinite clusters.pdf, page 1>
+Package pdftex.def Info: ./picture//proof of infinite infinite clusters.pdf , p
+age1 used on input line 56.
+(pdftex.def)             Requested size: 227.62204pt x 116.66382pt.
+) (picture/1.Ex2.pdf_tex
+<./picture//1.Ex2.pdf, id=216, page=1, 305.90596pt x 46.1757pt>
+File: ./picture//1.Ex2.pdf Graphic file (type pdf)
+<use ./picture//1.Ex2.pdf, page 1>
+Package pdftex.def Info: ./picture//1.Ex2.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 227.62204pt x 34.3604pt.
+) [18 <./picture//proof of infinite infinite clusters.pdf> <./picture//1.Ex2.pd
+f
+
+pdfTeX warning: pdflatex (file ./picture//1.Ex2.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
 >] (C:\Users\我\Desktop\2022USRP-Group-7\build\main.aux) ) 
 Here is how much of TeX's memory you used:
- 7113 strings out of 478593
- 112322 string characters out of 2854426
+ 7137 strings out of 478593
+ 113388 string characters out of 2854426
  414653 words of memory out of 3000000
- 25012 multiletter control sequences out of 15000+600000
+ 25030 multiletter control sequences out of 15000+600000
  487498 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,20n,76p,645b,952s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1066,10 +1086,10 @@ ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
 blic/amsfonts/symbols/msbm10.pfb>
-Output written on C:\Users\我\Desktop\2022USRP-Group-7\build\main.pdf (17 page
-s, 464566 bytes).
+Output written on C:\Users\我\Desktop\2022USRP-Group-7\build\main.pdf (18 page
+s, 472466 bytes).
 PDF statistics:
- 377 PDF objects out of 1000 (max. 8388607)
+ 385 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 338 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 348 words of extra memory for PDF output out of 10000 (max. 10000000)
 
