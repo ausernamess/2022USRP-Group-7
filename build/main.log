@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.2)  19 JUL 2022 14:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.2)  2 AUG 2022 14:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -355,6 +355,12 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \rot@float@box=\box57
 \rot@mess@toks=\toks34
 )
+(C:\Program Files\MiKTeX\tex/latex/wasysym\wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+)
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count289
@@ -363,84 +369,84 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 (C:\Users\我\Desktop\2022USRP-Group-7\build\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -505,11 +511,11 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-<./picture/new.jpg, id=1, 655.69969pt x 656.4525pt>
-File: ./picture/new.jpg Graphic file (type jpg)
-<use ./picture/new.jpg>
-Package pdftex.def Info: ./picture/new.jpg  used on input line 34.
-(pdftex.def)             Requested size: 426.79134pt x 427.28004pt.
+<./picture/p=0.45.png, id=1, 657.0pt x 657.0pt>
+File: ./picture/p=0.45.png Graphic file (type png)
+<use ./picture/p=0.45.png>
+Package pdftex.def Info: ./picture/p=0.45.png  used on input line 37.
+(pdftex.def)             Requested size: 426.79134pt x 426.80434pt.
 
 (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.bdg
 File: UTF8.bdg 2021/10/16 4.8.5
@@ -521,7 +527,7 @@ File: UTF8.enc 2021/10/16 4.8.5
 File: UTF8.chr 2021/10/16 4.8.5
 )
 LaTeX Font Info:    Trying to load font information for C70+bkai on input line 
-39.
+42.
 
 (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\c70bkai.fd
 File: c70bkai.fd 2021/10/16 4.8.5
@@ -530,59 +536,65 @@ File: c70bkai.fd 2021/10/16 4.8.5
 File: c70bkai.fdx 2021/10/16 4.8.5
 ) [1
 
-{C:/Users/我/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./picture/new.
-jpg>]
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 59
+{C:/Users/我/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./picture/p=0.
+45.png>]
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 62
 .
 
 (C:\Program Files\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 62
+.
+
+(C:\Program Files\MiKTeX\tex/latex/wasysym\uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ) [2] [3]
 (picture/SAW1.pdf_tex
-<./picture//SAW1.pdf, id=50, page=1, 492.94218pt x 347.92209pt>
+<./picture//SAW1.pdf, id=52, page=1, 492.94218pt x 347.92209pt>
 File: ./picture//SAW1.pdf Graphic file (type pdf)
 <use ./picture//SAW1.pdf, page 1>
 Package pdftex.def Info: ./picture//SAW1.pdf , page1 used on input line 57.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
-<./picture//SAW1.pdf, id=51, page=2, 492.94218pt x 347.92209pt>
+<./picture//SAW1.pdf, id=53, page=2, 492.94218pt x 347.92209pt>
 File: ./picture//SAW1.pdf Graphic file (type pdf)
 <use ./picture//SAW1.pdf, page 2>
 Package pdftex.def Info: ./picture//SAW1.pdf , page2 used on input line 59.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
-<./picture//SAW1.pdf, id=52, page=3, 492.94218pt x 347.92209pt>
+<./picture//SAW1.pdf, id=54, page=3, 492.94218pt x 347.92209pt>
 File: ./picture//SAW1.pdf Graphic file (type pdf)
 <use ./picture//SAW1.pdf, page 3>
 Package pdftex.def Info: ./picture//SAW1.pdf , page3 used on input line 61.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
 ) (picture/SAW2.pdf_tex
-<./picture//SAW2.pdf, id=53, page=1, 492.94218pt x 347.92209pt>
+<./picture//SAW2.pdf, id=55, page=1, 492.94218pt x 347.92209pt>
 File: ./picture//SAW2.pdf Graphic file (type pdf)
 <use ./picture//SAW2.pdf, page 1>
 Package pdftex.def Info: ./picture//SAW2.pdf , page1 used on input line 57.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
-<./picture//SAW2.pdf, id=54, page=2, 492.94218pt x 347.92209pt>
+<./picture//SAW2.pdf, id=56, page=2, 492.94218pt x 347.92209pt>
 File: ./picture//SAW2.pdf Graphic file (type pdf)
 <use ./picture//SAW2.pdf, page 2>
 Package pdftex.def Info: ./picture//SAW2.pdf , page2 used on input line 59.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
-<./picture//SAW2.pdf, id=55, page=3, 492.94218pt x 347.92209pt>
+<./picture//SAW2.pdf, id=57, page=3, 492.94218pt x 347.92209pt>
 File: ./picture//SAW2.pdf Graphic file (type pdf)
 <use ./picture//SAW2.pdf, page 3>
 Package pdftex.def Info: ./picture//SAW2.pdf , page3 used on input line 61.
 (pdftex.def)             Requested size: 199.16928pt x 140.57321pt.
-<./picture//SAW2.pdf, id=56, page=4, 492.94218pt x 347.92209pt>
+<./picture//SAW2.pdf, id=58, page=4, 492.94218pt x 347.92209pt>
 File: ./picture//SAW2.pdf Graphic file (type pdf)
 <use ./picture//SAW2.pdf, page 4>
 Package pdftex.def Info: ./picture//SAW2.pdf , page4 used on input line 63.
@@ -612,25 +624,25 @@ fs with page group included in a single page
 pdfTeX warning: pdflatex (file ./picture//SAW2.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
 >] (picture/Ex2 meshes.pdf_tex
-<./picture//Ex2 meshes.pdf, id=65, page=1, 686.1139pt x 427.90462pt>
+<./picture//Ex2 meshes.pdf, id=68, page=1, 686.1139pt x 427.90462pt>
 File: ./picture//Ex2 meshes.pdf Graphic file (type pdf)
 <use ./picture//Ex2 meshes.pdf, page 1>
 Package pdftex.def Info: ./picture//Ex2 meshes.pdf , page1 used on input line 5
 6.
 (pdftex.def)             Requested size: 426.79134pt x 266.17957pt.
-<./picture//Ex2 meshes.pdf, id=66, page=2, 686.1139pt x 427.90462pt>
+<./picture//Ex2 meshes.pdf, id=69, page=2, 686.1139pt x 427.90462pt>
 File: ./picture//Ex2 meshes.pdf Graphic file (type pdf)
 <use ./picture//Ex2 meshes.pdf, page 2>
 Package pdftex.def Info: ./picture//Ex2 meshes.pdf , page2 used on input line 5
 9.
 (pdftex.def)             Requested size: 426.79134pt x 266.17957pt.
-<./picture//Ex2 meshes.pdf, id=67, page=3, 686.1139pt x 427.90462pt>
+<./picture//Ex2 meshes.pdf, id=70, page=3, 686.1139pt x 427.90462pt>
 File: ./picture//Ex2 meshes.pdf Graphic file (type pdf)
 <use ./picture//Ex2 meshes.pdf, page 3>
 Package pdftex.def Info: ./picture//Ex2 meshes.pdf , page3 used on input line 6
 1.
 (pdftex.def)             Requested size: 426.79134pt x 266.17957pt.
-<./picture//Ex2 meshes.pdf, id=68, page=4, 686.1139pt x 427.90462pt>
+<./picture//Ex2 meshes.pdf, id=71, page=4, 686.1139pt x 427.90462pt>
 File: ./picture//Ex2 meshes.pdf Graphic file (type pdf)
 <use ./picture//Ex2 meshes.pdf, page 4>
 Package pdftex.def Info: ./picture//Ex2 meshes.pdf , page4 used on input line 6
@@ -649,61 +661,61 @@ ple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./picture//Ex2 meshes.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >] (picture/Ex2 Z2 lowerbound.pdf_tex
-<./picture//Ex2 Z2 lowerbound.pdf, id=85, page=1, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=87, page=1, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 1>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page1 used on input
  line 56.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=86, page=2, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=88, page=2, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 2>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page2 used on input
  line 58.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=87, page=3, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=89, page=3, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 3>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page3 used on input
  line 60.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=88, page=4, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=90, page=4, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 4>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page4 used on input
  line 62.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=89, page=5, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=91, page=5, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 5>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page5 used on input
  line 64.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=90, page=6, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=92, page=6, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 6>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page6 used on input
  line 66.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=91, page=7, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=93, page=7, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 7>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page7 used on input
  line 68.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=92, page=8, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=94, page=8, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 8>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page8 used on input
  line 70.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=93, page=9, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=95, page=9, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 9>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page9 used on input
  line 72.
 (pdftex.def)             Requested size: 227.62204pt x 229.78091pt.
-<./picture//Ex2 Z2 lowerbound.pdf, id=94, page=10, 536.27972pt x 541.35814pt>
+<./picture//Ex2 Z2 lowerbound.pdf, id=96, page=10, 536.27972pt x 541.35814pt>
 File: ./picture//Ex2 Z2 lowerbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 lowerbound.pdf, page 10>
 Package pdftex.def Info: ./picture//Ex2 Z2 lowerbound.pdf , page10 used on inpu
@@ -746,13 +758,13 @@ pdfTeX warning: pdflatex (file ./picture//Ex2 Z2 lowerbound.pdf): PDF inclusion
 pdfTeX warning: pdflatex (file ./picture//Ex2 Z2 lowerbound.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
 >] [7] (picture/Ex2 Z2 upperbound.pdf_tex
-<./picture//Ex2 Z2 upperbound.pdf, id=109, page=1, 486.74907pt x 430.95091pt>
+<./picture//Ex2 Z2 upperbound.pdf, id=111, page=1, 486.74907pt x 430.95091pt>
 File: ./picture//Ex2 Z2 upperbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 upperbound.pdf, page 1>
 Package pdftex.def Info: ./picture//Ex2 Z2 upperbound.pdf , page1 used on input
  line 56.
 (pdftex.def)             Requested size: 227.62204pt x 201.53429pt.
-<./picture//Ex2 Z2 upperbound.pdf, id=110, page=2, 486.74907pt x 430.95091pt>
+<./picture//Ex2 Z2 upperbound.pdf, id=112, page=2, 486.74907pt x 430.95091pt>
 File: ./picture//Ex2 Z2 upperbound.pdf Graphic file (type pdf)
 <use ./picture//Ex2 Z2 upperbound.pdf, page 2>
 Package pdftex.def Info: ./picture//Ex2 Z2 upperbound.pdf , page2 used on input
@@ -760,21 +772,21 @@ Package pdftex.def Info: ./picture//Ex2 Z2 upperbound.pdf , page2 used on input
 (pdftex.def)             Requested size: 227.62204pt x 201.53429pt.
 )
 (picture/Ex2 triangular meshes.pdf_tex
-<./picture//Ex2 triangular meshes.pdf, id=111, page=1, 304.19656pt x 285.66019p
+<./picture//Ex2 triangular meshes.pdf, id=113, page=1, 304.19656pt x 285.66019p
 t>
 File: ./picture//Ex2 triangular meshes.pdf Graphic file (type pdf)
 <use ./picture//Ex2 triangular meshes.pdf, page 1>
 Package pdftex.def Info: ./picture//Ex2 triangular meshes.pdf , page1 used on i
 nput line 56.
 (pdftex.def)             Requested size: 170.71652pt x 160.3173pt.
-<./picture//Ex2 triangular meshes.pdf, id=112, page=2, 304.19656pt x 285.66019p
+<./picture//Ex2 triangular meshes.pdf, id=114, page=2, 304.19656pt x 285.66019p
 t>
 File: ./picture//Ex2 triangular meshes.pdf Graphic file (type pdf)
 <use ./picture//Ex2 triangular meshes.pdf, page 2>
 Package pdftex.def Info: ./picture//Ex2 triangular meshes.pdf , page2 used on i
 nput line 58.
 (pdftex.def)             Requested size: 170.71652pt x 160.3173pt.
-<./picture//Ex2 triangular meshes.pdf, id=113, page=3, 304.19656pt x 285.66019p
+<./picture//Ex2 triangular meshes.pdf, id=115, page=3, 304.19656pt x 285.66019p
 t>
 File: ./picture//Ex2 triangular meshes.pdf Graphic file (type pdf)
 <use ./picture//Ex2 triangular meshes.pdf, page 3>
@@ -798,25 +810,25 @@ sion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./picture//Ex2 triangular meshes.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 >] [9] (picture/Ex2 ladder.pdf_tex
-<./picture//Ex2 ladder.pdf, id=132, page=1, 377.33357pt x 201.2108pt>
+<./picture//Ex2 ladder.pdf, id=134, page=1, 377.33357pt x 201.2108pt>
 File: ./picture//Ex2 ladder.pdf Graphic file (type pdf)
 <use ./picture//Ex2 ladder.pdf, page 1>
 Package pdftex.def Info: ./picture//Ex2 ladder.pdf , page1 used on input line 5
 6.
 (pdftex.def)             Requested size: 284.52756pt x 151.73053pt.
-<./picture//Ex2 ladder.pdf, id=133, page=2, 377.33357pt x 201.2108pt>
+<./picture//Ex2 ladder.pdf, id=135, page=2, 377.33357pt x 201.2108pt>
 File: ./picture//Ex2 ladder.pdf Graphic file (type pdf)
 <use ./picture//Ex2 ladder.pdf, page 2>
 Package pdftex.def Info: ./picture//Ex2 ladder.pdf , page2 used on input line 5
 8.
 (pdftex.def)             Requested size: 284.52756pt x 151.73053pt.
-<./picture//Ex2 ladder.pdf, id=134, page=3, 377.33357pt x 201.2108pt>
+<./picture//Ex2 ladder.pdf, id=136, page=3, 377.33357pt x 201.2108pt>
 File: ./picture//Ex2 ladder.pdf Graphic file (type pdf)
 <use ./picture//Ex2 ladder.pdf, page 3>
 Package pdftex.def Info: ./picture//Ex2 ladder.pdf , page3 used on input line 6
 3.
 (pdftex.def)             Requested size: 284.52756pt x 151.73053pt.
-<./picture//Ex2 ladder.pdf, id=135, page=4, 377.33357pt x 201.2108pt>
+<./picture//Ex2 ladder.pdf, id=137, page=4, 377.33357pt x 201.2108pt>
 File: ./picture//Ex2 ladder.pdf Graphic file (type pdf)
 <use ./picture//Ex2 ladder.pdf, page 4>
 Package pdftex.def Info: ./picture//Ex2 ladder.pdf , page4 used on input line 6
@@ -835,28 +847,28 @@ ple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./picture//Ex2 ladder.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >] [11] (picture/bound and site percolation.pdf_tex
-<./picture//bound and site percolation.pdf, id=150, page=1, 963.48788pt x 347.8
+<./picture//bound and site percolation.pdf, id=152, page=1, 963.48788pt x 347.8
 5742pt>
 File: ./picture//bound and site percolation.pdf Graphic file (type pdf)
 <use ./picture//bound and site percolation.pdf, page 1>
 Package pdftex.def Info: ./picture//bound and site percolation.pdf , page1 used
  on input line 57.
 (pdftex.def)             Requested size: 426.79134pt x 154.08745pt.
-<./picture//bound and site percolation.pdf, id=151, page=2, 963.48788pt x 347.8
+<./picture//bound and site percolation.pdf, id=153, page=2, 963.48788pt x 347.8
 5742pt>
 File: ./picture//bound and site percolation.pdf Graphic file (type pdf)
 <use ./picture//bound and site percolation.pdf, page 2>
 Package pdftex.def Info: ./picture//bound and site percolation.pdf , page2 used
  on input line 59.
 (pdftex.def)             Requested size: 426.79134pt x 154.08745pt.
-<./picture//bound and site percolation.pdf, id=152, page=3, 963.48788pt x 347.8
+<./picture//bound and site percolation.pdf, id=154, page=3, 963.48788pt x 347.8
 5742pt>
 File: ./picture//bound and site percolation.pdf Graphic file (type pdf)
 <use ./picture//bound and site percolation.pdf, page 3>
 Package pdftex.def Info: ./picture//bound and site percolation.pdf , page3 used
  on input line 61.
 (pdftex.def)             Requested size: 426.79134pt x 154.08745pt.
-<./picture//bound and site percolation.pdf, id=153, page=4, 963.48788pt x 347.8
+<./picture//bound and site percolation.pdf, id=155, page=4, 963.48788pt x 347.8
 5742pt>
 File: ./picture//bound and site percolation.pdf Graphic file (type pdf)
 <use ./picture//bound and site percolation.pdf, page 4>
@@ -876,34 +888,50 @@ inclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./picture//bound and site percolation.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
->] (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
+>] (picture/T3.pdf_tex
+<./picture//T3.pdf, id=161, page=1, 507.14116pt x 533.65608pt>
+File: ./picture//T3.pdf Graphic file (type pdf)
+<use ./picture//T3.pdf, page 1>
+Package pdftex.def Info: ./picture//T3.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 149.69954pt.
+) (picture/I3.pdf_tex
+<./picture//I3.pdf, id=162, page=1, 507.14116pt x 340.1428pt>
+File: ./picture//I3.pdf Graphic file (type pdf)
+<use ./picture//I3.pdf, page 1>
+Package pdftex.def Info: ./picture//I3.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 95.41579pt.
+) [13 <./picture//T3.pdf> <./picture//I3.pdf
+
+pdfTeX warning: pdflatex (file ./picture//I3.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+>] [14] [15] (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
 )
 (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
-) [13]
+) [16]
 (picture/1.Ex3.pdf_tex
-<./picture//1.Ex3.pdf, id=168, page=1, 604.65988pt x 226.23817pt>
+<./picture//1.Ex3.pdf, id=185, page=1, 604.65988pt x 226.23817pt>
 File: ./picture//1.Ex3.pdf Graphic file (type pdf)
 <use ./picture//1.Ex3.pdf, page 1>
 Package pdftex.def Info: ./picture//1.Ex3.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 341.43306pt x 127.74884pt.
-<./picture//1.Ex3.pdf, id=169, page=2, 604.65988pt x 226.23817pt>
+<./picture//1.Ex3.pdf, id=186, page=2, 604.65988pt x 226.23817pt>
 File: ./picture//1.Ex3.pdf Graphic file (type pdf)
 <use ./picture//1.Ex3.pdf, page 2>
 Package pdftex.def Info: ./picture//1.Ex3.pdf , page2 used on input line 63.
 (pdftex.def)             Requested size: 341.43306pt x 127.74884pt.
-<./picture//1.Ex3.pdf, id=170, page=3, 604.65988pt x 226.23817pt>
+<./picture//1.Ex3.pdf, id=187, page=3, 604.65988pt x 226.23817pt>
 File: ./picture//1.Ex3.pdf Graphic file (type pdf)
 <use ./picture//1.Ex3.pdf, page 3>
 Package pdftex.def Info: ./picture//1.Ex3.pdf , page3 used on input line 66.
 (pdftex.def)             Requested size: 341.43306pt x 127.74884pt.
-<./picture//1.Ex3.pdf, id=171, page=4, 604.65988pt x 226.23817pt>
+<./picture//1.Ex3.pdf, id=188, page=4, 604.65988pt x 226.23817pt>
 File: ./picture//1.Ex3.pdf Graphic file (type pdf)
 <use ./picture//1.Ex3.pdf, page 4>
 Package pdftex.def Info: ./picture//1.Ex3.pdf , page4 used on input line 70.
 (pdftex.def)             Requested size: 341.43306pt x 127.74884pt.
-) [14 <./picture//1.Ex3.pdf> <./picture//1.Ex3.pdf
+) [17 <./picture//1.Ex3.pdf> <./picture//1.Ex3.pdf
 
 pdfTeX warning: pdflatex (file ./picture//1.Ex3.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
@@ -915,38 +943,38 @@ dfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./picture//1.Ex3.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
->] (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
+>] [18] [19] (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
 )
 (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
-) [15]
+) [20]
 (picture/shift function.pdf_tex
-<./picture//shift function.pdf, id=190, page=1, 949.08986pt x 426.79132pt>
+<./picture//shift function.pdf, id=214, page=1, 949.08986pt x 426.79132pt>
 File: ./picture//shift function.pdf Graphic file (type pdf)
 <use ./picture//shift function.pdf, page 1>
 Package pdftex.def Info: ./picture//shift function.pdf , page1 used on input li
 ne 56.
 (pdftex.def)             Requested size: 284.52756pt x 127.9472pt.
-<./picture//shift function.pdf, id=191, page=2, 949.08986pt x 426.79132pt>
+<./picture//shift function.pdf, id=215, page=2, 949.08986pt x 426.79132pt>
 File: ./picture//shift function.pdf Graphic file (type pdf)
 <use ./picture//shift function.pdf, page 2>
 Package pdftex.def Info: ./picture//shift function.pdf , page2 used on input li
 ne 58.
 (pdftex.def)             Requested size: 284.52756pt x 127.9472pt.
-<./picture//shift function.pdf, id=192, page=3, 949.08986pt x 426.79132pt>
+<./picture//shift function.pdf, id=216, page=3, 949.08986pt x 426.79132pt>
 File: ./picture//shift function.pdf Graphic file (type pdf)
 <use ./picture//shift function.pdf, page 3>
 Package pdftex.def Info: ./picture//shift function.pdf , page3 used on input li
 ne 62.
 (pdftex.def)             Requested size: 284.52756pt x 127.9472pt.
-<./picture//shift function.pdf, id=193, page=4, 949.08986pt x 426.79132pt>
+<./picture//shift function.pdf, id=217, page=4, 949.08986pt x 426.79132pt>
 File: ./picture//shift function.pdf Graphic file (type pdf)
 <use ./picture//shift function.pdf, page 4>
 Package pdftex.def Info: ./picture//shift function.pdf , page4 used on input li
 ne 65.
 (pdftex.def)             Requested size: 284.52756pt x 127.9472pt.
-) [16 <./picture//shift function.pdf> <./picture//shift function.pdf
+) [21 <./picture//shift function.pdf> <./picture//shift function.pdf
 
 pdfTeX warning: pdflatex (file ./picture//shift function.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
@@ -959,13 +987,13 @@ ultiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./picture//shift function.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >] (picture/intersect.pdf_tex
-<./picture//intersect.pdf, id=199, page=1, 514.0375pt x 524.23833pt>
+<./picture//intersect.pdf, id=223, page=1, 514.0375pt x 524.23833pt>
 File: ./picture//intersect.pdf Graphic file (type pdf)
 <use ./picture//intersect.pdf, page 1>
 Package pdftex.def Info: ./picture//intersect.pdf , page1 used on input line 56
 .
 (pdftex.def)             Requested size: 170.71652pt x 174.10307pt.
-<./picture//intersect.pdf, id=200, page=2, 514.0375pt x 524.23833pt>
+<./picture//intersect.pdf, id=224, page=2, 514.0375pt x 524.23833pt>
 File: ./picture//intersect.pdf Graphic file (type pdf)
 <use ./picture//intersect.pdf, page 2>
 Package pdftex.def Info: ./picture//intersect.pdf , page2 used on input line 58
@@ -979,31 +1007,31 @@ File: UTF8.enc 2021/10/16 4.8.5
 File: UTF8.chr 2021/10/16 4.8.5
 )
 (picture/trifurcation point.pdf_tex
-<./picture//trifurcation point.pdf, id=203, page=1, 341.31767pt x 261.41028pt>
+<./picture//trifurcation point.pdf, id=227, page=1, 341.31767pt x 261.41028pt>
 File: ./picture//trifurcation point.pdf Graphic file (type pdf)
 <use ./picture//trifurcation point.pdf, page 1>
 Package pdftex.def Info: ./picture//trifurcation point.pdf , page1 used on inpu
 t line 56.
 (pdftex.def)             Requested size: 227.62204pt x 174.33424pt.
-<./picture//trifurcation point.pdf, id=204, page=2, 341.31767pt x 261.41028pt>
+<./picture//trifurcation point.pdf, id=228, page=2, 341.31767pt x 261.41028pt>
 File: ./picture//trifurcation point.pdf Graphic file (type pdf)
 <use ./picture//trifurcation point.pdf, page 2>
 Package pdftex.def Info: ./picture//trifurcation point.pdf , page2 used on inpu
 t line 58.
 (pdftex.def)             Requested size: 227.62204pt x 174.33424pt.
-<./picture//trifurcation point.pdf, id=205, page=3, 341.31767pt x 261.41028pt>
+<./picture//trifurcation point.pdf, id=229, page=3, 341.31767pt x 261.41028pt>
 File: ./picture//trifurcation point.pdf Graphic file (type pdf)
 <use ./picture//trifurcation point.pdf, page 3>
 Package pdftex.def Info: ./picture//trifurcation point.pdf , page3 used on inpu
 t line 60.
 (pdftex.def)             Requested size: 227.62204pt x 174.33424pt.
-<./picture//trifurcation point.pdf, id=206, page=4, 341.31767pt x 261.41028pt>
+<./picture//trifurcation point.pdf, id=230, page=4, 341.31767pt x 261.41028pt>
 File: ./picture//trifurcation point.pdf Graphic file (type pdf)
 <use ./picture//trifurcation point.pdf, page 4>
 Package pdftex.def Info: ./picture//trifurcation point.pdf , page4 used on inpu
 t line 62.
 (pdftex.def)             Requested size: 227.62204pt x 174.33424pt.
-) [17 <./picture//intersect.pdf> <./picture//intersect.pdf
+) [22 <./picture//intersect.pdf> <./picture//intersect.pdf
 
 pdfTeX warning: pdflatex (file ./picture//intersect.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
@@ -1024,7 +1052,7 @@ n: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./picture//trifurcation point.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
 >] (picture/proof of infinite infinite clusters.pdf_tex
-<./picture//proof of infinite infinite clusters.pdf, id=215, page=1, 428.35184p
+<./picture//proof of infinite infinite clusters.pdf, id=239, page=1, 428.35184p
 t x 219.5463pt>
 File: ./picture//proof of infinite infinite clusters.pdf Graphic file (type pdf
 )
@@ -1033,63 +1061,158 @@ Package pdftex.def Info: ./picture//proof of infinite infinite clusters.pdf , p
 age1 used on input line 56.
 (pdftex.def)             Requested size: 227.62204pt x 116.66382pt.
 ) (picture/1.Ex2.pdf_tex
-<./picture//1.Ex2.pdf, id=216, page=1, 305.90596pt x 46.1757pt>
+<./picture//1.Ex2.pdf, id=240, page=1, 305.90596pt x 46.1757pt>
 File: ./picture//1.Ex2.pdf Graphic file (type pdf)
 <use ./picture//1.Ex2.pdf, page 1>
 Package pdftex.def Info: ./picture//1.Ex2.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 227.62204pt x 34.3604pt.
-) [18 <./picture//proof of infinite infinite clusters.pdf> <./picture//1.Ex2.pd
+) [23 <./picture//proof of infinite infinite clusters.pdf> <./picture//1.Ex2.pd
 f
 
 pdfTeX warning: pdflatex (file ./picture//1.Ex2.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
+>] [24] (picture/dual graph.pdf_tex
+<./picture//dual graph.pdf, id=250, page=1, 817.37714pt x 421.00522pt>
+File: ./picture//dual graph.pdf Graphic file (type pdf)
+<use ./picture//dual graph.pdf, page 1>
+Package pdftex.def Info: ./picture//dual graph.pdf , page1 used on input line 5
+6.
+(pdftex.def)             Requested size: 398.33858pt x 205.17015pt.
+) [25 <./picture//dual graph.pdf>] [26]
+[27] [28] (picture/four edge of square.pdf_tex
+<./picture//four edge of square.pdf, id=267, page=1, 380.43481pt x 374.24252pt>
+
+File: ./picture//four edge of square.pdf Graphic file (type pdf)
+<use ./picture//four edge of square.pdf, page 1>
+Package pdftex.def Info: ./picture//four edge of square.pdf , page1 used on inp
+ut line 56.
+(pdftex.def)             Requested size: 142.26378pt x 139.95229pt.
+<./picture//four edge of square.pdf, id=268, page=2, 380.43481pt x 374.24252pt>
+
+File: ./picture//four edge of square.pdf Graphic file (type pdf)
+<use ./picture//four edge of square.pdf, page 2>
+Package pdftex.def Info: ./picture//four edge of square.pdf , page2 used on inp
+ut line 60.
+(pdftex.def)             Requested size: 142.26378pt x 139.95229pt.
+<./picture//four edge of square.pdf, id=269, page=3, 380.43481pt x 374.24252pt>
+
+File: ./picture//four edge of square.pdf Graphic file (type pdf)
+<use ./picture//four edge of square.pdf, page 3>
+Package pdftex.def Info: ./picture//four edge of square.pdf , page3 used on inp
+ut line 62.
+(pdftex.def)             Requested size: 142.26378pt x 139.95229pt.
+) [29]
+(picture/dual graph contradiction.pdf_tex
+<./picture//dual graph contradiction.pdf, id=273, page=1, 456.16048pt x 377.711
+33pt>
+File: ./picture//dual graph contradiction.pdf Graphic file (type pdf)
+<use ./picture//dual graph contradiction.pdf, page 1>
+Package pdftex.def Info: ./picture//dual graph contradiction.pdf , page1 used o
+n input line 56.
+(pdftex.def)             Requested size: 199.16928pt x 164.91402pt.
+<./picture//dual graph contradiction.pdf, id=274, page=2, 456.16048pt x 377.711
+33pt>
+File: ./picture//dual graph contradiction.pdf Graphic file (type pdf)
+<use ./picture//dual graph contradiction.pdf, page 2>
+Package pdftex.def Info: ./picture//dual graph contradiction.pdf , page2 used o
+n input line 59.
+(pdftex.def)             Requested size: 199.16928pt x 164.91402pt.
+<./picture//dual graph contradiction.pdf, id=275, page=3, 456.16048pt x 377.711
+33pt>
+File: ./picture//dual graph contradiction.pdf Graphic file (type pdf)
+<use ./picture//dual graph contradiction.pdf, page 3>
+Package pdftex.def Info: ./picture//dual graph contradiction.pdf , page3 used o
+n input line 64.
+(pdftex.def)             Requested size: 199.16928pt x 164.91402pt.
+) [30 <./picture//four edge of square.pdf> <./picture//four edge of square.pdf
+
+pdfTeX warning: pdflatex (file ./picture//four edge of square.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./picture//four edge of square.pdf
+
+pdfTeX warning: pdflatex (file ./picture//four edge of square.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./picture//dual graph contradiction.pdf
+
+pdfTeX warning: pdflatex (file ./picture//dual graph contradiction.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./picture//dual graph contradiction.pdf
+
+pdfTeX warning: pdflatex (file ./picture//dual graph contradiction.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./picture//dual graph contradiction.pdf
+
+pdfTeX warning: pdflatex (file ./picture//dual graph contradiction.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>] [31] (picture/boundary of triangular mesh.pdf_tex
+<./picture//boundary of triangular mesh.pdf, id=286, page=1, 609.96051pt x 564.
+39214pt>
+File: ./picture//boundary of triangular mesh.pdf Graphic file (type pdf)
+<use ./picture//boundary of triangular mesh.pdf, page 1>
+Package pdftex.def Info: ./picture//boundary of triangular mesh.pdf , page1 use
+d on input line 56.
+(pdftex.def)             Requested size: 284.52756pt x 263.27498pt.
+<./picture//boundary of triangular mesh.pdf, id=287, page=2, 609.96051pt x 564.
+39214pt>
+File: ./picture//boundary of triangular mesh.pdf Graphic file (type pdf)
+<use ./picture//boundary of triangular mesh.pdf, page 2>
+Package pdftex.def Info: ./picture//boundary of triangular mesh.pdf , page2 use
+d on input line 58.
+(pdftex.def)             Requested size: 284.52756pt x 263.27498pt.
+) [32 <./picture//boundary of triangular mesh.pdf> <./picture//boundary of tria
+ngular mesh.pdf
+
+pdfTeX warning: pdflatex (file ./picture//boundary of triangular mesh.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
 >] (C:\Users\我\Desktop\2022USRP-Group-7\build\main.aux) ) 
 Here is how much of TeX's memory you used:
- 7137 strings out of 478593
- 113388 string characters out of 2854426
- 414653 words of memory out of 3000000
- 25030 multiletter control sequences out of 15000+600000
- 487498 words of font info for 97 fonts, out of 8000000 for 9000
+ 7462 strings out of 478593
+ 119715 string characters out of 2854426
+ 416362 words of memory out of 3000000
+ 25326 multiletter control sequences out of 15000+600000
+ 488812 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,20n,76p,645b,952s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\我\AppDa
-ta\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program File
-s/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu4e.pfb><C:/Program Files/MiKTeX/fonts/ty
-pe1/arphic/bkaiu/bkaiu50.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/
-bkaiu53.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu54.pfb><C:/P
-rogram Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu56.pfb><C:/Program Files/MiKT
-eX/fonts/type1/arphic/bkaiu/bkaiu58.pfb><C:/Program Files/MiKTeX/fonts/type1/ar
-phic/bkaiu/bkaiu5b.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5
-e.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5f.pfb><C:/Program
- Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu60.pfb><C:/Program Files/MiKTeX/fon
-ts/type1/arphic/bkaiu/bkaiu6a.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/b
-kaiu/bkaiu6d.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu75.pfb>
-<C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu79.pfb><C:/Program Files
-/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu7d.pfb><C:/Program Files/MiKTeX/fonts/typ
-e1/arphic/bkaiu/bkaiu80.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/b
-kaiu86.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu87.pfb><C:/Pr
-ogram Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu8a.pfb><C:/Program Files/MiKTe
-X/fonts/type1/arphic/bkaiu/bkaiu8b.pfb><C:/Program Files/MiKTeX/fonts/type1/arp
-hic/bkaiu/bkaiu90.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu9e
-.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiuff.pfb><C:/Program 
-Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8
-.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
-ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6
-.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Prog
-ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX/fonts/t
-ype1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
-blic/amsfonts/symbols/msbm10.pfb>
-Output written on C:\Users\我\Desktop\2022USRP-Group-7\build\main.pdf (18 page
-s, 472466 bytes).
+ta\Local\MiKTeX\fonts/pk/ljfour/public/wasy/dpi720\wasy10.pk> <C:\Users\我\App
+Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Fi
+les/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu4e.pfb><C:/Program Files/MiKTeX/fonts/
+type1/arphic/bkaiu/bkaiu50.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkai
+u/bkaiu53.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu54.pfb><C:
+/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu56.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/arphic/bkaiu/bkaiu58.pfb><C:/Program Files/MiKTeX/fonts/type1/
+arphic/bkaiu/bkaiu5b.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkai
+u5e.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5f.pfb><C:/Progr
+am Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu60.pfb><C:/Program Files/MiKTeX/f
+onts/type1/arphic/bkaiu/bkaiu6a.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic
+/bkaiu/bkaiu6d.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu75.pf
+b><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu79.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu7d.pfb><C:/Program Files/MiKTeX/fonts/t
+ype1/arphic/bkaiu/bkaiu80.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu
+/bkaiu86.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu87.pfb><C:/
+Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu8a.pfb><C:/Program Files/MiK
+TeX/fonts/type1/arphic/bkaiu/bkaiu8b.pfb><C:/Program Files/MiKTeX/fonts/type1/a
+rphic/bkaiu/bkaiu90.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu
+9e.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiuff.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/
+public/amsfonts/symbols/msam7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb>
+Output written on C:\Users\我\Desktop\2022USRP-Group-7\build\main.pdf (32 page
+s, 623866 bytes).
 PDF statistics:
- 385 PDF objects out of 1000 (max. 8388607)
+ 463 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 348 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 403 words of extra memory for PDF output out of 10000 (max. 10000000)
 
