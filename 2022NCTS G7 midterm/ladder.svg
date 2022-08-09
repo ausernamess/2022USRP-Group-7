@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg2956"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="ladder.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2958"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.76435185"
+     inkscape:cx="397.06844"
+     inkscape:cy="561.91399"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2953">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15298">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.580328;stop-color:#000000"
+         id="rect15300"
+         width="106.91286"
+         height="88.171867"
+         x="-102.93011"
+         y="226.75719" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g15296"
+       clip-path="url(#clipPath15298)"
+       transform="translate(128.0506,-139.71428)">
+      <path
+         id="rect15024"
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stop-color:#000000"
+         d="m -69.414604,246.10631 h 20 v 20 h -20 z" />
+      <path
+         id="rect15024-2"
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stop-color:#000000"
+         d="m -49.414604,246.10631 h 20 v 20 h -20 z" />
+      <path
+         id="rect15024-3"
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stop-color:#000000"
+         d="m -29.414604,246.10631 h 20 v 20 h -20 z" />
+      <path
+         id="rect15024-9"
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stop-color:#000000"
+         d="m -89.414604,246.10631 h 20 v 20 h -20 z" />
+      <path
+         id="rect15024-5"
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stop-color:#000000"
+         d="m -109.4146,246.10631 h 19.999996 v 20 H -109.4146 Z" />
+      <path
+         id="rect15024-4"
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stop-color:#000000"
+         d="m -9.414604,246.10631 h 20 v 20 h -20 z" />
+      <path
+         id="rect15024-0"
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stop-color:#000000"
+         d="m 10.585396,246.10631 h 20 v 20 h -20 z" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="64.245682"
+       y="136.61501"
+       id="text16778"><tspan
+         sodipodi:role="line"
+         id="tspan16776"
+         style="stroke-width:0.264583"
+         x="64.245682"
+         y="136.61501">$\mathbb{Z}\times\{0,1\}$</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="path19916"
+       cx="78.646072"
+       cy="126.37727"
+       r="1.5" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="81.565331"
+       y="124.11622"
+       id="text21122"><tspan
+         sodipodi:role="line"
+         id="tspan21120"
+         style="stroke-width:0.264583"
+         x="81.565331"
+         y="124.11622">$O$</tspan></text>
+  </g>
+</svg>

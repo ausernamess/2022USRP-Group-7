@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="SAW1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.5926652"
+     inkscape:cx="787.12231"
+     inkscape:cy="486.78411"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="53.538822"
+       y="131.18286"
+       id="text5782"><tspan
+         sodipodi:role="line"
+         id="tspan5780"
+         style="stroke-width:0.264583"
+         x="53.538822"
+         y="131.18286">$O$</tspan></text>
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke-width:0.264583;stroke-linejoin:round;stroke-dasharray:1.5875, 1.5875;stop-color:#000000"
+       id="path12592"
+       cx="50.055927"
+       cy="119.86637"
+       r="1.5" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="46.511425"
+       y="171.40627"
+       id="text14666"><tspan
+         sodipodi:role="line"
+         id="tspan14664"
+         style="stroke-width:0.264583"
+         x="46.511425"
+         y="171.40627">A self-avoiding walk</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.547541"
+       d="M 10,150 H 150"
+       id="path17485"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.547541"
+       d="M 10,120.1325 150,120"
+       id="path17485-1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.547541"
+       d="M 10,90.1325 150,90"
+       id="path17485-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.547541"
+       d="M 10,60.1325 150,60"
+       id="path17485-76"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.554098"
+       d="M 20,50 V 160"
+       id="path19154"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.554098"
+       d="M 50.132291,50.000001 V 160"
+       id="path19154-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.554098"
+       d="M 80.132291,50.000005 V 160"
+       id="path19154-1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.554098"
+       d="M 110.13229,49.999998 V 160"
+       id="path19154-9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.554098"
+       d="M 140.13229,50.000004 V 160"
+       id="path19154-5"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="145.52547"
+       y="160.74255"
+       id="text20411"><tspan
+         sodipodi:role="line"
+         id="tspan20409"
+         style="stroke-width:0.264583"
+         x="145.52547"
+         y="160.74255">$\mathbb{Z}^2$</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 50,120 V 90 h 30 v 30 h 30 V 90 h 30 v 60 H 20 V 120 60 h 120"
+       id="path857"
+       sodipodi:nodetypes="cccccccccccc" />
+  </g>
+</svg>
