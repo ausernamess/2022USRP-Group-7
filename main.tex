@@ -1158,7 +1158,34 @@ Probability space $\Omega=\{0,1\}^{\Lambda}$ where $\Lambda$ is finite or counta
     \]
 \end{enumerate}
 \chapter{Exponential Decay}
+One of the reason we introduce this tool is to show that $p_c \leq \frac{1}{2}$ on $\mathbb{Z}^d$ 
+\section{Statement and Proof}
+\colorbox{pink}{
+	\begin{minipage}{1 \textwidth}
+		For $d \geq 2$, there are two facts\\
+		1. For $p < p_c$, there exists $c = c(p) > 0$ s.t
+				For all $n\geq 1$, 
+				$$
+					\mathbb{P}_p[0 \longleftrightarrow \partial \Lambda_n] \leq e^{-cn}
+				$$
+		2. For $p > p_c$,
+			$$
+			\mathbb{P}[0\longleftrightarrow \infty ]\geq \frac{p-p_c}{p(1-p_c)}
+			$$
+	\end{minipage}
+}
+\begin{enumerate}
+	\item[\textbf{Remark}] For the case $p < p_c$, we can think of the event $0 \longleftarrow \partial \Lambda_{nL}$. If the previous event happens, it implies that there must exists a path from $0$ to $\partial \Lambda_{(n-1)L}$. This is shown in Fig. \ref{Exp1}.However, the inequalities may not holds.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width = 0.3\textwidth]{picture/Exp1.png}
+		\caption{\label{Exp1}Intuitive understanding of $ \mathbb{P}_p[0 \longleftrightarrow \Lambda_{nL}] \text{{\color{red} $\quad \leq \quad$ }} \mathbb{P}_p[0 \longleftrightarrow \Lambda_L]\mathbb{P}_p[0 \longleftrightarrow \Lambda_{(n-1)L}].$}
+	\end{figure}
+	
+\end{enumerate}
 
+%--------------------------------------------
+\chapter{Russo-Seymour-Welsh Theorem}
 
 
 \end{document}
