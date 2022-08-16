@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{article}
+\documentclass[12pt,a4paper]{report}
 \usepackage[margin=2cm]{geometry}
 \usepackage{indentfirst}
 \usepackage{mathrsfs}
@@ -15,6 +15,7 @@
 \usepackage{rotating}
 \usepackage{graphicx}
 \usepackage{wasysym}
+\usepackage{xcolor}
 \pagestyle{empty}
 \newcommand{\iso}{\mathrm{iso}}
 \newcommand{\esc}{\mathrm{esc}}
@@ -29,6 +30,7 @@ $>$
 \newcommand{\incfig}[1]{%
 \import{./picture/}{#1.pdf_tex}
 }
+
 \begin{document}
 \begin{center}
 \Huge    \textbf{Group 7 Note of Planar Statistical Physics and Bernoulli Percolation}
@@ -49,15 +51,9 @@ $>$
     \end{enumerate}
     \end{CJK}
 \end{flushleft}
-\newpage
-\begin{flushleft}
-    \vspace*{5cm}
-    \Huge \textbf{0. (Planer) Statistical Mechanics}
-    \vspace*{3cm}
-\end{flushleft}
-\begin{flushleft}
-	\Large \textbf{0.1) Motivation}
-\end{flushleft}
+\setcounter{chapter}{-1}
+\chapter{(Planer) Statistical Mechanics}
+\section{Motivation}
 \begin{enumerate}
     \item[•] We want to describe the (macroscopic) behavior of a system composed of huge number of (microscopic) particles. Theoretically, if the behavior of each particle can be described, then one should be able to say something about the system. However, the number of particles are astronomical (1 mole $\approx 10^{23}$) and it is costly (even impossible) to solve the system.
     \item[•] Boltzmann (end $19^{th}$ century ) gives a probabilistic formalism
@@ -85,9 +81,7 @@ $>$
     \end{enumerate}
 \end{enumerate}
 \newpage
-\begin{flushleft}
-	\Large \textbf{0.2) First Model (Polymer Model)}
-\end{flushleft}
+\section{First Model (Polymer Model)}
 \begin{enumerate}
 	\item[•] Regular lattices, e.g., $\mathbb{Z}^d$
 	\item[•] Self-avoiding walk (SAW) (a polymer)
@@ -433,9 +427,7 @@ $>$
 	\item[\textbf{Exercise 3}] How to sample SAWs with computer. (Think of Markov process whose invariant measure is $\mathbb{P}_\beta$)
 \end{enumerate}
 \newpage
-\begin{flushleft}
-	\Large \textbf{0.3) Bernoulli Percolation}
-\end{flushleft}
+\section{Bernoulli Percolation}
 \begin{flushleft}
 We first consider $\mathbb{Z}^d$ lattices,
 \begin{enumerate}
@@ -562,15 +554,12 @@ We first consider $\mathbb{Z}^d$ lattices,
 \end{enumerate}
 \end{flushleft}
 \newpage
-\begin{flushleft}
-\vspace*{5cm}
-\Huge \textbf{1. Basic Properties of \\ \quad the Bernoulli Percolation}
-\vspace*{3cm}
-\end{flushleft}
+\chapter{Basic Properties of the Bernoulli Percolation}
 \begin{flushleft}
 	Consider $G=\mathbb{Z}^d$ or some ``nice" graph.\\[1cm]
-	\Large \textbf{1.1) Coupling} \begin{CJK}{UTF8}{bkai}(耦合)\end{CJK}
 \end{flushleft}
+
+\section{Coupling \begin{CJK}{UTF8}{bkai}(耦合)\end{CJK}}
 \begin{enumerate}
 	\item[•] Given $p\leq p',$ how to compute $X\sim \mathrm{Bernoulli}(p),\ X'\sim\mathrm{Bernoulli}(p')$?\\
 	Consider $\mathcal{U}\sim\mathrm{Uniform}([0,1]),$ define $Y=\mathbf{1}_{\, \mathcal{U}\leq p},$ $Y'=\mathbf{1}_{\, \mathcal{U}\leq p'}$, we get 
@@ -696,9 +685,7 @@ We first consider $\mathbb{Z}^d$ lattices,
 	\end{enumerate}
 \end{enumerate}
 \newpage
-\begin{flushleft}
-	\Large \textbf{1.2) Uniqueness of the Infinite Cluster (on $\mathbb{Z}^d$)}
-\end{flushleft}
+\section{Uniqueness of the Infinite Cluster (on $\mathbb{Z}^d$)}
 \begin{enumerate}
 	\item[\textbf{Theorem.}] For a fixed $p\in [0,1],$ we have 
 	\begin{enumerate}
@@ -888,9 +875,7 @@ We first consider $\mathbb{Z}^d$ lattices,
 	\end{enumerate}
 \end{enumerate}
 \newpage
-\begin{flushleft}
-	\Large \textbf{1.3) Ideas Forward $p_c(\mathbb{Z}^2)=\frac{1}{2}$}
-\end{flushleft}
+\section{Ideas Forward $p_c(\mathbb{Z}^2)=\frac{1}{2}$}
 \begin{figure}[htp]
 \centering
 \def\svgwidth{14cm}
@@ -921,12 +906,7 @@ We well show that for $\mathbb{Z}^2,\ p_c=\frac{1}{2}$ and $\theta(p_c)=0.$
     \]
     This implies that $\mathbb{P}(\mathcal{H}(n+1,n))=\frac{1}{2}.$
 \end{enumerate}
-\newpage
-\begin{flushleft}
-\vspace*{5cm}
-\Huge \textbf{2. Useful Identities \& Applications}
-\vspace*{3cm}
-\end{flushleft}
+\chapter{Useful Identities \& Applications}
 \begin{flushleft}
 Probability space $\Omega=\{0,1\}^{\Lambda}$ where $\Lambda$ is finite or countable.
 \end{flushleft}
@@ -955,9 +935,7 @@ Probability space $\Omega=\{0,1\}^{\Lambda}$ where $\Lambda$ is finite or counta
     Thus, $\mathcal{F}\subseteq \sigma(\mathcal{I})\Rightarrow\sigma(\mathcal{F})\subseteq \sigma(\mathcal{I}).$\quad $\blacksquare$
 \end{enumerate}
 \newpage
-\begin{flushleft}
-	\Large \textbf{2.1) Harris-FKG inequality}
-\end{flushleft}
+\section{Harris-FKG inequality}
 \begin{enumerate}
     \item[\underline{Proposition}] (Harris inequality) \begin{enumerate}
         \item If $A$ and $B$ are increasing event, then
@@ -1179,4 +1157,8 @@ Probability space $\Omega=\{0,1\}^{\Lambda}$ where $\Lambda$ is finite or counta
     \inf_{x,y\in G}\mathbb{P}_p[x\leftrightarrow y]>0\Leftrightarrow N=1\mbox{ a.s.}
     \]
 \end{enumerate}
+\chapter{Exponential Decay}
+
+
+
 \end{document}
