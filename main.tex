@@ -16,6 +16,10 @@
 \usepackage{graphicx}
 \usepackage{wasysym}
 \usepackage{xcolor}
+\usepackage{biblatex}
+\addbibresource{reference.bib}
+\usepackage{mathtools}
+
 \pagestyle{empty}
 \newcommand{\iso}{\mathrm{iso}}
 \newcommand{\esc}{\mathrm{esc}}
@@ -1157,6 +1161,31 @@ Probability space $\Omega=\{0,1\}^{\Lambda}$ where $\Lambda$ is finite or counta
     \inf_{x,y\in G}\mathbb{P}_p[x\leftrightarrow y]>0\Leftrightarrow N=1\mbox{ a.s.}
     \]
 \end{enumerate}
+\section{van den Berg-Kesten Inequality}
+\section{Russo's Identity}
+We want to show study the behavior of  $\mathbb{P}_p(A)$ as $p$ varies (One can readily assume that $A$ is increasing).
+\begin{enumerate}
+	\item[\textbf{Definition}] An edge $e \in E$ is said to be pivotal for $A$ and $\omega$ if $\omega_e \notin A, \qquad omega^e \in A$, where $\omega_e / \omega^e$ stand for the configuration with $\omega(e) = 1/\omega(e) = 0$.
+	\item[\textbf{Remark}] $\omega(e)$ decides $\omega$ in $A$ or not. The value of $\omega(e)$ \textbf{does not} is independent to the event "$e$ is \textbf{pivotal} for $A$". We write $N(A) \coloneqq N(A,\omega)$ for the number of pivotal edges for $A$ and $\omega$.
+	\item[\textbf{Proposition}] Russo's Identity\\
+	\colorbox{pink}{
+		\begin{minipage}{1 \textwidth}
+			If $A$ is an increasing event depending on finitely many edges, then 
+			$$
+	 			\frac{\partial}{\partial p} \mathbb{P}_p(A)  = \mathbb{E}_p(N(A))
+			$$
+		\end{minipage}
+	}  
+	\bigskip
+	\item[\textbf{Exercise}] For a finite edge set and \textbf{any} function $F : \{0,1\}^E \to \{0,1\}$, use a direct computation to show that 
+	 $$
+	 \frac{\partial}{\partial p} f(p)  = \frac{1}{p(1-p)} \sum_{e \in E} \text{Cov}(F,\omega_e),\qquad f(p) \coloneqq \mathbb{E}_p [F]
+	 $$ 
+	 Deduce Russo's identity from this.
+	\item[\SOL]
+\end{enumerate}
+
+%------------------------------------------
 \chapter{Exponential Decay}
 One of the reason we introduce this tool is to show that $p_c \leq \frac{1}{2}$ on $\mathbb{Z}^d$ 
 \section{Statement and Proof}
@@ -1175,17 +1204,35 @@ One of the reason we introduce this tool is to show that $p_c \leq \frac{1}{2}$ 
 	\end{minipage}
 }
 \begin{enumerate}
-	\item[\textbf{Remark}] For the case $p < p_c$, we can think of the event $0 \longleftarrow \partial \Lambda_{nL}$. If the previous event happens, it implies that there must exists a path from $0$ to $\partial \Lambda_{(n-1)L}$. This is shown in Fig. \ref{Exp1}.However, the inequalities may not holds.
+	\item[\textbf{Remark}] For the case $p < p_c$, we can think of the event $0 \longleftarrow \partial \Lambda_{nL}$. If the previous event happens, it implies that there must exsists a path from $0$ to $\partial \Lambda_{(n-1)L}$. This is shown in Fig. \ref{Exp1}. However, the inequalities may not holds.
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width = 0.3\textwidth]{picture/Exp1.png}
 		\caption{\label{Exp1}Intuitive understanding of $ \mathbb{P}_p[0 \longleftrightarrow \Lambda_{nL}] \text{{\color{red} $\quad \leq \quad$ }} \mathbb{P}_p[0 \longleftrightarrow \Lambda_L]\mathbb{P}_p[0 \longleftrightarrow \Lambda_{(n-1)L}].$}
 	\end{figure}
-	
+	\item[\textbf{Exercise}] Can the decay rate be faster than exponential?\\
+	\item[\SOL] No. One direct argument is that the probability from $\Lambda_{(n-1)L}$	to $\Lambda_{nL}$ will not be smaller than $p^L$. Hence, the decay rate decay at some exponential rates.
 \end{enumerate}
+\begin{proof}
+	TBD. Check out the handout "USRP3" 
+\end{proof}
+\begin{enumerate}
+	\item[\textbf{Exercises}] For a planar periodic graph $G$ and look at the bond percolation on $G$, show that $p_c(G) + p_c(G*) = 1$.
+	\item[\SOL] TBD
+	\item[\textbf{Exercise}] (Adapted from exercise 31 in \cite{Copin18})
+	\item[\SOL] TBD
+	\item[\textbf{Exercise}] For a finite edge set and \textbf{any} function $F : \{0,1\}^E \to \{0,1\}$, use a direct computation to show that 
+	 $$
+	 \frac{\partial}{\partial p} f(p)  = \frac{1}{p(1-p)} \sum_{e \in E} \text{Cov}(F,\omega_e),\qquad f(p) \coloneqq \mathbb{E}_p [F]
+	 $$ 
+	 Deduce Russo's identity from this.
+	 \item[\SOL] TBD
+\end{enumerate}
+\section{Size of the Finite Cluster Containing the Origin}
+
+
 
 %--------------------------------------------
 \chapter{Russo-Seymour-Welsh Theorem}
-
-
+\printbibliography
 \end{document}
