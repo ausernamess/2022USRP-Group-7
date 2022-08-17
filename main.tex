@@ -882,9 +882,6 @@ We first consider $\mathbb{Z}^d$ lattices,
 	    a contradiction.\qquad $\blacksquare$
 	\end{enumerate}
 \end{enumerate}
-\begin{remark}
-In fact
-\end{remark}
 \newpage
 \section{Ideas Forward $p_c(\mathbb{Z}^2)=\frac{1}{2}$}
 \begin{figure}[htp]
@@ -1284,10 +1281,35 @@ Therefore,
 	\mathbb{P}_p[0 \longleftarrow \partial\Lambda_n] \geq \frac{1}{f(n)}\exp{(-n/\varphi_1(p))}, \quad \text{for some $\varphi_1(p) > 0$} 
 	$$  
 	\item[\SOL] W.L.O.G, we may assume that $n \geq m $ in the equation \ref{3-3eq_tobox} 
-	Note that 
+	We may define $f(n)$ such that 
 	\begin{equation}
-		|\partial \Lambda_n| \leq C(3n)^{d} = f(n),\quad C > 0
+		|\partial \Lambda_n| \leq C(2n)^{d} = f(n),\quad \text{for some  $C > 0$}
 	\end{equation}
+	Before we proceed, let me introduce an extension of Fekete subadditive lemma:
+	If a sequence satisfies the following
+	$$
+		a_{n+m} \leq a_n + a_m + c, \quad \text{$c$ is a constant}
+	$$
+	Then, $\lim_n \frac{a_n}{n}$ exists and equals $\inf_n \frac{a_n}{n}$. The reader can use the method in proving Fekete subadditive lemma with a slight change to showw this result.
+	Basically it implies that a constant in the inequality does not affect the subadditivity.
+	
+	Anyway, we may apply the above subadditive relation in multiplication way 
+	\begin{equation}
+		\begin{aligned}
+			\mathbb{P}_p[0 \longleftarrow \partial\Lambda_n] \cdot 2^d  & \leq |\partial \Lambda_n| \mathbb{P}_p(0 \longleftarrow \partial \Lambda_n)\mathbb{P}_p(0 \longleftarrow \partial \Lambda_m)\cdot 2^d
+														\\	  & \leq \frac{f(n)f(m)}{f(2n)}\mathbb{P}_p(0 \longleftarrow \partial \Lambda_n)\mathbb{P}_p(0 \longleftarrow \partial \Lambda_m)
+														\\    & \leq \frac{f(n)f(m)}{f(n+m)}\mathbb{P}_p(0 \longleftarrow \partial \Lambda_n)\mathbb{P}_p(0 \longleftarrow \partial \Lambda_m)
+		\end{aligned}
+	\end{equation}
+	In other words, 
+	$$
+	\ln{(f(n+m) \mathbb{P}_p[0 \longleftarrow \partial\Lambda_n])} \leq \ln{\left( f(n) \mathbb{P}_p(0 \longleftarrow \partial \Lambda_n)\right) } + \ln{\left( f(m) \mathbb{P}_p(0 \longleftarrow \partial \Lambda_m)\right)} + \ln{(2^d)}
+	$$ 
+	Finally, we get the result
+	$$
+	\mathbb{P}_p(0 \longleftarrow \partial \Lambda_n) \geq \frac{1}{f(n)}\exp{(-n\varphi_1(p))},
+	$$
+	where $\varphi_1(p) = \frac{-1}{n}\inf_n  \mathbb{P}_p(0 \longleftarrow \partial \Lambda_n)\qquad \blacksquare$
 \end{enumerate}
 
 
