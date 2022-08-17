@@ -1176,7 +1176,7 @@ We want to show study the behavior of  $\mathbb{P}_p(A)$ as $p$ varies (One can 
 		\begin{minipage}{1 \textwidth}
 			If $A$ is an increasing event depending on finitely many edges, then 
 			$$
-	 			\frac{\partial}{\partial p} \mathbb{P}_p(A)  = \mathbb{E}_p(N(A))
+	 			\frac{d}{d p} \mathbb{P}_p(A)  = \mathbb{E}_p(N(A))
 			$$
 		\end{minipage}
 	}  
@@ -1199,7 +1199,25 @@ We want to show study the behavior of  $\mathbb{P}_p(A)$ as $p$ varies (One can 
 				   \\ &= \frac{1}{p(1-p)}\sum_{e\in E}\text{Cov}(F,\omega_e)
 			\end{aligned}
 		\end{equation*} 
-		Then, if we consider $F = \vmathbb{1}$ 
+		
+		Then, let's consider $F = \vmathbb{1}_A$, where $A$ is depending on edge set $E$ and $|E| < \infty$. We can see that $e$ must be \textbf{pivotal} for $A$ to have influence. 
+		To be more specific, 
+		$$
+		\mathbb{E}_p[\vmathbb{1}_{\text{Piv}_e(A)^c}(\omega_e - p)F(\omega)] = \mathbb{E}_p[\omega_e - p] \mathbb{E}_p[F(\omega)\vmathbb{1}_{\text{Piv}_e(A)^c}] =  0
+		$$
+		Thus, $\mathbb{E}_p[F(\omega)(\omega_e - p)] = \mathbb{E}_p[F(\omega)(\omega_e - p) \vmathbb{1}_{\text{Piv}_e(A)}]$	
+		
+		Now we consdier $f(p)'$
+		\begin{equation*}
+			\begin{aligned}
+				f(p)' &= \frac{1}{p(1-p)}\sum_{e \in E} \mathbb{E}_p[F(\omega)(\omega_e - p)] 
+				   \\ &= \frac{1}{p(1-p)}\sum_{e \in E} \mathbb{E}_p[F(\omega)(\omega_e - p) \vmathbb{1}_{\text{Piv}_e(A)}]	
+				   \\ &= \frac{1}{p(1-p)}\sum_{e \in E} \mathbb{E}_p[\omega_e = 1]\mathbb{E}_p[F(\omega)(\omega_e - p) \vmathbb{1}_{\text{Piv}_e(A)}|\omega_e = 1] 
+				   \\ &+ \mathbb{E}_p[\omega_e = 0]\mathbb{E}_p[F(\omega)(\omega_e - p) \vmathbb{1}_{\text{Piv}_e(A)} | \omega_e = 0]	&& \parbox[t]{5cm}{$e$ is a pivot of $A$ whether $\omega_e = 1$ or not given $\omega \in \text{Piv}_e(A)$.}	 
+				   \\ &= \sum_{e \in E} \mathbb{E}_p[\vmathbb{1}_{\text{Piv}_e(A)}]	
+				   \\ &= \mathbb{E}_p[N(A)]\quad \blacksquare 
+			\end{aligned}
+		\end{equation*}
 \end{enumerate}
 
 %------------------------------------------
