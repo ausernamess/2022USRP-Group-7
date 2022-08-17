@@ -1255,14 +1255,37 @@ One of the reason we introduce this tool is to show that $p_c \leq \frac{1}{2}$ 
 	\item[\textbf{Exercises}] For a planar periodic graph $G$ and look at the bond percolation on $G$, show that $p_c(G) + p_c(G*) = 1$.
 	\item[\SOL] TBD
 	\item[\textbf{Exercise}] (Adapted from exercise 31 in \cite{Copin18})
-	\item[\SOL] TBD
-	\item[\textbf{Exercise}] For a finite edge set and \textbf{any} function $F : \{0,1\}^E \to \{0,1\}$, use a direct computation to show that 
-	 $$
-	 \frac{\partial}{\partial p} f(p)  = \frac{1}{p(1-p)} \sum_{e \in E} \text{Cov}(F,\omega_e),\qquad f(p) \coloneqq \mathbb{E}_p [F]
-	 $$ 
+	\item[\SOL] TBD	
 \end{enumerate}
 \section{Size of the Finite Cluster Containing the Origin}
+It is another events that exhibits exponential decay under subcritical $p$. 
+\begin{enumerate}
+	\item[\textbf{Exercise}](Adapted from Exercise 25 in \cite{Copin18})
+	\item[\SOL] TBD 
+\end{enumerate}
+\section{Correlation Length}
+(Adapted from exercise 26 in \cite{Copin18})
+With the help of sub-additivity lemma, we can actually get the rate of decay.
 
+Let us carry on the study of $\mathbb{P}_p[0 \longleftarrow \partial \Lambda_n]$.
+Note that if $0 \longleftarrow \partial \Lambda_(n+m)$, then there exists $x \in \partial \Lambda_n$ s.t $0 \longleftarrow x$ and $x \longleftarrow x + \partial \Lambda_n$ holds disjointly.
+Therefore,
+\begin{equation}\label{3-3eq_tobox}
+	\mathbb{P}_p(0 \longleftarrow \partial \Lambda_{n+m}) \leq |\partial \Lambda_n| \mathbb{P}_p(0 \longleftarrow \partial \Lambda_n)\mathbb{P}_p(0 \longleftarrow \partial \Lambda_m),  \qquad |\partial \Lambda_n| \sim 2d(2n+1)^{d-1}
+\end{equation}
+
+\begin{enumerate}
+	\item[\textbf{Exercise}] Given $p < p_c$, find a polynomial $f(n)$ s.t ( $\ln{f(n)} + \ln{\mathbb{P}_p(0 \longleftarrow \partial \Lambda_n)})_{n \geq 1}$ 
+	satisfies the subadditive lemma. Then deduce that
+	$$
+	\mathbb{P}_p[0 \longleftarrow \partial\Lambda_n] \geq \frac{1}{f(n)}\exp{(-n/\varphi_1(p))}, \quad \text{for some $\varphi_1(p) > 0$} 
+	$$  
+	\item[\SOL] W.L.O.G, we may assume that $n \geq m $ in the equation \ref{3-3eq_tobox} 
+	Note that 
+	\begin{equation}
+		|\partial \Lambda_n| \leq C(3n)^{d} = f(n),\quad C > 0
+	\end{equation}
+\end{enumerate}
 
 
 %--------------------------------------------
