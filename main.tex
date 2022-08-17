@@ -22,6 +22,8 @@
 \theoremstyle{definition} 
 \newtheorem*{remark}{Remark} 
 
+\usepackage{newtxmath} % For chalk font 1. \vmathbb{1}
+
 \pagestyle{empty}
 \newcommand{\iso}{\mathrm{iso}}
 \newcommand{\esc}{\mathrm{esc}}
@@ -1197,7 +1199,7 @@ We want to show study the behavior of  $\mathbb{P}_p(A)$ as $p$ varies (One can 
 				   \\ &= \frac{1}{p(1-p)}\sum_{e\in E}\text{Cov}(F,\omega_e)
 			\end{aligned}
 		\end{equation*} 
-		Then, if we consider 
+		Then, if we consider $F = \vmathbb{1}$ 
 \end{enumerate}
 
 %------------------------------------------
@@ -1240,8 +1242,6 @@ One of the reason we introduce this tool is to show that $p_c \leq \frac{1}{2}$ 
 	 $$
 	 \frac{\partial}{\partial p} f(p)  = \frac{1}{p(1-p)} \sum_{e \in E} \text{Cov}(F,\omega_e),\qquad f(p) \coloneqq \mathbb{E}_p [F]
 	 $$ 
-	 Deduce Russo's identity from this.
-	 \item[\SOL] TBD
 \end{enumerate}
 \section{Size of the Finite Cluster Containing the Origin}
 
