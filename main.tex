@@ -852,6 +852,21 @@ We first consider $\mathbb{Z}^d$ lattices,
 		\item If we do not require uniqueness, to which graph can this theorem be extended?
 	\end{enumerate}
 	\item[\textbf{Exercise 3}] What happens if we look at the tree $\mathbb{T}_d?$
+	\item[\SOL] We show that $N=\infty$ a.s. in $\mathbb{T}_d,\ d\geq 2,\ p_c<p<1.$\\
+	We can use \textbf{Step 2} to say that in $\mathbb{T}_d,$ we have $N=1$ or $\infty$ a.s., suppose that \\ $\mathbb{P}_p(N=1)\neq 0,$ then $\mathbb{P}_p(N=1)=1,$ thus
+	\[
+	\mathbb{P}_p(x\leftrightarrow y\mid x\leftrightarrow\infty , y\leftrightarrow\infty)=\mathbb{P}_p(x\leftrightarrow y\mid x\leftrightarrow\infty , y\leftrightarrow\infty,N=1)=1.
+	\]
+	Therefore,
+	\begin{align*}
+	    \mathbb{P}_p(x\leftrightarrow y)&=\mathbb{P}_p(x\leftrightarrow y\mid x\leftrightarrow \infty,y\leftrightarrow\infty )\mathbb{P}_p(x\leftrightarrow\infty, y\leftrightarrow\infty)\\
+	    &+\mathbb{P}_p(x\leftrightarrow y\mid x\nleftrightarrow \infty\mbox{ or }y\nleftrightarrow\infty )\mathbb{P}_p(x\nleftrightarrow \infty\mbox{ or }y\nleftrightarrow\infty )\\
+	    &\geq \mathbb{P}_p(x\leftrightarrow y\mid x\leftrightarrow \infty,y\leftrightarrow\infty )\mathbb{P}_p(x\leftrightarrow\infty, y\leftrightarrow\infty)\\
+	    &=\mathbb{P}_p(x\leftrightarrow\infty, y\leftrightarrow\infty)\geq \beta(p)^2>0
+	\end{align*}
+	Where $\beta(p)=\mathbb{P}_p(O\leftrightarrow\infty\mbox{ in }\mathbb{I}_d),$ becaues of $\theta(p)>0,$ we have $\beta(p)>0,$ the fact that $\mathbb{P}_p(x\leftrightarrow\infty , y\leftrightarrow\infty)\geq \beta(p)^2$ is because we can choose the direction of $\mathbb{I}_d$ which ``shift" from $O$ to $x,y$ to make sure that $\mathbb{I}_d$'s doesn't intersect together, thus we can use independence to show this inequality,
+	which contradicts that $\inf\limits_{x,y\in G}\mathbb{P}_p(x\leftrightarrow y)=0$ in $\mathbb{T}_d.$\\
+	\hspace*{443pt}$\blacksquare$
 	\item[\textbf{Exercise 4}] Check that
 	\[
 	\theta(p)>0\Leftrightarrow \mathbb{P}_p(N\geq 1)=1
