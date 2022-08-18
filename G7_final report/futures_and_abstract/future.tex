@@ -1,0 +1,60 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[margin=2cm]{geometry}
+\usepackage{indentfirst}
+\usepackage{mathrsfs}
+\usepackage{amsthm}
+\usepackage{CJKutf8}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{overpic}
+\usepackage{setspace}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{wasysym}
+\usepackage{xcolor}
+\usepackage{biblatex}
+\addbibresource{reference.bib}
+\usepackage{mathtools}
+\theoremstyle{definition} 
+\newtheorem*{remark}{Remark} 
+
+\usepackage{newtxmath} % For chalk font 1. \vmathbb{1}
+
+\pagestyle{empty}
+\newcommand{\iso}{\mathrm{iso}}
+\newcommand{\esc}{\mathrm{esc}}
+\newcommand{\oversim}[1]{\parbox[t][-18pt][c]{10pt}{\scriptsize$\sim$}\hspace*{-12pt}{#1}}
+\newcommand{\bbar}[1]{\overline{#1}}
+\newcommand{\ul}[1]{\underline{#1}}
+\newcommand{\SOL}{\fbox{ \tt s\parbox[b][2pt][c]{6pt}{o}\hspace*{-7pt} L:}}
+\newcommand{\sixedge}{\mbox{\parbox[t][-2pt][c]{10pt}{\scriptsize$\blacktriangledown\hspace{-3.6pt}\blacktriangle\hspace{-4pt}\blacktriangledown$}\hspace{-10.2pt}\parbox[b][10.7pt][c]{10pt}{\scriptsize$\blacktriangle\hspace{-3.6pt}\blacktriangledown\hspace{-3.6pt}\blacktriangle$}}}
+\newcommand{\indecate}{\mbox{\begin{turn}{65.9}
+$>$
+\end{turn}\hspace{-10.5pt}\parbox[t][-5pt][c]{10pt}{$\bot$}\hspace{-4.35pt}\parbox[t][-3.4pt][c]{4pt}{$\shortmid$}}}
+\newcommand{\incfig}[1]{%
+\import{./picture/}{#1.pdf_tex}
+}
+
+\begin{document}
+\section*{Future Work}
+
+There are several directions in the future. For example, on the scaling invariant property, RSW theory gave us a way to obtain the uniform probability bounds of crossing events, but we can also ask the question about the scaling limit of a crossing event, not only the uniform bounds. We'll try to apply the discrete analytic ideas developed by Simrnov[??] to extend the scaling problem on different types of lattice.
+
+\section*{Abstract}
+We study the percolation phenomenon in planar statistical physics using probability theory tools. We especially focus on \textit{Bernoulli percolation model}, and discuss the connecting property and phase transition behaviour on some regular lattice such as $\mathbb{Z}^2,\mathbb{T}_d$, triangular lattice or hexagon lattice. Further, we also run into interesting topics such as exponential decay near critical probability and scaling invariant property of the crossing events.
+
+\section*{Reference}
+
+\begin{enumerate}
+\item S. Smirnov, \textit{Critical percolation in the plane: Conformal invariance, Cardy's formula, scaling limits, C. R. Acad. Sci. Paris} (2001).
+\item Hugo Duminil-Copin, \textit{Introduction to Bernoulli percolation}, (2018).
+\item Geoffrey R. Grimmett, Ioan Manolescu, \textit{Universality for bond percolation in two dimensions, Ann. Probab.} (2013).
+\item R. Lyons, Y. Peres, \textit{Probability on Trees and Networks.} (2016)
+\end{enumerate}
+
+
+\end{document}
