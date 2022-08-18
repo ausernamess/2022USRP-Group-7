@@ -23,8 +23,10 @@
 \newtheorem*{prop}{Proposition}
 \theoremstyle{definition} 
 \newtheorem*{remark}{Remark} 
-\newtheorem*{claim}{Remark} 
+\newtheorem*{claim}{Claim} 
+\newtheorem*{sol}{Sol} 
 \newtheorem{ex}{Exercise}
+\newtheorem{observation}{Observation}
 \pagestyle{empty}
 \newcommand{\iso}{\mathrm{iso}}
 \newcommand{\esc}{\mathrm{esc}}
@@ -99,11 +101,12 @@ $>$
 	\def\svgwidth{7cm}
 	\incfig{SAW1}
 	\end{figure}
-	\item[•] Consider $\Omega=\{\mbox{ all SAWs } \},$ define $H(\omega)=|\omega|$ where $\omega\in\Omega$\\
-	Let $n\in \mathbb{N},$ define $\lambda_n=\#$ SAWs of length $n.$
-	\item[\underline{Observe} : ] Given $n,m\geq 1$\\
+\end{enumerate}
+	Consider $\Omega=\{\mbox{ all SAWs } \}$. Define $H(\omega)=|\omega|$ where $\omega\in\Omega$. Let $n\in \mathbb{N}$ and let $\lambda_n=\#$ SAWs of length $n.$
+	\begin{observation} Given $n,m\geq 1$\\
 	Any SAW of length $n+m$ can be decomposed into 2 SAWs of length $n$ and $m.$\\
 	$\Rightarrow \lambda_{n+m}\leq \lambda_n\cdot \lambda_m.$
+	\end{observation}
 	\begin{figure}[htp]
 	\centering
 	\def\svgwidth{7cm}
@@ -150,8 +153,7 @@ $>$
 	\def\svgwidth{15cm}
 	\incfig{Ex2 meshes}
 	\end{figure}
-	\item[\SOL] We first show a fact : 
-	\newpage
+	\begin{sol} We first show a fact : 
 	\textbf{Fact(ratio test and root test) :} Let $\{a_n\}_{n=1}^\infty$ be a sequence that take value in $(0,\infty).$ Then
 	\[
 	\lim_{n\to\infty}\frac{a_{n+1}}{a_n}=K\in\mathbb{R}\Rightarrow \lim_{n\to\infty}\sqrt[n]{a_n}=K.
@@ -174,15 +176,15 @@ $>$
 	\]
 	Therefore, $\lim\limits_{n\to\infty}\sqrt[n]{a_n}=K.$
 	\end{proof}
-	\begin{enumerate}
-		\item We first show that $\mu(\mathbb{Z}^2)>2:$
+	\newpage
+	We first show that $\mu(\mathbb{Z}^2)>2$:
+	\begin{proof}
 		\begin{figure}[htp]
 		\centering
 		\def\svgwidth{8cm}
 		\incfig{Ex2 Z2 lowerbound}
 		\end{figure}
-		\newpage
-		If we only consider the 3 direction $\uparrow,\rightarrow,\downarrow$ to choose for next step, ex : red line and blue line, we define $S(n)=\#$ SAWs with length $n$ that under this restriction, $n\geq 1$ and $S(0)=1.$ Now considering the samples SAWs are of length $n,$ then 
+		If we only consider the 3 directions $\uparrow,\rightarrow,\downarrow$ for the choice of the next step, ex : red line and blue line. We define $S(n)=\#$ SAWs with length $n$ that under this restriction, $n\geq 1$ and $S(0)=1.$ Now consider the samples SAWs that are of length $n$. Then 
 		\begin{align*}
 	    	S(n)=&\#\mbox{ SAWs passing } O\mbox{ with } \rightarrow\\
 	    	+\sum_{k=1}^n &\#\mbox{ SAWs passing } A_i\mbox{ with } \rightarrow + \sum_{k=1}^n \#\mbox{ SAWs passing } A_{-i}\mbox{ with } \rightarrow\\
@@ -258,7 +260,8 @@ $>$
 	    \end{bmatrix}\\
 	    \Rightarrow S(n+1)=& \frac{1}{2}\Big((1+\sqrt{2})^n(4+3\sqrt{2})-(1-\sqrt{2})^n(4-3\sqrt{2})\Big)
 	    \end{align*}
-	    Thus, $\mu(\mathbb{Z}^2)=\lim\limits_{n\to\infty}\sqrt[n+1]{\lambda_{n+1}}\geq \lim\limits_{n\to\infty}\sqrt[n+1]{S(n+1)}=1+\sqrt{2}>2.$\\[5pt]
+	    Thus, $\mu(\mathbb{Z}^2)=\lim\limits_{n\to\infty}\sqrt[n+1]{\lambda_{n+1}}\geq \lim\limits_{n\to\infty}\sqrt[n+1]{S(n+1)}=1+\sqrt{2}>2.$
+	    \end{proof}
 	    Next, we show that $\mu<3:$\\
 	    First, we calculate the number of SAWs of length 4 with the first move is $``\rightarrow"$
 	    \newpage
@@ -362,7 +365,7 @@ $>$
 		\[
 		\mu(\triangle)=\lim_{n\to\infty}\sqrt[n]{\lambda_n}\geq \lim_{n\to\infty}\sqrt[n]{S(n)}=\frac{3+\sqrt{17}}{2}>3.
 		\]
-		\item  Similar way to prove $\mu(\mathbb{Z}^2)<3,$ we use a simple calculate, deduce that 
+		Similar way to prove $\mu(\mathbb{Z}^2)<3,$ we use a simple calculate, deduce that 
 		\[
 		\lambda_{1+5}=(3\times 2^5-2)=\lambda_1\times 30
 		\]
@@ -374,13 +377,15 @@ $>$
 		\[
 		\mu(\sixedge)=\lim_{n\to\infty}\sqrt[1+5n]{\lambda_{1+5n}}\leq \lim_{n\to\infty}\sqrt[1+5n]{\lambda_1\times 30^n}=\sqrt[5]{30}<2
 		\]
-		\item \textit{Claim} `` $\mu(\mathbb{Z}\times\{0,1\})\geq \frac{1+\sqrt{5}}{2}$ " : \\
+		\begin{claim} $\mu(\mathbb{Z}\times\{0,1\})\geq \frac{1+\sqrt{5}}{2}$ \end{claim}
+		\begin{proof}
 		Let $S(n)$ be \# of SAWs with length $n$ that only move $\uparrow,\ \downarrow,\ \rightarrow$ in every step, and it is easy to see that $S(n)=S(n-1)+S(n_2),\quad n\geq 3,$ therefore
 		\[
 		\mu(\mathbb{Z}\times\{0,1\})=\lim_{n\to\infty}\sqrt[n]{\lambda_n}\geq\lim_{n\to\infty}\sqrt[n]{S(n)}=\frac{1+\sqrt{5}}{2}
 		\]
-		\newpage
-		\textit{Claim} `` $\mu(\mathbb{Z}\times\{0,1\})\leq\frac{1+\sqrt{5}}{2}$ " :\\
+		\end{proof}
+		\begin{claim} $\mu(\mathbb{Z}\times\{0,1\})\leq\frac{1+\sqrt{5}}{2}$ \end{claim}
+		\begin{proof}
 		Define $T(n)$ be \# of SAWs in $\mathbb{N}_0\times \{0,1\}$ of length $n$, $n\in \mathbb{N},$ and define $T(0)=1.$ You well find that recursive formula is a great way to slove these problem.
 		\[
 		T(n)=T(n-2)+T(n-3)+\cdots +T(0)+\gamma(n), 
@@ -426,16 +431,18 @@ $>$
 		\[
 		\mu(\mathbb{Z}\times \{0,1\})=\lim_{n\to\infty}\sqrt[n]{\lambda_n}\leq \lim_{n\to\infty}\sqrt[n]{4T(n+1)}=\frac{1+\sqrt{5}}{2}\quad \blacksquare
 		\]
-	\end{enumerate}
-	\item[\textbf{Remark.}] \begin{enumerate}
+		\end{proof}
+\end{sol}
+	\begin{remark} \begin{enumerate}
 		\item Highly non-trivial to compute $\mu.$
 		\item On the hexagonal lattice, it is shown that $\mu=\sqrt{2+\sqrt{2}}$ (2010, Copin at el.)
 		\item By computer simulation,\\
 		\textbf{Conjecture} : $Z_\beta=(\beta-\beta_c)^{-\gamma+o(1)}$ for $\beta\to \beta_c^+,$ where $\gamma$ only depends on that dimension of the lattice. In 2D, $\gamma=\frac{43}{32}$ (conjectured)
 		\item If we have $\lambda_N\sim \mu^NN^\alpha ,$ then $Z_\beta$ can be computed to satisfy $Z_\beta\sim (\beta-\beta_c)^{-1+\alpha},$ $\alpha=\frac{11}{32}$ in 2D (conjectured) 
 	\end{enumerate}
-	\item[\textbf{Exercise 3}] How to sample SAWs with computer. (Think of Markov process whose invariant measure is $\mathbb{P}_\beta$)
-\end{enumerate}
+	\end{remark}
+	\begin{ex} How to sample SAWs with computer. (Think of Markov process whose invariant measure is $\mathbb{P}_\beta$)\end{ex}
+
 \newpage
 \section{Bernoulli Percolation}
 \begin{flushleft}
