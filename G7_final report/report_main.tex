@@ -22,18 +22,33 @@
 \newpage
 \setcounter{page}{1}
 %----------------------------------------------------------------------------------------------------------------------------------------------------
-\section*{Abstract}
+\section{Abstract}
 We study the percolation phenomenon in planar statistical physics using probability theory tools. We especially focus on \textit{Bernoulli percolation model}. 
 In the first three weeks, we received classes covering four main topics. Those classes introduce methods to discuss the connecting property and phase transition behavior on some regular lattice such as $\mathbb{Z}^2,\mathbb{T}_d$, triangular lattice or hexagon lattice. 
 After the classes were over, we went on individual research to explore topics such as exponential decay near critical probability and scaling invariant property of the crossing events.
-\section*{Course Progress}
-\subsection*{(Planer) Statistical Mechanics}
-\subsection*{Planar Statistical Physics and Bernoulli Percolation}
-\subsection*{Useful Identities \& Applications}
-\subsection*{Exponential Decay}
+\section{Course Progress}
+\setcounter{subsection}{-1}
+\subsection{(Planer) Statistical Mechanics}
+
+%----------
+\subsection{Planar Statistical Physics and Bernoulli Percolation}
 
 
-\subsection*{Russo-Seymour-Welsh Theorem}
+%----------
+\subsection{Useful Identities \& Applications}
+
+%----------
+\subsection{Exponential Decay}\label{Course_Progress:Exponentia_Decay}
+One of the reason we introduce exponential decay is to show that $p_c \leq \frac{1}{2}$ on $\mathbb{Z}^d$(shown by Harry Kesten in the 80s). 
+For $\mathbb{Z}^d$ with $d\geq 1$, depending on whether $p$ is larger than $p_c$, the probability of the origin connected to $\partial \Lambda_n$  ($0 \longleftarrow \partial \Lambda_n$) will either decay exponentially as $n$ grows or bounded below by a constant depending on p. 
+Once knowing the above fact, we can show that $\mathbb{P}_p (\mathcal{H}_n)$, the probability of horizontal crossing on $R_n$($[0,n]\times [0,n+1]$) box, also decrease exponentially as $n$ grows under $p < p_c$. 
+In the discussion of $\mathbb{Z}^2$, if $p_c < \frac{1}{2}$, we will get a contradiction to $\mathbb{P}_{\frac{1}{2}}(\mathcal{H}_n) = 1/2$ for any $n \in \mathbb{N}$. Therefore, combining the previous discussion we know $p_c = \frac{1}{2}$ on $\mathbb{Z}^2$.
+
+We can observe exponential decay on other event. For example, the size of $C$, where $C$ is the connected component containing the origin, and the probability of the origin connected to a point on one axis with distance $n$ ($0 \longleftarrow ne_1$). In the latter event, we applied the extension of Fekete subadditive lemma to get the parameter for the decay, \textit{correlation length} $\xi(p)$. 
+Using the same method, the rate of decay $\varphi(p)$ for $0 \longleftarrow \partial \Lambda_n$ is also acquired, and we know $\varphi(p) = \xi(p)^{-1}$.
+
+%----------
+\subsection{Russo-Seymour-Welsh Theorem}
 In this section, we discuss the scale invariant property of some connecting events when $p=p_c$ on $\mathbb{Z}^2$ lattice. In particular, we presents the invariant behaviour of the \textit{horizontal crossing event in a rectangle of size $[0,\rho n]\times[0,n]$}, which is denoted by $\mathcal{H}(\rho n, n)$.\\ \\
 \textbf{Theorem (Russo-Seymour-Welsh).}
 \textit{Let $\rho>0$. There exists $c=c(\rho)>0$ such that for all $n\geq 1$, we have}
@@ -69,9 +84,12 @@ With Russo-Seymour-Welsh's theory, we're able to give a scale invariant property
     
     
 
-\section*{Individual Research}
+\section{Individual Research}
 \subsection*{Hao: Exponential Decay}
-\section*{Future Work}
+In \ref{Course_Progress:Exponentia_Decay}, we were left with on solved exercise 
+
+
+\section{Future Work}
 
 There are several directions in the future. For example, on the scaling invariant property, RSW theory gave us a way to obtain the uniform probability bounds of crossing events, but we can also ask the question about the scaling limit of a crossing event, not only the uniform bounds. We'll try to apply the discrete analytic ideas developed by Simrnov to extend the scaling problem on different types of lattice.
 
