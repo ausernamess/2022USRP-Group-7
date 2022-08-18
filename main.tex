@@ -617,7 +617,7 @@ We first consider $\mathbb{Z}^d$ lattices,
 	    &=\theta_N(q)-\theta_N(p)+\theta_N(p)-\theta(p)<\frac{\varepsilon}{2}+\frac{\varepsilon}{2}=\varepsilon.	        
 	    \end{align*}
 	    which implies that $\theta$ is right-continuous on $[0,1].$
-	    \item
+	    \item  
 	    \item Suppose that $\theta$ is not strictly increasing on $(p_c,1],$ then there exist $ p,q,\ p_c<p<q\leq 1$ such that $\theta(p)=\theta(q).$\\
 	    Now, given $x\in V(G),$ we say that $x$ is a \textbf{escape point} (esc-point) of a subgraph $\omega$ of $G$ if $x\leftrightarrow\infty.$ Given $e\in E(G),$ we say that $e$ is an \textbf{isolated edge} (iso-edge) of $\omega$ if $e$ connects an esc-point and a non-esc-point. Therefore, if $e$ is an iso-edge of $\omega,$ then $\omega(e)=0.$\\
 	    Given $s\in [0,1]$ define $X_{n,s}=\#$ esc-points of $\Lambda_n$ in $\omega_s,\ Y_{n,s}=\#$ iso-edges of $E(\Lambda_n)$ in $\omega_s.$ We find that
@@ -847,6 +847,14 @@ We first consider $\mathbb{Z}^d$ lattices,
 		This implies $c=0$ (contradiction)
 	\end{enumerate}
 	\end{proof}
+\begin{remark}
+In fact, the above proof can be applied to the infinite locally finite transitive amenable graph with some modifications.
+\end{remark}
+\begin{proof}
+The step one can be directly copied to our situation. For the step two, since the graph is transitive, we could fix any vertex as origin o and replace $\partial\Lambda_n=[-n,n]^d$ by $A_n=\{x\in G\mid 1\leq d(x,o)\leq n\}$. Let $B_n=\{N=k\text{ and all infinite clusters intersect in } A_n\}$ and let $B=\{N=k\}$.
+Then $B$ can be approximated by $B_n$. For any $\varepsilon>0$, we can fix large $n$ such that $\mathbb{P}_p(B_n)\geq 1-\epsilon$. Let $C_n=\{\text{all infinite clusters intersect in }A_n\}$. The remaining parts are almost the same but notice that the assumption "locally finite" makes sure that $\mathbb{P}_p(C_n\cap \{\text{all edges in } A_n \text{ are open}\})=\mathbb{P}_p(C_n)\mathbb(\{\text{all edges in } A_n \text{ are open}\})>0$. Recall that we say a graph is amenable if 
+\[\inf_{G\in g} \frac{|\partial G|}{G}=0.\]This is essential to establish the inequality at the end of the proof.
+\end{proof}
 	\item[\textbf{Exercise 2}] \begin{enumerate}
 		\item For which general graphs does this theorem hold?
 		\item If we do not require uniqueness, to which graph can this theorem be extended?
@@ -878,7 +886,7 @@ We first consider $\mathbb{Z}^d$ lattices,
 	\end{figure}
 	\item[\SOL] Note that $[N\geq 1]=[\exists$ an infinite cluster $].$
 	\begin{enumerate}
-	    \item[$``\Rightarrow":$] If $\theta(p)>0,$ then $\mathbb{P}_p[\exists\mbox{ an infinite cluster}]\geq\theta(p)>0,$ because of\\ $[\exists\mbox{ an infinite cluster}]$ is invariant under any vector $e\in G,$ we have
+	    \item[$``\Rightarrow":$] If $\theta(p)>0,$ then $\mathbb{P}_p[\exists\mbox{ an infinite cluster}]\geq\theta(p)>0$ because $[\exists\mbox{ an infinite cluster}]$ is invariant under any vector $e\in G$. We have
 	    \[
 	   \mathbb{P}_p[\exists\mbox{ an infinite cluster}]=0\mbox{ or }1.
 	    \]
@@ -894,14 +902,7 @@ We first consider $\mathbb{Z}^d$ lattices,
 	    a contradiction.\qquad $\blacksquare$
 	\end{enumerate}
 \end{enumerate}
-\begin{remark}
-In fact, the above proof can be applied to the infinite locally finite transitive amenable graph with some modification.
-\end{remark}
-\begin{proof}
-The step one can be directly copied to our situation. For the step two, since the graph is transitive, we could fix any vertex as origin o and replace $\partial\Lambda_n=[-n,n]^d$ by $A_n=\{x\in G\mid 1\leq d(x,o)\leq n\}$. Let $B_n=\{N=k\text{ and all infinite clusters intersect in } A_n\}$ and let $B=\{N=k\}$.
-Then $B$ can be approximated by $B_n$. For any $\varepsilon>0$, we can fix large $n$ such that $\mathbb{P}_p(B_n)\geq 1-\epsilon$. Let $C_n=\{\text{all infinite clusters intersect in }A_n\}$. The remaining parts are almost the same but notice that the assumption "locally finite" makes sure that $\mathbb{P}_p(C_n\cap \{\text{all edges in } A_n \text{ are open}\})=\mathbb{P}_p(C_n)\mathbb(\{\text{all edges in } A_n \text{ are open}\})>0$. Recall that we say a graph is amenable if 
-\[\inf_{G\in g} \frac{|\partial G|}{G}=0.\]This is essential to establish the inequality at the end of the proof.
-\end{proof}
+
 <<<<<<< HEAD
 =======
 >>>>>>> 4bce7d56956f5def48a7b5bc31cda4fd108e7f39
@@ -957,9 +958,9 @@ Probability space $\Omega=\{0,1\}^{\Lambda}$ where $\Lambda$ is finite or counta
         \item $\mathcal{U},\mathcal{V}\subseteq V(\Lambda),\ \{\mathcal{U}\leftrightarrow\mathcal{V}\}:=\bigcup\limits_{\substack{x\in \mathcal{U}\\ y\in \mathcal{V}}}\{x\leftrightarrow y\}$
         \item Let $x\in V(\Lambda),\ \{x\leftrightarrow\infty\}:=\{x\mbox{ belongs to an infinite cluster}\}.$
     \end{enumerate}
-    \item[\SOL] Let $\mathcal{F}$ be the collection of events that only depend on finite edges, and let $\mathcal{I}$ be all increasing event in $\sigma(\mathcal{F}).$ Our goal is to check that $\sigma(\mathcal{F})=\sigma(\mathcal{I}).$\\[5pt]
-    $1^\circ$ Obviously, because $\mathcal{I}\subseteq \sigma(\mathcal{F}),$ thus $\sigma(\mathcal{I})\subseteq \sigma(\mathcal{F})$\\[5pt]
-    $2^\circ$ Observe that for all $e\in E(G),$ the event $\{\omega(e)=1\}$ is an increasing event, and because $\{\omega(e)=0\}=\{\omega(e)=1\}^\complement\Rightarrow\{\omega(e)=1\},\ \{\omega(e)=0\}\in \sigma(\mathcal{I}).$ Now, we take an event $A\in \mathcal{F},$ say $A$ only depending on finite edges $\{e_1,\cdots ,e_n\}\subseteq E(G),$ thus 
+    \item[\SOL] Let $\mathcal{F}$ be the collection of events that only depend on finite edges, and let $\mathcal{I}$ be all increasing events in $\sigma(\mathcal{F}).$ Our goal is to check that $\sigma(\mathcal{F})=\sigma(\mathcal{I}).$\\[5pt]
+    $1^\circ$ Obviously, since $\mathcal{I}\subseteq \sigma(\mathcal{F}),$ we have $\sigma(\mathcal{I})\subseteq \sigma(\mathcal{F})$\\[5pt]
+    $2^\circ$ Observe that for all $e\in E(G),$ the event $\{\omega(e)=1\}$ is an increasing event. Since $\{\omega(e)=0\}=\{\omega(e)=1\}^\complement$, this implies $\{\omega(e)=1\},\ \{\omega(e)=0\}\in \sigma(\mathcal{I}).$ Now, we take an event $A\in \mathcal{F}$ and say  that $A$ only depends on finitely many edges $\{e_1,\cdots ,e_n\}\subseteq E(G)$. It follows that  
     \[
     A\in\sigma(\{e_1=1\},\{e_2=1\},\cdots ,\{e_n=1\})\subseteq \sigma(\mathcal{I}).
     \]
