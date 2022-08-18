@@ -1,0 +1,193 @@
+\usepackage{amsmath, amsfonts, mathtools, amsthm, amssymb}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{mathrsfs}
+\usepackage{booktabs}
+\usepackage{mathtools}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{color}
+\usepackage{caption}
+\usepackage{array}
+\usepackage{etoolbox}
+\usepackage{physics}
+\usepackage{siunitx}
+\usepackage[natbib=true,style=numeric,sorting=none]{biblatex}
+\usepackage[T1]{fontenc}
+\usepackage{inconsolata}
+\usepackage[nodayofweek]{datetime}
+\usepackage[british]{datetime2}
+\usepackage{lastpage}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=red]{hyperref}
+\input{./Math.tex}
+
+
+% when you need multi-row in tabular
+\usepackage{multirow}
+
+\geometry{a4paper,left=2.54cm,right=2.54cm,top=2.54cm,bottom=2.54cm}
+\setlength{\headheight}{13.59999pt}
+\setlength{\parindent}{1em}
+\thispagestyle{empty}
+
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\renewcommand{\qed}{\hfill\(\blacksquare\)}
+
+\renewcommand{\emph}[1]{{\color{Turquoise3}\textsl{#1}}}
+\definecolor{Turquoise3}{RGB}{0, 134, 139}
+
+\newcommand\blfootnote[1]{%
+	\begingroup
+	\renewcommand\thefootnote{}\footnote{#1}%
+	\addtocounter{footnote}{-1}%
+	\endgroup
+}
+
+% horizontal rule
+\newcommand\hr{
+	\noindent\rule[0.5ex]{\linewidth}{0.5pt}
+}
+
+% TodoNotes and inline notes in fancy boxes
+\usepackage{todonotes}
+\usepackage{tcolorbox}
+
+% Algorithm Env
+\usepackage[linesnumbered,lined,vlined,ruled,commentsnumbered]{algorithm2e}
+\SetKwComment{Comment}{// }{}
+\SetArgSty{textsl}
+
+\pdfsuppresswarningpagegroup=1
+\usepackage{fancyhdr} % Required for customizing headers and footers
+
+\pagestyle{fancy} % Enable custom headers and footers
+
+\lhead{\small\Instuition: \   \Course} % Left header; output the instructor in brackets if one was set
+\chead{} % Centre header
+\rhead{}
+
+\rhead{\small\ifdef{\DueDate}{Due\ \DueDate}{}} % Right header; output the author name if one was set, otherwise the due date if that was set
+
+
+\lfoot{} % Left footer
+\cfoot{\small Page\ \thepage\ of\ \pageref{LastPage}} % Centre footer
+\rfoot{} % Right footer
+
+% Appendix environment
+\usepackage{appendix}
+\def\sectionautorefname{Section}
+\def\subsectionautorefname{Section}
+\def\appendixautorefname{Appendix}
+\renewcommand\appendixname{Appendix}
+\renewcommand\appendixtocname{Appendix}
+\renewcommand\appendixpagename{Appendix}
+% begin appendix autoref patch [\autoref subsections in appendix](https://tex.stackexchange.com/questions/149807/autoref-subsections-in-appendix)
+\makeatletter
+\patchcmd{\hyper@makecurrent}{%
+	\ifx\Hy@param\Hy@chapterstring
+		\let\Hy@param\Hy@chapapp
+	\fi
+}{%
+	\iftoggle{inappendix}{%true-branch
+		% list the names of all sectioning counters here
+		\@checkappendixparam{chapter}%
+		\@checkappendixparam{section}%
+		\@checkappendixparam{subsection}%
+		\@checkappendixparam{subsubsection}%
+		\@checkappendixparam{paragraph}%
+		\@checkappendixparam{subparagraph}%
+	}{}%
+}{}{\errmessage{failed to patch}}
+
+\newcommand*{\@checkappendixparam}[1]{%
+	\def\@checkappendixparamtmp{#1}%
+	\ifx\Hy@param\@checkappendixparamtmp
+		\let\Hy@param\Hy@appendixstring
+	\fi
+}
+\makeatletter
+
+\newtoggle{inappendix}
+\togglefalse{inappendix}
+
+\apptocmd{\appendix}{\toggletrue{inappendix}}{}{\errmessage{failed to patch}}
+\apptocmd{\subappendices}{\toggletrue{inappendix}}{}{\errmessage{failed to patch}}
+% end appendix autoref patch
+
+% Environments
+\makeatother
+% For box around Definition, Theorem, etc.
+\usepackage{mdframed}
+\mdfsetup{skipabove=1em,skipbelow=0em}
+\theoremstyle{definition}
+\newmdtheoremenv[nobreak=true]{definition}{Definition}[section]
+\providecommand*\definitionautorefname{Definition}
+\newmdtheoremenv[nobreak=true]{theorem}{Theorem}[section]
+\providecommand*\theoremautorefname{Theorem}
+\newmdtheoremenv[nobreak=true]{lemma}{Lemma}[section]
+\providecommand*\lemmaautorefname{Lemma}
+\newmdtheoremenv[nobreak=true]{corollary}{Corollary}[section]
+\providecommand*\corollaryautorefname{Corollary}
+\newmdtheoremenv[nobreak=true]{proposition}{Proposition}[section]
+\providecommand*\propositionautorefname{Proposition}
+
+\makeatletter
+
+\renewcommand\headrulewidth{0.5pt}
+
+\makeatletter
+\def\@maketitle{%
+	\newpage
+	\null
+	\vskip 2em%
+	\begin{center}%
+		\let \footnote \thanks
+		{\LARGE \@title \par}%
+		\vskip 1.5em%
+			{\large
+				\lineskip .5em%
+				\begin{tabular}[t]{c}%
+					\@author \\
+                    \ifdef{\Instructor}{Instructor: \Instructor}{}
+					\normalsize{
+						\ifdef{\Uniquname}{Uniquname: \Uniquname}{}
+						\hspace{1em}
+						\ifdef{\UMID}{umid: \UMID}{}
+					}
+				\end{tabular}\par}%
+		\vskip 1em%
+			{\large \@date}%
+	\end{center}%
+	\par
+	\vskip 1.5em
+}
+\makeatother
+
+\title{
+	\begin{center}
+		\rule{15cm}{0.01cm}
+		\\\LARGE{
+			\Instuition
+			%\\
+			%\SeasonYear
+			\\
+			\Course
+		}
+		\\\rule{15cm}{0.01cm}
+		\\\vspace{6cm}
+		\begin{huge}
+			\sc{\Title}
+		\end{huge}
+	\end{center}
+	\vfill
+	\flushleft
+	\ifdef{\Group}{
+		\begin{center}
+			\large
+			\sc{\Group}
+			\mbox{}
+		\end{center}
+	}{}
+}
