@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.2)  2 AUG 2022 14:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.2)  18 AUG 2022 13:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,19 +6,20 @@ entering extended mode
 (main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
-(C:\Program Files\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
-\c@section=\count186
-\c@subsection=\count187
-\c@subsubsection=\count188
-\c@paragraph=\count189
-\c@subparagraph=\count190
-\c@figure=\count191
-\c@table=\count192
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -36,9 +37,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count193
-\Gm@cntv=\count194
-\c@Gm@tempcnt=\count195
+\Gm@cnth=\count194
+\Gm@cntv=\count195
+\c@Gm@tempcnt=\count196
 \Gm@bindingoffset=\dimen139
 \Gm@wd@mp=\dimen140
 \Gm@odd@mp=\dimen141
@@ -190,13 +191,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count196
+\inf@bad=\count197
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count197
-\leftroot@=\count198
+\uproot@=\count198
+\leftroot@=\count199
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count199
-\DOTSCASE@=\count266
+\classnum@=\count266
+\DOTSCASE@=\count267
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -205,15 +206,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen149
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count267
-\c@MaxMatrixCols=\count268
+\macc@depth=\count268
+\c@MaxMatrixCols=\count269
 \dotsspace@=\muskip16
-\c@parentequation=\count269
-\dspbrk@lvl=\count270
+\c@parentequation=\count270
+\dspbrk@lvl=\count271
 \tag@help=\toks28
-\row@=\count271
-\column@=\count272
-\maxfields@=\count273
+\row@=\count272
+\column@=\count273
+\maxfields@=\count274
 \andhelp@=\toks29
 \eqnshift@=\dimen150
 \alignsep@=\dimen151
@@ -236,15 +237,15 @@ Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 
 (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count274
-\calc@Bcount=\count275
+\calc@Acount=\count275
+\calc@Bcount=\count276
 \calc@Adimen=\dimen156
 \calc@Bdimen=\dimen157
 \calc@Askip=\skip55
 \calc@Bskip=\skip56
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count276
+\calc@Ccount=\count277
 \calc@Cskip=\skip57
 )
 (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
@@ -306,12 +307,12 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 (C:\Program Files\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count277
+\pdfpages@includegraphics@status=\count278
 \AM@pagebox=\box53
 \AM@global@opts=\toks32
-\AM@pagecnt=\count278
+\AM@pagecnt=\count279
 \AM@toc@title=\toks33
-\c@AM@survey=\count279
+\c@AM@survey=\count280
 \AM@templatesizebox=\box54
 )
 (C:\Program Files\MiKTeX\tex/latex/transparent\transparent.sty
@@ -326,21 +327,21 @@ Package: overpic 2020/02/22 1.3 picture overlays (RN)
 
 (C:\Program Files\MiKTeX\tex/latex/eepic\epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count280
-\d@lta=\count281
+\@@multicnt=\count281
+\d@lta=\count282
 \@delta=\dimen165
 \@@delta=\dimen166
-\@gridcnt=\count282
-\@joinkind=\count283
+\@gridcnt=\count283
+\@joinkind=\count284
 \@dotgap=\dimen167
 \@ddotgap=\dimen168
-\@x@diff=\count284
-\@y@diff=\count285
+\@x@diff=\count285
+\@y@diff=\count286
 \x@diff=\dimen169
 \y@diff=\dimen170
 \@dotbox=\box55
-\num@segments=\count286
-\num@segmentsi=\count287
+\num@segments=\count287
+\num@segmentsi=\count288
 \@datafile=\read2
 )
 \OVP@box=\box56
@@ -349,7 +350,7 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count288
+\c@r@tfl@t=\count289
 \rotFPtop=\skip58
 \rotFPbot=\skip59
 \rot@float@box=\box57
@@ -361,92 +362,358 @@ Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
 )
+(C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+
+(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count290
+)
+(C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Program Files\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:\Program Files\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count291
+
+(C:\Program Files\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count292
+\c@listtotal=\count293
+\c@listcount=\count294
+\c@liststart=\count295
+\c@liststop=\count296
+\c@citecount=\count297
+\c@citetotal=\count298
+\c@multicitecount=\count299
+\c@multicitetotal=\count300
+\c@instcount=\count301
+\c@maxnames=\count302
+\c@minnames=\count303
+\c@maxitems=\count304
+\c@minitems=\count305
+\c@citecounter=\count306
+\c@maxcitecounter=\count307
+\c@savedcitecounter=\count308
+\c@uniquelist=\count309
+\c@uniquename=\count310
+\c@refsection=\count311
+\c@refsegment=\count312
+\c@maxextratitle=\count313
+\c@maxextratitleyear=\count314
+\c@maxextraname=\count315
+\c@maxextradate=\count316
+\c@maxextraalpha=\count317
+\c@abbrvpenalty=\count318
+\c@highnamepenalty=\count319
+\c@lownamepenalty=\count320
+\c@maxparens=\count321
+\c@parenlevel=\count322
+\blx@tempcnta=\count323
+\blx@tempcntb=\count324
+\blx@tempcntc=\count325
+\blx@maxsection=\count326
+\blx@maxsegment@0=\count327
+\blx@notetype=\count328
+\blx@parenlevel@text=\count329
+\blx@parenlevel@foot=\count330
+\blx@sectionciteorder@0=\count331
+\blx@entrysetcounter=\count332
+\blx@biblioinstance=\count333
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\biblabelsep=\skip62
+\bibitemsep=\skip63
+\bibnamesep=\skip64
+\bibinitsep=\skip65
+\bibparsep=\skip66
+\bibhang=\skip67
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language79
+\c@mincomprange=\count334
+\c@maxcomprange=\count335
+\c@mincompwidth=\count336
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count337
+\c@savedafterword=\count338
+\c@annotator=\count339
+\c@savedannotator=\count340
+\c@author=\count341
+\c@savedauthor=\count342
+\c@bookauthor=\count343
+\c@savedbookauthor=\count344
+\c@commentator=\count345
+\c@savedcommentator=\count346
+\c@editor=\count347
+\c@savededitor=\count348
+\c@editora=\count349
+\c@savededitora=\count350
+\c@editorb=\count351
+\c@savededitorb=\count352
+\c@editorc=\count353
+\c@savededitorc=\count354
+\c@foreword=\count355
+\c@savedforeword=\count356
+\c@holder=\count357
+\c@savedholder=\count358
+\c@introduction=\count359
+\c@savedintroduction=\count360
+\c@namea=\count361
+\c@savednamea=\count362
+\c@nameb=\count363
+\c@savednameb=\count364
+\c@namec=\count365
+\c@savednamec=\count366
+\c@translator=\count367
+\c@savedtranslator=\count368
+\c@shortauthor=\count369
+\c@savedshortauthor=\count370
+\c@shorteditor=\count371
+\c@savedshorteditor=\count372
+\c@labelname=\count373
+\c@savedlabelname=\count374
+\c@institution=\count375
+\c@savedinstitution=\count376
+\c@lista=\count377
+\c@savedlista=\count378
+\c@listb=\count379
+\c@savedlistb=\count380
+\c@listc=\count381
+\c@savedlistc=\count382
+\c@listd=\count383
+\c@savedlistd=\count384
+\c@liste=\count385
+\c@savedliste=\count386
+\c@listf=\count387
+\c@savedlistf=\count388
+\c@location=\count389
+\c@savedlocation=\count390
+\c@organization=\count391
+\c@savedorganization=\count392
+\c@origlocation=\count393
+\c@savedoriglocation=\count394
+\c@origpublisher=\count395
+\c@savedorigpublisher=\count396
+\c@publisher=\count397
+\c@savedpublisher=\count398
+\c@language=\count399
+\c@savedlanguage=\count400
+\c@origlanguage=\count401
+\c@savedoriglanguage=\count402
+\c@pageref=\count403
+\c@savedpageref=\count404
+\shorthandwidth=\skip68
+\shortjournalwidth=\skip69
+\shortserieswidth=\skip70
+\shorttitlewidth=\skip71
+\shortauthorwidth=\skip72
+\shorteditorwidth=\skip73
+\locallabelnumberwidth=\skip74
+\locallabelalphawidth=\skip75
+\localshorthandwidth=\skip76
+\localshortjournalwidth=\skip77
+\localshortserieswidth=\skip78
+\localshorttitlewidth=\skip79
+\localshortauthorwidth=\skip80
+\localshorteditorwidth=\skip81
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count405
+\c@textcitetotal=\count406
+\c@textcitemaxnames=\count407
+\c@biburlbigbreakpenalty=\count408
+\c@biburlbreakpenalty=\count409
+\c@biburlnumpenalty=\count410
+\c@biburlucpenalty=\count411
+\c@biburllcpenalty=\count412
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count413
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count414
+\c@bbx:relatedtotal=\count415
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+))
+(C:\Program Files\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+
+(C:\Program Files\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count416
+\l_MT_multwidth_dim=\dimen171
+\origjot=\skip82
+\l_MT_shortvdotswithinadjustabove_dim=\dimen172
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen173
+\l_MT_above_intertext_sep=\dimen174
+\l_MT_below_intertext_sep=\dimen175
+\l_MT_above_shortintertext_sep=\dimen176
+\l_MT_below_shortintertext_sep=\dimen177
+\xmathstrut@box=\box58
+\xmathstrut@dim=\dimen178
+)
+\@quotelevel=\count417
+\@quotereset=\count418
+
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count289
-\l__pdf_internal_box=\box58
+\l__color_backend_stack_int=\count419
+\l__pdf_internal_box=\box59
 )
 (C:\Users\我\Desktop\2022USRP-Group-7\build\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -484,16 +751,16 @@ LaTeX Font Info:    ... okay on input line 32.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count290
-\scratchdimen=\dimen171
-\scratchbox=\box59
-\nofMPsegments=\count291
-\nofMParguments=\count292
+\scratchcounter=\count420
+\scratchdimen=\dimen179
+\scratchbox=\box60
+\nofMPsegments=\count421
+\nofMParguments=\count422
 \everyMPshowfont=\toks35
-\MPscratchCnt=\count293
-\MPscratchDim=\dimen172
-\MPnumerator=\count294
-\makeMPintoPDFobject=\count295
+\MPscratchCnt=\count423
+\MPscratchDim=\dimen180
+\MPnumerator=\count424
+\makeMPintoPDFobject=\count425
 \everyMPtoPDFconversion=\toks36
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -511,12 +778,44 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+)
+Package biblatex Info: ... and expl3
+(biblatex)             2022-01-21 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
+(C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
+Package biblatex Info: Reference section=0 on input line 39.
+Package biblatex Info: Reference segment=0 on input line 39.
 <./picture/p=0.45.png, id=1, 657.0pt x 657.0pt>
 File: ./picture/p=0.45.png Graphic file (type png)
 <use ./picture/p=0.45.png>
-Package pdftex.def Info: ./picture/p=0.45.png  used on input line 37.
+Package pdftex.def Info: ./picture/p=0.45.png  used on input line 44.
 (pdftex.def)             Requested size: 426.79134pt x 426.80434pt.
-
 (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.bdg
 File: UTF8.bdg 2021/10/16 4.8.5
 )
@@ -527,7 +826,7 @@ File: UTF8.enc 2021/10/16 4.8.5
 File: UTF8.chr 2021/10/16 4.8.5
 )
 LaTeX Font Info:    Trying to load font information for C70+bkai on input line 
-42.
+49.
 
 (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\c70bkai.fd
 File: c70bkai.fd 2021/10/16 4.8.5
@@ -538,30 +837,32 @@ File: c70bkai.fdx 2021/10/16 4.8.5
 
 {C:/Users/我/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./picture/p=0.
 45.png>]
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 62
+Chapter 0.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 63
 .
-
 (C:\Program Files\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 62
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 63
 .
 
 (C:\Program Files\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-) [2] [3]
+) [2
+
+] [3]
 (picture/SAW1.pdf_tex
 <./picture//SAW1.pdf, id=52, page=1, 492.94218pt x 347.92209pt>
 File: ./picture//SAW1.pdf Graphic file (type pdf)
@@ -904,29 +1205,33 @@ Package pdftex.def Info: ./picture//I3.pdf , page1 used on input line 56.
 
 pdfTeX warning: pdflatex (file ./picture//I3.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
->] [14] [15] (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
+>] [14] [15]
+Chapter 1.
+(C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
 )
 (C:\Program Files\MiKTeX\tex/latex/cjk/UTF8\UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
-) [16]
+) [16
+
+]
 (picture/1.Ex3.pdf_tex
-<./picture//1.Ex3.pdf, id=185, page=1, 604.65988pt x 226.23817pt>
+<./picture//1.Ex3.pdf, id=184, page=1, 604.65988pt x 226.23817pt>
 File: ./picture//1.Ex3.pdf Graphic file (type pdf)
 <use ./picture//1.Ex3.pdf, page 1>
 Package pdftex.def Info: ./picture//1.Ex3.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 341.43306pt x 127.74884pt.
-<./picture//1.Ex3.pdf, id=186, page=2, 604.65988pt x 226.23817pt>
+<./picture//1.Ex3.pdf, id=185, page=2, 604.65988pt x 226.23817pt>
 File: ./picture//1.Ex3.pdf Graphic file (type pdf)
 <use ./picture//1.Ex3.pdf, page 2>
 Package pdftex.def Info: ./picture//1.Ex3.pdf , page2 used on input line 63.
 (pdftex.def)             Requested size: 341.43306pt x 127.74884pt.
-<./picture//1.Ex3.pdf, id=187, page=3, 604.65988pt x 226.23817pt>
+<./picture//1.Ex3.pdf, id=186, page=3, 604.65988pt x 226.23817pt>
 File: ./picture//1.Ex3.pdf Graphic file (type pdf)
 <use ./picture//1.Ex3.pdf, page 3>
 Package pdftex.def Info: ./picture//1.Ex3.pdf , page3 used on input line 66.
 (pdftex.def)             Requested size: 341.43306pt x 127.74884pt.
-<./picture//1.Ex3.pdf, id=188, page=4, 604.65988pt x 226.23817pt>
+<./picture//1.Ex3.pdf, id=187, page=4, 604.65988pt x 226.23817pt>
 File: ./picture//1.Ex3.pdf Graphic file (type pdf)
 <use ./picture//1.Ex3.pdf, page 4>
 Package pdftex.def Info: ./picture//1.Ex3.pdf , page4 used on input line 70.
@@ -950,25 +1255,25 @@ File: UTF8.enc 2021/10/16 4.8.5
 File: UTF8.chr 2021/10/16 4.8.5
 ) [20]
 (picture/shift function.pdf_tex
-<./picture//shift function.pdf, id=214, page=1, 949.08986pt x 426.79132pt>
+<./picture//shift function.pdf, id=213, page=1, 949.08986pt x 426.79132pt>
 File: ./picture//shift function.pdf Graphic file (type pdf)
 <use ./picture//shift function.pdf, page 1>
 Package pdftex.def Info: ./picture//shift function.pdf , page1 used on input li
 ne 56.
 (pdftex.def)             Requested size: 284.52756pt x 127.9472pt.
-<./picture//shift function.pdf, id=215, page=2, 949.08986pt x 426.79132pt>
+<./picture//shift function.pdf, id=214, page=2, 949.08986pt x 426.79132pt>
 File: ./picture//shift function.pdf Graphic file (type pdf)
 <use ./picture//shift function.pdf, page 2>
 Package pdftex.def Info: ./picture//shift function.pdf , page2 used on input li
 ne 58.
 (pdftex.def)             Requested size: 284.52756pt x 127.9472pt.
-<./picture//shift function.pdf, id=216, page=3, 949.08986pt x 426.79132pt>
+<./picture//shift function.pdf, id=215, page=3, 949.08986pt x 426.79132pt>
 File: ./picture//shift function.pdf Graphic file (type pdf)
 <use ./picture//shift function.pdf, page 3>
 Package pdftex.def Info: ./picture//shift function.pdf , page3 used on input li
 ne 62.
 (pdftex.def)             Requested size: 284.52756pt x 127.9472pt.
-<./picture//shift function.pdf, id=217, page=4, 949.08986pt x 426.79132pt>
+<./picture//shift function.pdf, id=216, page=4, 949.08986pt x 426.79132pt>
 File: ./picture//shift function.pdf Graphic file (type pdf)
 <use ./picture//shift function.pdf, page 4>
 Package pdftex.def Info: ./picture//shift function.pdf , page4 used on input li
@@ -987,13 +1292,13 @@ ultiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./picture//shift function.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >] (picture/intersect.pdf_tex
-<./picture//intersect.pdf, id=223, page=1, 514.0375pt x 524.23833pt>
+<./picture//intersect.pdf, id=222, page=1, 514.0375pt x 524.23833pt>
 File: ./picture//intersect.pdf Graphic file (type pdf)
 <use ./picture//intersect.pdf, page 1>
 Package pdftex.def Info: ./picture//intersect.pdf , page1 used on input line 56
 .
 (pdftex.def)             Requested size: 170.71652pt x 174.10307pt.
-<./picture//intersect.pdf, id=224, page=2, 514.0375pt x 524.23833pt>
+<./picture//intersect.pdf, id=223, page=2, 514.0375pt x 524.23833pt>
 File: ./picture//intersect.pdf Graphic file (type pdf)
 <use ./picture//intersect.pdf, page 2>
 Package pdftex.def Info: ./picture//intersect.pdf , page2 used on input line 58
@@ -1007,25 +1312,25 @@ File: UTF8.enc 2021/10/16 4.8.5
 File: UTF8.chr 2021/10/16 4.8.5
 )
 (picture/trifurcation point.pdf_tex
-<./picture//trifurcation point.pdf, id=227, page=1, 341.31767pt x 261.41028pt>
+<./picture//trifurcation point.pdf, id=226, page=1, 341.31767pt x 261.41028pt>
 File: ./picture//trifurcation point.pdf Graphic file (type pdf)
 <use ./picture//trifurcation point.pdf, page 1>
 Package pdftex.def Info: ./picture//trifurcation point.pdf , page1 used on inpu
 t line 56.
 (pdftex.def)             Requested size: 227.62204pt x 174.33424pt.
-<./picture//trifurcation point.pdf, id=228, page=2, 341.31767pt x 261.41028pt>
+<./picture//trifurcation point.pdf, id=227, page=2, 341.31767pt x 261.41028pt>
 File: ./picture//trifurcation point.pdf Graphic file (type pdf)
 <use ./picture//trifurcation point.pdf, page 2>
 Package pdftex.def Info: ./picture//trifurcation point.pdf , page2 used on inpu
 t line 58.
 (pdftex.def)             Requested size: 227.62204pt x 174.33424pt.
-<./picture//trifurcation point.pdf, id=229, page=3, 341.31767pt x 261.41028pt>
+<./picture//trifurcation point.pdf, id=228, page=3, 341.31767pt x 261.41028pt>
 File: ./picture//trifurcation point.pdf Graphic file (type pdf)
 <use ./picture//trifurcation point.pdf, page 3>
 Package pdftex.def Info: ./picture//trifurcation point.pdf , page3 used on inpu
 t line 60.
 (pdftex.def)             Requested size: 227.62204pt x 174.33424pt.
-<./picture//trifurcation point.pdf, id=230, page=4, 341.31767pt x 261.41028pt>
+<./picture//trifurcation point.pdf, id=229, page=4, 341.31767pt x 261.41028pt>
 File: ./picture//trifurcation point.pdf Graphic file (type pdf)
 <use ./picture//trifurcation point.pdf, page 4>
 Package pdftex.def Info: ./picture//trifurcation point.pdf , page4 used on inpu
@@ -1052,7 +1357,7 @@ n: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./picture//trifurcation point.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
 >] (picture/proof of infinite infinite clusters.pdf_tex
-<./picture//proof of infinite infinite clusters.pdf, id=239, page=1, 428.35184p
+<./picture//proof of infinite infinite clusters.pdf, id=238, page=1, 428.35184p
 t x 219.5463pt>
 File: ./picture//proof of infinite infinite clusters.pdf Graphic file (type pdf
 )
@@ -1061,7 +1366,7 @@ Package pdftex.def Info: ./picture//proof of infinite infinite clusters.pdf , p
 age1 used on input line 56.
 (pdftex.def)             Requested size: 227.62204pt x 116.66382pt.
 ) (picture/1.Ex2.pdf_tex
-<./picture//1.Ex2.pdf, id=240, page=1, 305.90596pt x 46.1757pt>
+<./picture//1.Ex2.pdf, id=239, page=1, 305.90596pt x 46.1757pt>
 File: ./picture//1.Ex2.pdf Graphic file (type pdf)
 <use ./picture//1.Ex2.pdf, page 1>
 Package pdftex.def Info: ./picture//1.Ex2.pdf , page1 used on input line 56.
@@ -1072,14 +1377,17 @@ f
 pdfTeX warning: pdflatex (file ./picture//1.Ex2.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
 >] [24] (picture/dual graph.pdf_tex
-<./picture//dual graph.pdf, id=250, page=1, 817.37714pt x 421.00522pt>
+<./picture//dual graph.pdf, id=249, page=1, 817.37714pt x 421.00522pt>
 File: ./picture//dual graph.pdf Graphic file (type pdf)
 <use ./picture//dual graph.pdf, page 1>
 Package pdftex.def Info: ./picture//dual graph.pdf , page1 used on input line 5
 6.
 (pdftex.def)             Requested size: 398.33858pt x 205.17015pt.
-) [25 <./picture//dual graph.pdf>] [26]
-[27] [28] (picture/four edge of square.pdf_tex
+) [25 <./picture//dual graph.pdf>]
+Chapter 2.
+[26
+
+] [27] [28] (picture/four edge of square.pdf_tex
 <./picture//four edge of square.pdf, id=267, page=1, 380.43481pt x 374.24252pt>
 
 File: ./picture//four edge of square.pdf Graphic file (type pdf)
@@ -1164,55 +1472,166 @@ ngular mesh.pdf
 
 pdfTeX warning: pdflatex (file ./picture//boundary of triangular mesh.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
->] (C:\Users\我\Desktop\2022USRP-Group-7\build\main.aux) ) 
+>] (picture/copy edges.pdf_tex
+<./picture//copy edges.pdf, id=293, page=1, 643.76447pt x 638.45251pt>
+File: ./picture//copy edges.pdf Graphic file (type pdf)
+<use ./picture//copy edges.pdf, page 1>
+Package pdftex.def Info: ./picture//copy edges.pdf , page1 used on input line 5
+6.
+(pdftex.def)             Requested size: 256.0748pt x 253.9639pt.
+<./picture//copy edges.pdf, id=294, page=2, 643.76447pt x 638.45251pt>
+File: ./picture//copy edges.pdf Graphic file (type pdf)
+<use ./picture//copy edges.pdf, page 2>
+Package pdftex.def Info: ./picture//copy edges.pdf , page2 used on input line 1
+03.
+(pdftex.def)             Requested size: 256.0748pt x 253.9639pt.
+) [33 <./picture//copy edges.pdf> <./picture//copy edges.pdf
+
+pdfTeX warning: pdflatex (file ./picture//copy edges.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>] [34] (picture/lambdan explain.pdf_tex
+<./picture//lambdan explain.pdf, id=303, page=1, 618.12389pt x 546.97066pt>
+File: ./picture//lambdan explain.pdf Graphic file (type pdf)
+<use ./picture//lambdan explain.pdf, page 1>
+Package pdftex.def Info: ./picture//lambdan explain.pdf , page1 used on input l
+ine 56.
+(pdftex.def)             Requested size: 227.62204pt x 201.41617pt.
+<./picture//lambdan explain.pdf, id=304, page=2, 618.12389pt x 546.97066pt>
+File: ./picture//lambdan explain.pdf Graphic file (type pdf)
+<use ./picture//lambdan explain.pdf, page 2>
+Package pdftex.def Info: ./picture//lambdan explain.pdf , page2 used on input l
+ine 59.
+(pdftex.def)             Requested size: 227.62204pt x 201.41617pt.
+<./picture//lambdan explain.pdf, id=305, page=3, 618.12389pt x 546.97066pt>
+File: ./picture//lambdan explain.pdf Graphic file (type pdf)
+<use ./picture//lambdan explain.pdf, page 3>
+Package pdftex.def Info: ./picture//lambdan explain.pdf , page3 used on input l
+ine 63.
+(pdftex.def)             Requested size: 227.62204pt x 201.41617pt.
+) [35 <./picture//lambdan explain.pdf> <./picture//lambdan explain.pdf
+
+pdfTeX warning: pdflatex (file ./picture//lambdan explain.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./picture//lambdan explain.pdf
+
+pdfTeX warning: pdflatex (file ./picture//lambdan explain.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+>] [36]
+Overfull \hbox (18.61708pt too wide) detected at line 1331
+[][]
+ []
+
+
+Overfull \hbox (29.45181pt too wide) detected at line 1350
+[][]
+ []
+
+[37] [38]
+Chapter 3.
+
+Overfull \hbox (31.45807pt too wide) in paragraph at lines 1371--1372
+[][][][][][][] 
+ []
+
+
+LaTeX Warning: Reference `Exp1' on page 39 undefined on input line 1373.
+
+<picture/Exp1.png, id=321, 1114.1625pt x 1189.44376pt>
+File: picture/Exp1.png Graphic file (type png)
+<use picture/Exp1.png>
+Package pdftex.def Info: picture/Exp1.png  used on input line 1376.
+(pdftex.def)             Requested size: 145.11053pt x 154.90535pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1379--1380
+
+ []
+
+[39
+
+ <./picture/Exp1.png>]
+
+LaTeX Warning: Citation 'Copin18' on page 40 undefined on input line 1388.
+
+
+LaTeX Warning: Citation 'Copin18' on page 40 undefined on input line 1394.
+
+
+LaTeX Warning: Citation 'Copin18' on page 40 undefined on input line 1398.
+
+
+LaTeX Warning: Reference `3-3eq_tobox' on page 40 undefined on input line 1414.
+
+
+[40] [41]
+Chapter 4.
+
+LaTeX Warning: Empty bibliography on input line 1449.
+
+[42
+
+] (C:\Users\我\Desktop\2022USRP-Group-7\build\main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 7462 strings out of 478593
- 119715 string characters out of 2854426
- 416362 words of memory out of 3000000
- 25326 multiletter control sequences out of 15000+600000
- 488812 words of font info for 103 fonts, out of 8000000 for 9000
+ 15830 strings out of 478593
+ 284872 string characters out of 2854426
+ 990201 words of memory out of 3000000
+ 33600 multiletter control sequences out of 15000+600000
+ 489279 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,20n,76p,645b,952s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\我\AppDa
-ta\Local\MiKTeX\fonts/pk/ljfour/public/wasy/dpi720\wasy10.pk> <C:\Users\我\App
-Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Fi
-les/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu4e.pfb><C:/Program Files/MiKTeX/fonts/
-type1/arphic/bkaiu/bkaiu50.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkai
-u/bkaiu53.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu54.pfb><C:
-/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu56.pfb><C:/Program Files/Mi
-KTeX/fonts/type1/arphic/bkaiu/bkaiu58.pfb><C:/Program Files/MiKTeX/fonts/type1/
-arphic/bkaiu/bkaiu5b.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkai
-u5e.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5f.pfb><C:/Progr
-am Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu60.pfb><C:/Program Files/MiKTeX/f
-onts/type1/arphic/bkaiu/bkaiu6a.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic
-/bkaiu/bkaiu6d.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu75.pf
-b><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu79.pfb><C:/Program Fil
-es/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu7d.pfb><C:/Program Files/MiKTeX/fonts/t
-ype1/arphic/bkaiu/bkaiu80.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu
-/bkaiu86.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu87.pfb><C:/
-Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu8a.pfb><C:/Program Files/MiK
-TeX/fonts/type1/arphic/bkaiu/bkaiu8b.pfb><C:/Program Files/MiKTeX/fonts/type1/a
-rphic/bkaiu/bkaiu90.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu
-9e.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiuff.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
-ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cms
-y6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Pr
-ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX/fonts
-/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/
-public/amsfonts/symbols/msam7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
-msfonts/symbols/msbm10.pfb>
-Output written on C:\Users\我\Desktop\2022USRP-Group-7\build\main.pdf (32 page
-s, 623866 bytes).
+ 70i,20n,76p,689b,1203s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\我\AppData\Local\MiKTeX\fonts/pk/ljfour/public/wasy/dpi720\wasy10
+.pk> <C:\Users\我\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1200.pk><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu4e.pfb><C:/Progr
+am Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu50.pfb><C:/Program Files/MiKTeX/f
+onts/type1/arphic/bkaiu/bkaiu53.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic
+/bkaiu/bkaiu54.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu56.pf
+b><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu58.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5b.pfb><C:/Program Files/MiKTeX/fonts/t
+ype1/arphic/bkaiu/bkaiu5e.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu
+/bkaiu5f.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu60.pfb><C:/
+Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu6a.pfb><C:/Program Files/MiK
+TeX/fonts/type1/arphic/bkaiu/bkaiu6d.pfb><C:/Program Files/MiKTeX/fonts/type1/a
+rphic/bkaiu/bkaiu75.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu
+79.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu7d.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu80.pfb><C:/Program Files/MiKTeX/fo
+nts/type1/arphic/bkaiu/bkaiu86.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/
+bkaiu/bkaiu87.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu8a.pfb
+><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu8b.pfb><C:/Program File
+s/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu90.pfb><C:/Program Files/MiKTeX/fonts/ty
+pe1/arphic/bkaiu/bkaiu9e.pfb><C:/Program Files/MiKTeX/fonts/type1/arphic/bkaiu/
+bkaiuff.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program 
+Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.p
+fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program
+ Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.
+pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Prog
+ram Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Program Files/MiKTe
+X/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on C:\Users\我\Desktop\2022USRP-Group-7\build\main.pdf (42 page
+s, 725757 bytes).
 PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
+ 507 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 403 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 433 words of extra memory for PDF output out of 10000 (max. 10000000)
 
