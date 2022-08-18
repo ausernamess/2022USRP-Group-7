@@ -153,7 +153,7 @@ $>$
 	\def\svgwidth{15cm}
 	\incfig{Ex2 meshes}
 	\end{figure}
-	\begin{sol} We first show a fact : 
+	\begin{sol} We first show a fact:\\ 
 	\textbf{Fact(ratio test and root test) :} Let $\{a_n\}_{n=1}^\infty$ be a sequence that take value in $(0,\infty).$ Then
 	\[
 	\lim_{n\to\infty}\frac{a_{n+1}}{a_n}=K\in\mathbb{R}\Rightarrow \lim_{n\to\infty}\sqrt[n]{a_n}=K.
@@ -262,9 +262,9 @@ $>$
 	    \end{align*}
 	    Thus, $\mu(\mathbb{Z}^2)=\lim\limits_{n\to\infty}\sqrt[n+1]{\lambda_{n+1}}\geq \lim\limits_{n\to\infty}\sqrt[n+1]{S(n+1)}=1+\sqrt{2}>2.$
 	    \end{proof}
-	    Next, we show that $\mu<3:$\\
+	    Next, we show that $\mu<3:$
+	    \begin{proof}
 	    First, we calculate the number of SAWs of length 4 with the first move is $``\rightarrow"$
-	    \newpage
 		\begin{figure}[htp]
 		\centering
 		\def\svgwidth{8cm}
@@ -274,23 +274,23 @@ $>$
 		\[
 		\mu(\mathbb{Z}^2)=\lim_{n\to\infty}(\lambda_{3n+1})^{\frac{1}{3n+1}}\leq \lim_{n\to\infty}4^{\frac{1}{3n+1}}\times 25^{\frac{n}{3n+1}}=\sqrt[3]{25}<3.
 		\]
-		\item Because of $\mathbb{Z}^3=\mathbb{Z}^2\times \mathbb{Z},$ thus we define $\beta_n$ be the number of SAWs of length $n$ in $\mathbb{Z}^2,$ by (a), we have $\lim\limits_{n\to\infty}\sqrt[n]{\beta_n}=\mu(\mathbb{Z}^2)\in(2,3).$ Note that $\lambda_{n+1}\geq \beta_n\times 2^{n+1},$ therefore 
+		\end{proof}
+		Because $\mathbb{Z}^3=\mathbb{Z}^2\times \mathbb{Z}$, we can define $\beta_n$ be the number of SAWs of length $n$ in $\mathbb{Z}^2,$ by (a), we have $\lim\limits_{n\to\infty}\sqrt[n]{\beta_n}=\mu(\mathbb{Z}^2)\in(2,3).$ Note that $\lambda_{n+1}\geq \beta_n\times 2^{n+1},$ therefore 
 		\[
-		\mu(\mathbb{Z}^3)=\lim_{n\to\infty}\sqrt[n+1]{\lambda_{n+1}}\geq \lim_{n\to\infty}\sqrt[n+1]{\beta^n}\times 2^{\frac{n+1}{n+1}}\geq \lim_{n\to\infty}\Big(\frac{\beta_{n+1}}{4}\Big)^{\frac{1}{n+1}}\times 2>2\times 2>3
+		\mu(\mathbb{Z}^3)=\lim_{n\to\infty}\sqrt[n+1]{\lambda_{n+1}}\geq \lim_{n\to\infty}\sqrt[n+1]{\beta^n}\times 2^{\frac{n+1}{n+1}}\geq \lim_{n\to\infty}\Big(\frac{\beta_{n+1}}{4}\Big)^{\frac{1}{n+1}}\times 2>2\times 2>3,
 		\]
-		\item If we look more seriously, we can find that there's a hidden $\mathbb{Z}^2$ in the triangular mesh :
+		which proves (b).\\
+		If we look more carefully, we can find that there's a hidden $\mathbb{Z}^2$ in the triangular mesh :
 		\begin{figure}[htp]
 		\centering
 		\def\svgwidth{6cm}
 		\incfig{Ex2 triangular meshes}
 		\end{figure}
-		\\
-		But, we are not going to use this fact. Instead, we'll prove $\mu(\triangle)>3$ by using the similar way to prove $\mu(\mathbb{Z}^2)>2.$ Define $S(n)$ be \# of SAWs with length $n$ that every move only choose the four blue directions (\textbf{Figure 1}), if we define $S(0)=1,$ it is easy to see that 
+		However, we are not going to use this fact. Instead, we'll prove $\mu(\triangle)>3$ by using the similar way that proves $\mu(\mathbb{Z}^2)>2.$ Define $S(n)$ be \# of SAWs with length $n$ that we can only choose the four blue directions for every move (\textbf{Figure 1}). If we define $S(0)=1,$ it is easy to see that 
 		\begin{align*}
 		S(n)&=2S(n-1)+4S(n-2)+\cdots +4S(0)+2=2+2S(n-1)+4\sum_{k=0}^{n-2}S(k)\\
 		S(n+1)&=2S(n)+4S(n-1)+\cdots +4S(0)+2=2+2S(n)+4\sum_{k=0}^{n-1}S(k)\quad n\geq 2.
 		\end{align*}
-		\newpage
 		Thus, $S(n+1)-S(n)=2S(n)+2S(n-1)$\\$\Rightarrow S(n+1)=3S(n)+2S(n-1),\quad n\geq 2,\ S(0)=1,\ S(1)=4,\ S(2)=14,$ thus
 		\[
 		\begin{bmatrix}
