@@ -21,9 +21,6 @@
 \usepackage{mathtools}
 \theoremstyle{definition} 
 \newtheorem*{remark}{Remark} 
-
-\usepackage{newtxmath} % For chalk font 1. \vmathbb{1}
-
 \pagestyle{empty}
 \newcommand{\iso}{\mathrm{iso}}
 \newcommand{\esc}{\mathrm{esc}}
@@ -888,7 +885,8 @@ We first consider $\mathbb{Z}^d$ lattices,
 In fact, the above proof can be applied to the infinite locally finite transitive amenable graph with some modification.
 \end{remark}
 \begin{proof}
-The step one can be directly copied to our situation.
+The step one can be directly copied to our situation. For the step two, since the graph is transitive, we could fix any vertex as origin o and replace $\partial\Lambda_n=[-n,n]^d$ by $A_n=\{x\in G\mid 1\leq d(x,o)\leq n\}$. Let $B_n=\{N=k\text{ and all infinite clusters intersect in } A_n\}$ and let $B=\{N=k\}$.
+Then $B$ can be approximated by $B_n$. For any $\varepsilon>0$, we can fix large $n$ such that $\mathbb{P}_p(B_n)\geq 1-\epsilon$. Let $C_n=\{\text{all infinite clusters intersect in }A_n\}$. The remaining parts are almost the same.
 \end{proof}
 >>>>>>> 4bce7d56956f5def48a7b5bc31cda4fd108e7f39
 \newpage
@@ -1175,6 +1173,128 @@ Probability space $\Omega=\{0,1\}^{\Lambda}$ where $\Lambda$ is finite or counta
     \]
 \end{enumerate}
 \section{van den Berg-Kesten Inequality}
+\begin{enumerate}
+    \item[•] An important inequality to show $p_c(\mathbb{Z}^2)\leq \frac{1}{2}.$
+    \item[•] Given an (increasing) event $A,$ and a configuration $\omega\in A,$ we say that \\ $I=\{e_1,\cdots , e_k\}\subseteq E(G)$ is a \textbf{witness} of $\omega\in A$ if
+    \begin{enumerate}
+        \item[$*$)] $\omega(e_1)=\cdots =\omega(e_k)=1.$
+        \item[$*$)] For any $\omega'$ such that $\omega'(e_1)=\cdots =\omega'(e_k)=1,$ then $\omega'\in A.$
+    \end{enumerate}
+    \item[•] We say that two event $A$ and $B$ can be \textbf{realized disjointly} if exists random witness $I=I(\omega),\ J=J(\omega)$ of $A$ and $B$ that are disjoint.
+    \item[•] Define $A\circ B=\{\omega\in A\cap B\mid \exists I\mbox{ be witness of }\omega\in A,\ J\mbox{ be witness of }\omega\in B,\ I\cap J=\varnothing\},$ note that if $A\circ B=A\cap B,$ then $A$ and $B$ can be realized disjointly.
+    \item[\underline{Proposition}] (BK inequality) If $A$ and $B$ are increasing event that depend on finitely many edge, we have
+    \[
+    \mathbb{P}(A\circ B)\leq \mathbb{P}(A)\mathbb{P}(B).
+    \]
+    \item[\textbf{Remark}] \begin{enumerate}
+        \item[(a)] We assume the depending on finitely many edge but it also hold in our setting of countably many edges.
+        \item[(b)] This describes a negative correlation result, which is not surprising. Indeed, if the event $B$ cannot use the edge used by $A,$ the probability that it hold gets smaller.
+        \item[(c)] $\mathbb{P}(A)\mathbb{P}(B)=\mathbb{P}(\,\oversim{A}\circ B)\geq \mathbb{P}(A\circ B),$ where $\oversim{A}$ is the event corresponding to $A$ that depend on ``auxiliary edge" of edges what $A$ depends on.
+    \end{enumerate}
+    \begin{proof}
+    Assume that $A$ and $B$ depend on edge $e_1,\cdots , e_n$, we duplicate the edge into $e_1,e_1',\cdots , e_n,e_n',$ to be convenience, we assume that $G'=\{e_1,e_1',\cdots e_n,e_n'\}.$
+    \begin{center}
+        $(e_i)_{i=1}^n=$ ``old" edges.\\[5pt]
+        $(e_i')_{i=1}^n=$ ``new" edges.
+    \end{center}
+	\begin{figure}[htp]
+	\centering
+	\def\svgwidth{9cm}
+	\incfig{copy edges}
+	\end{figure}
+	We put $\mathrm{Bernoulli}(p)$ on all new edges, write $\hat{\mathbb{P}}$ for the product measure, and 
+	\[
+	\hat{\omega}=\big(\omega(e_1),\omega(e_1'),\cdots , \omega(e_n),\omega(e_n')\big)\in G'.
+	\]
+	To be convenience, we assume that $G=(e_i)_{i=1}^n$ and any configuration $\omega\in G$ can be express as $(a_1,\cdots ,a_n)$ where $a_i\in \{0,1\}$ expresses the state of $\omega(e_i),\ 1\leq i\leq n.$\\
+	For each $0\leq k\leq n+1$ and $\hat{\omega}\in G',$ define $\hat{\omega}^k=\big(\hat{\omega}(e_1),\cdots , \hat{\omega}(e_{k-1}),\hat{\omega}(e_k'),\cdots \hat{\omega}(e_n')\big)\in G.$ Define
+	\[
+	\hat{A}^k=\{\hat{\omega}\mid\hat{\omega}^k\in A\},\quad \hat{B}=\{\hat{\omega}\mid \hat{\omega}^{n+1}\in B\},
+	\]
+    note that $\hat{A}^{n+1}$ is a event only use old edges and $\hat{A}^1$ is a event only use new edges.
+	It is easy to see that $\forall k\in \{1,\cdots ,n+1\},\ \hat{\mathbb{P}}(\hat{A}^k)=\mathbb{P}(A)$ and we can check that 
+	\[
+	\hat{\mathbb{P}}(\hat{A}^1\circ \hat{B})=\mathbb{P}(A)\mathbb{P}(B),\quad \hat{\mathbb{P}}(\hat{A}^{n+1}\circ \hat{B})=\mathbb{P}(A\circ B).
+	\]
+    \begin{center}
+    \fbox{\quad \parbox[t][8cm][c]{\textwidth-2.5cm}{
+    \begin{center}
+        \large\tt WHY?
+    \end{center}
+    \begin{flushleft}
+    \quad We note that $\hat{A}^1\circ \hat{B}=\hat{A}^1\cap \hat{B}$ because given $\omega\in \hat{A}^1\cap \hat{B},$ we can find $I=\{e\in (e_i')_{i=1}^n\mid \omega(e)=1\},\ J=\{e\in (e_i)_{i=1}^n\mid \omega(e)=1\},$ because of $\hat{A}^1$ depends on $(e_i')_{i=1}^n$ and is a increasing event, we find that $I$ is a witness of $\omega\in \hat{A}^1,$ similarly, $J$ is a witness of $\omega\in \hat{B},\ I\cap J=\varnothing,$ thus $\omega\in \hat{A}^1\circ \hat{B}.$ Therefore we has that conclusion. And because $\hat{A}^1\perp \hat{B},$ we deduce that
+    \[
+    \hat{\mathbb{P}}(\hat{A}^1\circ \hat{B})=\hat{\mathbb{P}}(\hat{A}^1\cap \hat{B})=\hat{\mathbb{P}}(\hat{A}^1)\hat{\mathbb{P}}(\hat{B})=\mathbb{P}(A)\mathbb{P}(B).
+    \]
+    \quad Next, we note that $\hat{A}^{n+1},\ \hat{B}$ are depend on edges in $(e_i)_{i=1}^n,$ we calculate any event in $\hat{\mathbb{P}}$ with edges only depend on $(e_i)_{i=1}^n$ is equivalent to calculate the corresponding event in $\mathbb{P}.$ i.e., $\hat{\mathbb{P}}(\hat{A}^{n+1})=\mathbb{P}(A),\ \hat{\mathbb{P}}(\hat{B})=\mathbb{P}(B).$ Thus
+    \[
+    \hat{\mathbb{P}}(\hat{A}^{n+1}\circ \hat{B})=\mathbb{P}(A\circ B).
+    \]
+    \end{flushleft}}
+    }
+    \end{center}
+    Next, we show that $\hat{\mathbb{P}}(\hat{A}^{k+1}\circ \hat{B})\leq \hat{\mathbb{P}}(\hat{A}^k\circ\hat{B})$ for all $k,$ and thus conclude this proposition.\\[6pt]
+    \textbf{Want} : $ \forall k\in \{1,\cdots ,n\},$ find a 1-1 map $s_k:\hat{A}^{k+1}\circ \hat{B}\to\{0,1\}^{2n}\ (G'\to G')$ such that
+    \begin{enumerate}
+        \item[(a)] $s_k(\hat{\omega})\in \hat{A}^k\circ \hat{B}$ for all $\hat{\omega}\in \hat{A}^{k+1}\circ \hat{B}$
+        \item[(b)] $s_k$ is measure preserving, i.e., $\hat{\mathbb{P}}(\{s_k(\hat{\omega})\})=\hat{\mathbb{P}}(\{\hat{\omega}\}).$
+    \end{enumerate}
+    Observe that given $\hat{\omega}\in G',$ from $\hat{\omega}^{k+1}$ to $\hat{\omega}^{k}$ we only replace the $k$-th term with $\hat{\omega}(e_k)$ replaced by $\hat{\omega}(e_k'),$ now we begin to define $s_k:$\\[5pt]
+    We say that $I$ and $J$ are witnesses of $\hat{\omega}$ with respect to $\hat{A}^{k+1}$ and $\hat{B}, I\cap J= \varnothing.$
+    \begin{enumerate}
+        \item[•] If $\hat{\omega}\in \hat{A}^k\circ \hat{B},$ we simply set $s_k(\hat{\omega})=\hat{\omega}.$ (Thus it has (a) and (b))
+        \item[•] If $\hat{\omega}\notin \hat{A}^k\circ \hat{B},$ observe that if $e_k\notin I,$ then $I$ is a witness of $\hat{A}^k$ (why?),\\ thus $\omega\in \hat{A}^k\circ \hat{B}$ (contradiction) thus we can say that $e_k\in I,$ then \\$I'=I\cup \{e_k'\}\backslash\{e_k\}$ is a witness of $\hat{A}^k$ (why?), thus set\\ $s_k(\hat{\omega})=\big(\hat{\omega}(e_1),\hat{\omega}(e_1'),\cdots ,\textcolor{red}{\hat{\omega}(e_k'),\hat{\omega}(e_k)},\cdots , \hat{\omega}(e_n),\hat{\omega}(e_n')\big),$ we see that $I'$ is a witness of  $s_k(\hat{\omega})\in \hat{A}^k,$ because $I'\cap J=\varnothing,$ therefore $s_k(\hat{\omega})\in \hat{A}^k\circ \hat{B}.$
+    \end{enumerate}
+    Next, we show that $s_k$ is 1-1 and make conclude. By the behavior of $s_k$, it suffices to show that $s_k(\hat{\omega})\notin\hat{A}^{k+1}\circ \hat{B} $ if $\hat{\omega}\notin \hat{A}^k\circ \hat{B}.$ Suppose that $\hat{\omega}^k\in A,$ because of $\hat{\omega}^{k+1}\in A$ and 
+    \newpage
+    $A$ is a increasing event, we find that $I\backslash\{e_k\}$ is a witness of $\hat{\omega}\in \hat{A}^{k+1}$(also $\hat{\omega}\in \hat{A}^k$), $J$ is a witness of $\hat{
+    \omega}\in \hat{B},\Rightarrow \hat{\omega}\in \hat{A}^k\circ \hat{B} $ (contradiction) Thus $s_k(\hat{\omega})^{k+1}=\hat{\omega}^k\notin A,$ thus $s_k(\hat{\omega})\notin \hat{A}^{k+1}\Rightarrow s_k(\hat{\omega})\notin\hat{A}^{k+1}\circ \hat{B}.$\\
+    \end{proof}
+    \item[\textbf{Exercise}] \begin{enumerate}
+        \item[(a)] Find an example of increasing events $A$ and $B$ such that 
+        \[
+        \mathbb{P}(A\circ B)<\mathbb{P}(A)\mathbb{P}(B)
+        \]
+        \item[(b)] \begin{enumerate}
+            \item Write $\mathcal{R}_n=[0,n]\times [0,n-1]$ and $\mathcal{H}_n$ for the event $\{\mbox{horizontal crossing in }\mathcal{R}_n\}.$ Use that fact that $\mathbb{P}_{\frac{1}{2}}(\mathcal{H}_n)=\frac{1}{2}$ to show
+            \[
+            \mathbb{P}_{\frac{1}{2}}(O\leftrightarrow\partial\Lambda_n)\geq \frac{1}{2n}
+            \]
+            \item Let $\mathcal{H}_n'=\{\exists\mbox{ an horizontal SAW in }\mathcal{R}_n\}.$ What can we say for $\mathbb{P}(\mathcal{H}_n')?$
+            \item Let $C_n(x)=\{x\leftrightarrow x+\partial\Lambda_n\}.$ Show that 
+            \[
+            \mathbb{P}_{\frac{1}{2}}(C_n(O)\circ C_n(O))\geq \frac{1}{4n}.
+            \]
+            What can we say for $\mathbb{P}_{\frac{1}{2}}(C_n(O))?$
+        \end{enumerate}
+    \end{enumerate}
+    \item[\SOL] \begin{enumerate}
+        \item[(a)] Let $A=\{e_1=1\},\ B=\{e_1=1\}\cup \{e_2=1\},$ we show that 
+        \[
+        A\circ B=\{e_1=1\}\cap \{e_2=1\}.
+        \]
+        $1^{\circ}:$ if $\omega\in \{e_1=1\}\cap \{e_2=1\},$ then $\{e_1\}$ is a witness of $\omega \in A,$ $\{e_2\}$ is a witness of $\omega\in B,$ and $\{e_1\}\cap\{e_2\}=\varnothing.$ Thus $\omega\in A\circ B.$\\[5pt]
+        $2^{\circ}:$ if $\omega\in A\circ B,$ then exists $I,J$ be witnesses of $A$ and $B$, respectively, $I\cap J=\varnothing.$ Note that the only possible witness of $A$ is $I=\{e_1\},$ the possible witness $J$ of $B$ can contain $e_1$ or $e_2,$ because of $I\cap J=\varnothing,$ we have $J=\{e_2\}.$ Thus $\omega(e_1)=1$ and $\omega(e_2)=1\Rightarrow \omega\in \{e_1=1\}\cap\{e_2=1\}.$\\[7pt]
+        Thus, $\mathbb{P}_p(A\circ B)=p^2<p^2(2-p)=p(2p-p^2)=\mathbb{P}_p(A)\mathbb{P}_{p}(B)$ if $p<1$
+        \item[(b)] i. Note that $\mathcal{H}_{n}\subseteq \bigcup_{i=0}^{n-1}[(0,i)\leftrightarrow (0,i)+\partial\Lambda_n]$
+    	\begin{figure}[htp]
+    	\centering
+        \def\svgwidth{8cm}
+        \incfig{lambdan explain}
+        \end{figure}\\
+        Thus,
+        \newpage
+        \begin{align*}
+        \frac{1}{2}=\mathbb{P}_\frac{1}{2}(\mathcal{H}_{n})&\leq \mathbb{P}_\frac{1}{2}\Big(\bigcup_{i=0}^{n-1}[(0,i)\leftrightarrow (0,i)+\partial\Lambda_n]\Big)\\
+        &\leq\sum_{i=0}^{n-1}\mathbb{P}_\frac{1}{2}[(0,i)\leftrightarrow (0,i)+\partial\Lambda_n]\\
+        &=\sum_{i=0}^{n-1}\mathbb{P}_\frac{1}{2}[O\leftrightarrow\partial\Lambda_n]=n\mathbb{P}_\frac{1}{2}[O\leftrightarrow\Lambda_n].
+        \end{align*}
+        Therefore, $\mathbb{P}_\frac{1}{2}[O\leftrightarrow\Lambda_n]\geq \frac{1}{2n}.$\\[7pt]
+        ii. $\mathcal{H}_n'$ is just $\mathcal{H}_n$ with no confusion.\\[7pt]
+        iii. 
+    \end{enumerate}
+\end{enumerate}
+\newpage
 \section{Russo's Identity}
 We want to show study the behavior of  $\mathbb{P}_p(A)$ as $p$ varies (One can readily assume that $A$ is increasing).
 \begin{enumerate}
@@ -1182,14 +1302,13 @@ We want to show study the behavior of  $\mathbb{P}_p(A)$ as $p$ varies (One can 
 	\item[\textbf{Remark}] $\omega(e)$ decides $\omega$ in $A$ or not. The value of $\omega(e)$ \textbf{does not} is independent to the event "$e$ is \textbf{pivotal} for $A$". We write $N(A) \coloneqq N(A,\omega)$ for the number of pivotal edges for $A$ and $\omega$.
 	\item[\textbf{Proposition}] Russo's Identity\\
 	\colorbox{pink}{
-		\begin{minipage}{1 \textwidth}
+		\begin{minipage}{\textwidth -3cm}
 			If $A$ is an increasing event depending on finitely many edges, then 
 			$$
 	 			\frac{d}{d p} \mathbb{P}_p(A)  = \mathbb{E}_p(N(A))
 			$$
 		\end{minipage}
-	}  
-	\bigskip
+	}
 	\item[\textbf{Exercise}](Margulis-Russo formula) For a finite edge set $E$ and \textbf{any} function $F : \{0,1\}^E \to \{0,1\}$, use a direct computation to show that 
 	 $$
 	 \frac{d}{d p} f(p)  = \frac{1}{p(1-p)} \sum_{e \in E} \text{Cov}(F,\omega_e),\qquad f(p) \coloneqq \mathbb{E}_p [F]
@@ -1197,37 +1316,41 @@ We want to show study the behavior of  $\mathbb{P}_p(A)$ as $p$ varies (One can 
 	 Deduce Russo's identity from this.
 	\item[\SOL]
 		First, we deduce the given formula. 
-		Notice that $f(p) = \mathbb{E}_p[F]=\sum_{\omega} F(\omega) p^{|\omega_E|}(1-p)^{|E| - |\omega_E|}$, where $|\omega_E| = \sum_{e\in E} \omega_e$.
-
+		Notice that 
+		\[
+		f(p) = \mathbb{E}_p[F]=\sum_{\omega} F(\omega) p^{|\omega_E|}(1-p)^{|E| - |\omega_E|},
+		\] 
+		where $|\omega_E| = \sum_{e\in E} \omega_e$.
 		Therefore,
 		\begin{equation*}
 			\begin{aligned}
-				f(p)' &= \sum_{\omega}F(\omega)\left[|\omega_e|/p - (|E|-|\omega_e|)/(1-p) \right] 
+				f'(p) &= \sum_{\omega}F(\omega)\left[|\omega_e|/p - (|E|-|\omega_e|)/(1-p) \right] 
 				   \\ &= \frac{1}{p(1-p)}\sum_{e\in E}\mathbb{E}_p[F(\omega)(\omega_e - p)] && \parbox[t]{5cm}{Combine the terms and use $|\omega_E| = \sum_{e\in E} \omega_e$ and  $|E| = \sum_{e \in E} 1$ }
 				   \\ &= \frac{1}{p(1-p)}\sum_{e \in E}\mathbb{E}_p[(F-\mathbb{E}_p[F])(\omega_e - p)] && \text{We can add terms since $\mathbb{E}_p[c(\omega_e - p)] = 0$}
 				   \\ &= \frac{1}{p(1-p)}\sum_{e\in E}\text{Cov}(F,\omega_e)
 			\end{aligned}
 		\end{equation*} 
 		
-		Then, let's consider $F = \vmathbb{1}_A$, where $A$ is depending on edge set $E$ and $|E| < \infty$. We can see that $e$ must be \textbf{pivotal} for $A$ to have influence. 
+		Then, let's consider $F = \indecate_A$, where $A$ is depending on edge set $E$ and $|E| < \infty$. We can see that $e$ must be \textbf{pivotal} for $A$ to have influence. 
 		To be more specific, 
 		$$
-		\mathbb{E}_p[\vmathbb{1}_{\text{Piv}_e(A)^c}(\omega_e - p)F(\omega)] = \mathbb{E}_p[\omega_e - p] \mathbb{E}_p[F(\omega)\vmathbb{1}_{\text{Piv}_e(A)^c}] =  0
+		\mathbb{E}_p[\indecate_{\text{Piv}_e(A)^c}(\omega_e - p)F(\omega)] = \mathbb{E}_p[\omega_e - p] \mathbb{E}_p[F(\omega)\indecate_{\text{Piv}_e(A)^c}] =  0
 		$$
-		Thus, $\mathbb{E}_p[F(\omega)(\omega_e - p)] = \mathbb{E}_p[F(\omega)(\omega_e - p) \vmathbb{1}_{\text{Piv}_e(A)}]$	
+		Thus, $\mathbb{E}_p[F(\omega)(\omega_e - p)] = \mathbb{E}_p[F(\omega)(\omega_e - p) \indecate_{\text{Piv}_e(A)}]$	
 		
 		Now we consdier $f(p)'$
 		\begin{equation*}
 			\begin{aligned}
 				f(p)' &= \frac{1}{p(1-p)}\sum_{e \in E} \mathbb{E}_p[F(\omega)(\omega_e - p)] 
-				   \\ &= \frac{1}{p(1-p)}\sum_{e \in E} \mathbb{E}_p[F(\omega)(\omega_e - p) \vmathbb{1}_{\text{Piv}_e(A)}]	
-				   \\ &= \frac{1}{p(1-p)}\sum_{e \in E} \mathbb{E}_p[\omega_e = 1]\mathbb{E}_p[F(\omega)(\omega_e - p) \vmathbb{1}_{\text{Piv}_e(A)}|\omega_e = 1] 
-				   \\ &+ \mathbb{E}_p[\omega_e = 0]\mathbb{E}_p[F(\omega)(\omega_e - p) \vmathbb{1}_{\text{Piv}_e(A)} | \omega_e = 0]	&& \parbox[t]{5cm}{$e$ is a pivot of $A$ whether $\omega_e = 1$ or not given $\omega \in \text{Piv}_e(A)$.}	 
-				   \\ &= \sum_{e \in E} \mathbb{E}_p[\vmathbb{1}_{\text{Piv}_e(A)}]	
+				   \\ &= \frac{1}{p(1-p)}\sum_{e \in E} \mathbb{E}_p[F(\omega)(\omega_e - p) \indecate_{\text{Piv}_e(A)}]	
+				   \\ &= \frac{1}{p(1-p)}\sum_{e \in E} \mathbb{E}_p[\omega_e = 1]\mathbb{E}_p[F(\omega)(\omega_e - p) \indecate_{\text{Piv}_e(A)}|\omega_e = 1] 
+				   \\ &+ \mathbb{E}_p[\omega_e = 0]\mathbb{E}_p[F(\omega)(\omega_e - p) \indecate_{\text{Piv}_e(A)} | \omega_e = 0]	&& \parbox[t]{5cm}{$e$ is a pivot of $A$ whether $\omega_e = 1$ or not given $\omega \in \text{Piv}_e(A)$.}	 
+				   \\ &= \sum_{e \in E} \mathbb{E}_p[\indecate_{\text{Piv}_e(A)}]	
 				   \\ &= \mathbb{E}_p[N(A)]\quad \blacksquare 
 			\end{aligned}
 		\end{equation*}
 \end{enumerate}
+
 
 %------------------------------------------
 \chapter{Exponential Decay}
