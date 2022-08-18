@@ -19,8 +19,12 @@
 \usepackage{biblatex}
 \addbibresource{reference.bib}
 \usepackage{mathtools}
+\newtheorem*{thm}{theorem}
+\newtheorem*{prop}{Proposition}
 \theoremstyle{definition} 
 \newtheorem*{remark}{Remark} 
+\newtheorem*{claim}{Remark} 
+\newtheorem{ex}{Exercise}
 \pagestyle{empty}
 \newcommand{\iso}{\mathrm{iso}}
 \newcommand{\esc}{\mathrm{esc}}
@@ -105,41 +109,42 @@ $>$
 	\def\svgwidth{7cm}
 	\incfig{SAW2}
 	\end{figure}
-	\item[\textbf{Exercise 1}] $\mu\equiv \lim\limits_{n\to\infty}(\lambda_n)^{\frac{1}{n}}$ exists and $\lambda_N\geq \mu^N$ for all $N\geq 1.$ $\mu$ is called the \textbf{connective constant} \\[3pt](of the graph)
-	\item[\SOL] Note that $\forall n\in \mathbb{N},$ we have $(\lambda_n)^{\frac{1}{n}}\geq 0,$ thus $0$ is a lower bound of $\{(\lambda_n)^{\frac{1}{n}}\}_{n=0}^\infty,$ therefore
+	\begin{ex} $\mu\equiv \lim\limits_{n\to\infty}(\lambda_n)^{\frac{1}{n}}$ exists and $\lambda_N\geq \mu^N$ for all $N\geq 1.$ \\$\mu$ is called the \textbf{connective constant}.  \end{ex}
+	\begin{proof} Note that $\forall n\in \mathbb{N},$ we have $(\lambda_n)^{\frac{1}{n}}\geq 0,$ thus $0$ is a lower bound of $\{(\lambda_n)^{\frac{1}{n}}\}_{n=0}^\infty,$ it follows that 
 	\[
 	\inf_{n\in\mathbb{N}_0}(\lambda_n)^{\frac{1}{n}}=K\in\mathbb{R}
 	\]
-	Now, given $\varepsilon>0,\ 1^{\circ}\ \exists N_1\in\mathbb{N}$ s.t.
-	\[
-	K+\frac{\varepsilon}{2}>(\lambda_{N_1})^\frac{1}{N_1}
-	\]
-	$2^{\circ}$ By division algorithm, $\forall n\geq N_1,\ \exists m,\ell \in \mathbb{Z}$ with $0\leq \ell\leq N_1$ such that $n=mN_1+\ell$, thus
+	Now, given $\varepsilon>0$,\\ 
+	$1^{\circ}\ \exists N_1\in\mathbb{N}$ s.t.\[K+\frac{\varepsilon}{2}>(\lambda_{N_1})^\frac{1}{N_1}\]
+	$2^{\circ}$ By the division algorithm, $\forall n\geq N_1,\ \exists m,\ell \in \mathbb{Z}$ with $0\leq \ell\leq N_1$ such that $n=mN_1+\ell$. Thus
 	\begin{align*}
 	\lambda_n=\lambda_{mN_1+\ell}\leq (\lambda_{N_1})^m\cdot \lambda_\ell
 	\end{align*}
-	therefore,
+	Therefore,
 	\begin{align*}
 	(\lambda_n)^{\frac{1}{n}}&\leq (\lambda_{N_1})^{\frac{m}{n}}\cdot (\lambda_\ell)^{\frac{1}{n}}=(\lambda_{N_1})^{\cfrac{1}{N_1+\frac{\ell}{m}}}\cdot (\lambda_\ell)^\frac{1}{n}\leq (\lambda_{N_1})^\frac{1}{N_1}\cdot (\lambda_\ell)^\frac{1}{n}\\
 	&\leq (\lambda_{N_1})^\frac{1}{N_1}\cdot (\lambda_1)^\frac{\ell}{n}\leq (\lambda_{N_1})^\frac{1}{N_1}\cdot (\lambda_1)^\frac{N_1}{n}
 	\end{align*}
-	Because of $\lim\limits_{n\to\infty}(\lambda_{N_1})^{\frac{1}{N_1}}\cdot (\lambda_1)^{\frac{N_1}{n}}=(\lambda_{N_1})^\frac{1}{N_1},\ \exists N\in\mathbb{N}$ such that $n\geq N\Rightarrow$
+	Because $\lim\limits_{n\to\infty}(\lambda_{N_1})^{\frac{1}{N_1}}\cdot (\lambda_1)^{\frac{N_1}{n}}=(\lambda_{N_1})^\frac{1}{N_1}$, there exists $N\in\mathbb{N}$ such that $n\geq N$. We have
 	\[
-	(\lambda_{N_1})^\frac{1}{N_1}+\frac{\varepsilon}{2}>(\lambda_{N_1})^\frac{1}{N_1}\cdot (\lambda_1)^{\frac{N_1}{n}}\geq (\lambda_n)^{\frac{1}{n}}
+	(\lambda_{N_1})^\frac{1}{N_1}+\frac{\varepsilon}{2}>(\lambda_{N_1})^\frac{1}{N_1}\cdot (\lambda_1)^{\frac{N_1}{n}}\geq (\lambda_n)^{\frac{1}{n}}.
 	\]
-	Therefore 
+	Hence, 
 	\[
-	K+\varepsilon=K+\frac{\varepsilon}{2}+\frac{\varepsilon}{2}>\lambda_{N_1}^{\frac{1}{N_1}}+\frac{\varepsilon}{2}>(\lambda_n)^{\frac{1}{n}}\geq K.
+	K+\varepsilon=K+\frac{\varepsilon}{2}+\frac{\varepsilon}{2}>\lambda_{N_1}^{\frac{1}{N_1}}+\frac{\varepsilon}{2}>(\lambda_n)^{\frac{1}{n}}\geq K,
 	\]
-	Thus, $\mu=\lim\limits_{n\to\infty}(\lambda_n)^\frac{1}{n}=K$ exists.\\
-	Next, for $N>1,$ we have $\forall n\in \mathbb{N}, \lambda_{nN}\leq (\lambda_N)^n,$ thus $(\lambda_{nN})^\frac{1}{nN}\leq (\lambda_N)^\frac{1}{N}.$ Note that $\{(\lambda_{nN})^{\frac{1}{nN}}\}_{n=1}^{\infty}$ is a subsequence of $\{(\lambda_{n})^{\frac{1}{n}}\}_{n=1}^{\infty},$ therefore $\mu=\lim\limits_{n\to\infty}(\lambda_{nN})^\frac{1}{nN}\leq (\lambda_N)\frac{1}{N}\quad \blacksquare$
-	\item[\textbf{Exercise 2}] \begin{enumerate}
+	so $\mu=\lim\limits_{n\to\infty}(\lambda_n)^\frac{1}{n}=K$ exists.\\
+	Next, for $N>1,$ we have $\forall n\in \mathbb{N}, \lambda_{nN}\leq (\lambda_N)^n$, thus $(\lambda_{nN})^\frac{1}{nN}\leq (\lambda_N)^\frac{1}{N}.$ Note that $\{(\lambda_{nN})^{\frac{1}{nN}}\}_{n=1}^{\infty}$ is a subsequence of $\{(\lambda_{n})^{\frac{1}{n}}\}_{n=1}^{\infty},$ therefore $\mu=\lim\limits_{n\to\infty}(\lambda_{nN})^\frac{1}{nN}\leq (\lambda_N)\frac{1}{N}$
+	\end{proof}
+	\begin{ex} 
+	\begin{enumerate}
 		\item In $\mathbb{Z}^2,\ \mu\in (2,3)$
 		\item In $\mathbb{Z}^3,\ \mu>3$
 		\item In the triangular mesh, $\mu>3$;
 		\item In the hexagonal mesh, $\mu<2$
 		\item In $\mathbb{Z}\times \{0,1\}$ ( i.e. a ladder ), $\mu=\frac{1+\sqrt{5}}{2}.$
-	\end{enumerate}
+	\end{enumerate} 
+	\end{ex}
 	\begin{figure}[htp]
 	\centering
 	\def\svgwidth{15cm}
@@ -572,7 +577,9 @@ We first consider $\mathbb{Z}^d$ lattices,
 	X\overset{(id)}{=}Y,\quad X'\overset{(id)}{=}Y',\quad Y\leq Y'.\quad a.s. (almost\ sure)
 	\]
 	This is called a coupling.
-	\item[\textbf{Remark.}] In coupling, usually we do not want independence, so that we can compute values between random variables.
+	\begin{remark}
+	In coupling, usually we do not want independence, so that we can compute values between random variables.
+	\end{remark}
 	\item[\textbf{Exercise 1}] Construct a coupling between $\omega\sim\mathbb{P}_p,\ \omega'\sim\mathbb{P}_{p'}$ with $p\leq p',$ so that values between edges can be computed.\\
 	Wanted : $p\leq p'\Rightarrow \omega_p\leq \omega_p'(\Leftrightarrow \omega_p(e)\leq \omega_{p'}(e),\ \forall e\in E)$
 	\item[\SOL] Let $\omega=(\omega(e))_{e\in G}$ such that $\{\omega(e)\}_{e\in G}$ is i.i.d. and $\omega(e)\sim \mathrm{Uniform}([0,1]).$ \\
