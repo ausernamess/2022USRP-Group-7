@@ -33,10 +33,11 @@
 }
 \theoremstyle{plane}
 \titleformat{\section}[block]{\color{black}\Large\bfseries\filcenter}{}{1em}{}
-\newtheorem{thm}{Theorem}
+\newtheorem*{thm}{Theorem}
+\newtheorem*{cor}{Corollary}
 \newtheorem*{claim}{Claim}
 \newtheorem*{prop}{Proposition}
-\newtheorem{lemma}{Lemma}
+\newtheorem*{lemma}{Lemma}
 \newtheorem*{application}{Application}
 \theoremstyle{definition}
 \newtheorem{case}{Case}
@@ -49,6 +50,33 @@
 \begin{document}
 \section*{Double Phase Transition}
 
-In this section, we introduce the interesting property, double phase transition of $\mathbb{T}_d\times\mathbb{Z}$, which is different from integers lattices $\mathbb{Z}^d$
-, triangle lattices and regular trees. The number of infinite clusters changes on $[0,1]$.  
+In this section, we introduce the interesting property, double phase transition of $\mathbb{T}_d\times\mathbb{Z}$, which is different from integers lattices $\mathbb{Z}^d$, triangle lattices and regular trees. The number of infinite clusters changes on $[0,1]$; there's no infinite cluster on $(0,p_c)$, infinitely many on $(p_c,p_u)$ and one on $(p_u,1)$, where $p_u$ is defined as \[p_u=\{p\in [0,1] \mid \text{there is a.s. a unique infinite cluster}\}.\]
+The property is given by the theorem:
+\begin{thm}
+For $d\geq 6$, \[0<p_c(\mathbb{T}_d\times\mathbb{Z})<p_u(\mathbb{T}_d\times\mathbb{Z})<1.\]
+\end{thm}
+For the lower bound of $p_c>0$, we can use the following lemma:
+\begin{lemma}
+For an infinite connected graph $G$, $p_c\geq\frac{1}{\mu}$, where $\mu$ is the connective constant of $G$.
+\end{lemma}
+The main idea is through bounding the $\theta(p)$ by the number of self-avoiding walks of length $n$ with probability $p^n$.\\To make sure $p_c<1$, 
+we can use 
+\begin{thm}
+If $G$ is Cayley graph of a group with exponential growth, then $p_c<1$.
+\end{thm}
+where we bound the $p_c$ of $G$ by the $p_c$ of its subgraph, lexicographically minimal spanning tree. As for the inequality $p_u<1$, we apply the theorem showed by Babson and Benjamini
+\begin{thm}
+If $G$ is the Cayley graph of a nonamenable finitely presented group with one end, then $p_u<1$.
+\end{thm}
+where we consider special graphs and a combinatorial fact to obtain the desired result. The most difficult part is to show the inequality $p_c<p_u$. The essential ingredients are the following:
+\begin{thm}
+If $G$ is a $d-$regular connected multigraph, then \[\text{cogr}(G)>\sqrt{d-1} \text{ iff } \rho(G)>\frac{2\sqrt{d-1}}{d}\] in which case \[d\rho(G)=\frac{d-1}{\text{cogr}(G)}+\text{cogr}(G).\]
+\end{thm}
+\begin{cor}
+For all $b\geq 1$, we have \[\rho(\mathbb{T}_d\times\mathbb{Z})=\frac{2\sqrt{b}+2}{b+3}.\]
+\end{cor}
+Of course, the proofs are nontrivial but they give the interesting property that the number of infinite clusters varies on the interval in $p$. \\
+\bigskip\\
+reference: R. Lyons, Y. Peres, \textit{Probability on Trees and Networks.} (2016)
+
 \end{document}
