@@ -32,7 +32,8 @@ After the classes were over, we went on individual research to explore topics su
 
 %----------
 \subsection{Planar Statistical Physics and Bernoulli Percolation}
-
+Given an infinite undirected connected graph $G$. We say an edge $e$ is open(resp., closed) if and only if the edge $e$ is assigned the value $1$(resp., $0$). The name "Bernoulli" is given because we put i.i.d. Bernoulli random variables on each edge and each edge opens with probability $p\in[0,1]$. A configuration $\omega$ is an event that each edge $e\in \text{E}(G)$ is either open or closed. Two vertices $a$ and $b$ are connected if there exists a path from $a$ to $b$. A cluster is a set of vertices that every pair of vertices is connected. If the clusters is infinite, then we say
+that it is an infinite cluster. We define a function $\theta(p)=\mathbb{P}_p(\exists\text{ an infinite cluster containing }0)$, that is, the probability of the event in the parentheses under the Bernoulli percolation with probability $p$. The key ingredient of the Bernoulli percolation is the critical probability $p_c\coloneqq\\sup\{in [0,1]\mid \theta(p)=0\}$, under which the behavior of percolation changes significantly. The focus of our course is the existence and uniqueness of the infinite cluster and the behavior of the percolation when $p>p_c$ and $p<p_c$. 
 
 %----------
 \subsection{Useful Identities \& Applications}
