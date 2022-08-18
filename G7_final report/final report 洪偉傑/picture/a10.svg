@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="a10.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.096401"
+     inkscape:cx="352.27039"
+     inkscape:cy="670.43471"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.237573;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect846"
+       width="39.762424"
+       height="39.762428"
+       x="64.241089"
+       y="136.34927" />
+    <circle
+       style="fill:#000000;stroke:none;stroke-width:0.264999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="path994-5"
+       cx="104.05709"
+       cy="159.87845"
+       r="1.5" />
+    <circle
+       style="fill:#000000;stroke:none;stroke-width:0.264999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="path994-5-3"
+       cx="85.695999"
+       cy="136.397"
+       r="1.5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 84.066707,156.26412 c 9.370491,8.7458 13.11869,3.56971 19.901143,3.56971 6.78245,0 14.63581,21.0613 22.22145,19.72266 7.58564,-1.33864 35.8756,-11.42308 35.51863,-17.13462"
+       id="path1266" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 126.74307,113.65763 c 0,0 -31.006125,-8.76501 -39.573434,3.90747 -8.567306,12.67248 6.535291,28.25762 -3.102929,38.69902 -10.709135,7.58564 -26.23738,4.90836 -43.728967,-0.26773 -17.491586,-5.17608 -27.308293,5.71154 -27.308293,5.71154"
+       id="path1381"
+       sodipodi:nodetypes="cscsc" />
+    <circle
+       style="fill:#000000;stroke:none;stroke-width:0.264999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="path994-5-6"
+       cx="64.299004"
+       cy="160.87199"
+       r="1.5" />
+    <circle
+       style="fill:#000000;stroke:#ffffff;stroke-width:0.264999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="path994"
+       cx="84.122299"
+       cy="156.23048"
+       r="1.5" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="78.569244"
+       y="165.62221"
+       id="text3030"><tspan
+         sodipodi:role="line"
+         id="tspan3028"
+         style="stroke-width:0.264583"
+         x="78.569244"
+         y="165.62221">$O$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="106.82547"
+       y="136.17882"
+       id="text5116"><tspan
+         sodipodi:role="line"
+         id="tspan5114"
+         style="stroke-width:0.264583"
+         x="106.82547"
+         y="136.17882">$[-n,n]^d$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="116.31999"
+       y="162.41498"
+       id="text8060"><tspan
+         sodipodi:role="line"
+         id="tspan8058"
+         style="stroke-width:0.264583"
+         x="116.31999"
+         y="162.41498">infinite cluster</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="10.933427"
+       y="150.38612"
+       id="text8060-5"><tspan
+         sodipodi:role="line"
+         id="tspan8058-2"
+         style="stroke-width:0.264583"
+         x="10.933427"
+         y="150.38612">infinite cluster</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="96.639618"
+       y="105.82549"
+       id="text8060-54"><tspan
+         sodipodi:role="line"
+         id="tspan8058-9"
+         style="stroke-width:0.264583"
+         x="96.639618"
+         y="105.82549">infinite cluster</tspan></text>
+  </g>
+</svg>

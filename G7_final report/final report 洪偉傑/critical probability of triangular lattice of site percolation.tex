@@ -1,0 +1,181 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[margin=2cm]{geometry}
+\usepackage{indentfirst}
+\usepackage{mathrsfs}
+\usepackage{amsthm}
+\usepackage{CJKutf8}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{overpic}
+\usepackage{setspace}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{wasysym}
+\usepackage{xcolor}
+\pagestyle{empty}
+\newcommand{\iso}{\mathrm{iso}}
+\newcommand{\esc}{\mathrm{esc}}
+\newcommand{\oversim}[1]{\parbox[t][-18pt][c]{10pt}{\scriptsize$\sim$}\hspace*{-12pt}{#1}}
+\newcommand{\bbar}[1]{\overline{#1}}
+\newcommand{\ul}[1]{\underline{#1}}
+\newcommand{\SOL}{\fbox{ \tt s\parbox[b][2pt][c]{6pt}{o}\hspace*{-7pt} L:}}
+\newcommand{\sixedge}{\mbox{\parbox[t][-2pt][c]{10pt}{\scriptsize$\blacktriangledown\hspace{-3.6pt}\blacktriangle\hspace{-4pt}\blacktriangledown$}\hspace{-10.2pt}\parbox[b][10.7pt][c]{10pt}{\scriptsize$\blacktriangle\hspace{-3.6pt}\blacktriangledown\hspace{-3.6pt}\blacktriangle$}}}
+\newcommand{\indecate}{\mbox{\begin{turn}{65.9}
+$>$
+\end{turn}\hspace{-10.5pt}\parbox[t][-5pt][c]{10pt}{$\bot$}\hspace{-4.35pt}\parbox[t][-3.4pt][c]{4pt}{$\shortmid$}}}
+\newcommand{\incfig}[1]{%
+\import{./picture/}{#1.pdf_tex}
+}
+\begin{document}
+Goal : Show that in site percolation, $p_c(\triangle)=\frac{1}{2}.$
+    \begin{center}
+        \fbox{Partial order on $\Omega$ : $\omega\leq \omega'\Leftrightarrow \omega(e)\leq \omega'(e),\ \forall e\in\Lambda$}
+    \end{center}
+We first introduce some definition :
+	\begin{center}
+    \fbox{\quad \parbox[t][5cm][c]{\textwidth-2.5cm}{
+    \textbf{Definition}
+    \begin{enumerate}
+    \item[$*$)] A function $f:\Omega\to\mathbb{R}$ is said to be \textbf{increasing}(\textbf{decreasing}) if 
+    \[
+    \omega\leq(\geq) \omega'\Rightarrow f(\omega)\leq f(\omega')
+    \]
+    \item[$*$)] An event $A$ is said to be \textbf{increasing}(\textbf{decreasing}) if $\indecate_A$ is increasing(decreasing).
+\end{enumerate}}
+    }	
+	\end{center}
+\begin{flushleft}
+	\Large \textbf{Harris-FKG inequality}
+\end{flushleft}
+\begin{enumerate}
+    \item[\underline{Proposition}] (Harris inequality) \begin{enumerate}
+        \item If $A$ and $B$ are increasing event, then
+        \[
+        \mathbb{P}(A\cap B)\geq \mathbb{P}(A)\mathbb{P}(B).
+        \]
+        \item If $f$ and $g$ are increasing functions, then
+        \[
+        \mathbb{E}[fg]\geq \mathbb{E}[f]\mathbb{E}[g].
+        \]
+    \end{enumerate}
+    \item[\textbf{Exercise 1}] (The square-root trick) Given $n$ increasing events $A_1,\cdots , A_n,$ show that
+    \[
+    \max_{1\leq i\leq n}\{\mathbb{P}(A_i)\}\geq 1-\Big[1-\mathbb{P}(A_1\cup\cdots \cup A_n)\Big]^\frac{1}{n}
+    \]
+    \item[\SOL] Note that $A_1^\complement,\cdots, A_n^\complement$ are decreasing events, and thus also has FKG inequality.
+    \begin{align*}
+        1-\Big[1-\mathbb{P}(A_1\cup\cdots \cup A_n)\Big]^\frac{1}{n}&=1-\Big[\mathbb{P}(A_1^\complement\cap\cdots \cap A_n^\complement)\Big]^\frac{1}{n}\\
+        (\mbox{FKG inequality})&\leq 1-\Big({\displaystyle \prod_{k=1}^{n}}\mathbb{P}(A_k^\complement)\Big)^\frac{1}{n}\\
+        &\leq 1-\Big({\displaystyle \prod_{k=1}^{n}}\min_{1\leq i\leq n}\{\mathbb{P}(A_i^\complement)\}\Big)^\frac{1}{n}\\
+        &=1-\min_{1\leq i\leq n}\{\mathbb{P}(A_i^\complement)\}\\
+        &=\max_{1\leq i\leq n}\{1-\mathbb{P}(A_i^\complement)\}\\
+        &=\max_{1\leq i\leq n}\{\mathbb{P}(A_i)\}
+    \end{align*}
+    \item[\textbf{Application}] Show that $\theta(\frac{1}{2})=0$ on $\mathbb{Z}^2,$ which implies that $p_c(\mathbb{Z}^2)\geq\frac{1}{2}.$
+    \begin{proof}
+    Assume that $\theta(\frac{1}{2})>0,$ then we can know that $\mathbb{P}_{\frac{1}{2}}(\exists\mbox{ an infinite cluster })=1.$ Define
+    \[
+    B_n:=[\partial\Lambda_n\leftrightarrow\infty]=\bigcup_{x\in \partial\Lambda_n}[x\leftrightarrow\infty],\ n\in\mathbb{N},
+    \]
+    because of 
+    \begin{align*}
+    [\exists\mbox{ an infinite cluster}]&=\bigcup_{x\in \mathbb{Z}^2}[x\leftrightarrow\infty]\\
+    &=\bigcup_{n\in\mathbb{N}}\bigcup_{x\in\partial\Lambda_n}[x\leftrightarrow\infty] =\lim_{n\to\infty}[\partial\Lambda_n\leftrightarrow\infty],
+    \end{align*}
+    Thus $\lim\limits_{n\to\infty}\mathbb{P}_{\frac{1}{2}}[\partial\Lambda_n\leftrightarrow\infty]=1.$
+	\begin{figure}[htp]
+	\centering
+	\def\svgwidth{5cm}
+	\incfig{a12}
+	\end{figure}\\
+    Note that $B_n=[\exists\mbox{ an infinite SAW in }\mathbb{Z}^2\backslash\Lambda_n\mbox{ starting in }\partial\Lambda_n],$ define
+    \begin{align*}
+        &B_n^{\mathrm{top}}=[\exists\mbox{ an infinite SAW in }\mathbb{Z}^2\backslash\Lambda_n\mbox{ starting in }\partial\Lambda_n^\mathrm{top}]\\
+        &B_n^{\mathrm{bottom}}=[\exists\mbox{ an infinite SAW in }\mathbb{Z}^2\backslash\Lambda_n\mbox{ starting in }\partial\Lambda_n^\mathrm{bottom}]\\
+        &B_n^{\mathrm{left}}=[\exists\mbox{ an infinite SAW in }\mathbb{Z}^2\backslash\Lambda_n\mbox{ starting in }\partial\Lambda_n^\mathrm{left}]\\
+        &B_n^{\mathrm{right}}=[\exists\mbox{ an infinite SAW in }\mathbb{Z}^2\backslash\Lambda_n\mbox{ starting in }\partial\Lambda_n^\mathrm{right}].
+    \end{align*}
+    Then
+    \[
+    B_n=B_n^{\mathrm{top}}\cup B_n^{\mathrm{bottom}}\cup B_n^{\mathrm{left}}\cup B_n^{\mathrm{right}}
+    \]
+	It's no doubt that for all $n\in\mathbb{N},\ B_n^{\mathrm{top}},\ B_n^{\mathrm{bottom}},\ B_n^{\mathrm{left}},\ B_n^{\mathrm{right}}$ are increasing events, thus by square-root trick and the fact that $\lim\limits_{n\to\infty}\mathbb{P}_{\frac{1}{2}}B_n=1,$ we got that
+	\[
+	\lim_{n\to\infty}\mathbb{P}_{\frac{1}{2}}(B_n^\mathrm{top})\geq\lim_{n\to\infty}1-\Big[1-\mathbb{P}_{\frac{1}{2}}(B_n)\Big]^\frac{1}{4}=1
+	\]
+	Note that the probability of $B_n^\mathrm{top}$ remains the same for any ''shift" of this event.
+	\begin{figure}[htp]
+	\centering
+	\def\svgwidth{7cm}
+	\incfig{a13}
+	\end{figure}
+	\newpage
+	Now, we consider 
+	\begin{align*}
+        &C_n^{\mathrm{top}}=B_n^\mathrm{top}\\
+        &C_n^{\mathrm{bottom}}=\{\omega\subseteq \mathbb{Z}^2\mid \omega+(0,1)\in B_n^\mathrm{bottom}\}\\
+        &C_n^{\mathrm{left}}=\{\omega\subseteq \mathbb{Z}^2\mid \omega^*+(0.5,0.5)\in B_n^\mathrm{left}\}\\
+        &C_n^{\mathrm{right}}=\{\omega\subseteq \mathbb{Z}^2\mid \omega^*+(-0.5,0.5)\in B_n^\mathrm{right}\}
+	\end{align*}
+	then
+	\[
+	\lim_{n\to\infty}\mathbb{P}_{\frac{1}{2}}(C_n^{\mathrm{top}})=\lim_{n\to\infty}\mathbb{P}_{\frac{1}{2}}(C_n^{\mathrm{bottom}})=\lim_{n\to\infty}\mathbb{P}_{\frac{1}{2}}(C_n^{\mathrm{left}})=\lim_{n\to\infty}\mathbb{P}_{\frac{1}{2}}(C_n^{\mathrm{right}})=1,
+	\]
+	define $C_n=C_n^{\mathrm{top}}\cap C_n^{\mathrm{bottom}}\cap C_n^{\mathrm{left}}\cap C_n^{\mathrm{right}},$ then
+	\[
+	\lim_{n\to\infty}\mathbb{P}_\frac{1}{2}(C_n)=1.
+	\]
+	Note that $C_n$ does not depending on edges on $[-n,n]\times [-n-1,n],$ we take $n$ be large enough such that $\mathbb{P}_\frac{1}{2}(C_n)>\frac{1}{2},$ let $\mathcal{C}([-n,n]\times [-n-1,n])$ be the event that all edge in $[-n,n]\times [-n-1,n]$ are closed, then
+	\begin{align*}
+	\mathbb{P}_\frac{1}{2}(N\geq 2)&\geq \mathbb{P}_\frac{1}{2}\big(C_n\cap\mathcal{C}([-n,n]\times [-n-1,n])\big)\\
+	&\geq \frac{1}{2}\times\frac{1}{2^{8n^2+8n+1}}>0.
+	\end{align*}
+	Which contradicts that $\mathbb{P}_\frac{1}{2}(N\geq 2)=0$ on $\mathbb{Z}^2.$
+    \end{proof}
+    \item[\textbf{Exercise 2}] Show that $p_c\geq \frac{1}{2}$ for the site percolation on the triangular lattice.
+    \item[\SOL] We show that $\theta(\frac{1}{2})=0$ to conclude this.\\
+    Note that we can use similar way of proving that $\mathbb{P}_{p}(N=1)=1,\ \forall p>p_c$ in $\mathbb{Z}^d$ to say that it is also true in triangular lattice.\\
+    We suppose that $\theta(\frac{1}{2})>0,$ then $\frac{1}{2}>p_c(\triangle),$ thus $\mathbb{P}_\frac{1}{2}[\exists\mbox{ an infinite cluster}]=1,$ note that 
+    \begin{align*}
+    [\exists\mbox{ an infinite cluster}]&=\bigcup_{x\in \triangle}[x\leftrightarrow\infty]\\
+    &=\bigcup_{n\in\mathbb{N}}\bigcup_{x\in\partial\Lambda_n}[x\leftrightarrow\infty] =\lim_{n\to\infty}[\partial\Lambda_n\leftrightarrow\infty],
+    \end{align*}
+    In this case, $\Lambda_n=\{x\in G\mid \exists\mbox{ SAW of length}\leq n\mbox{ that connected form 0 to }x\},$ where the length of SAWs is allowed to be 0. And, $\partial\Lambda_n=\Lambda_n\backslash\Lambda_{n-1},$ where $\Lambda_{-1}=\varnothing.$\\
+    We still define
+    \[
+    B_n:=[\partial\Lambda_n\leftrightarrow\infty]=[\exists\mbox{ an infinite SAW in }\triangle\backslash\Lambda_{n-1}\mbox{ starting in }\partial\Lambda_n]
+    \]
+    It is needed to mention that we consider a configuration $\omega$ to be a subset of $V(\triangle)$ instead of a subset of $E(\triangle).$ Define
+    \begin{align*}
+        &B_n^{\mathrm{t}}=[\exists\mbox{ an infinite SAW in }\mathbb{Z}^2\backslash\Lambda_{n-1}\mbox{ starting in }\partial\Lambda_n^\mathrm{top}]\\
+        &B_n^{\mathrm{b}}=[\exists\mbox{ an infinite SAW in }\mathbb{Z}^2\backslash\Lambda_{n-1}\mbox{ starting in }\partial\Lambda_n^\mathrm{bottom}]\\
+        &B_n^{\mathrm{lh}}=[\exists\mbox{ an infinite SAW in }\mathbb{Z}^2\backslash\Lambda_n\mbox{ starting in }\partial\Lambda_n^\mathrm{left\, hand}]\\
+        &B_n^{\mathrm{lf}}=[\exists\mbox{ an infinite SAW in }\mathbb{Z}^2\backslash\Lambda_{n-1}\mbox{ starting in }\partial\Lambda_n^\mathrm{left\, foot}]\\
+        &B_n^{\mathrm{rh}}=[\exists\mbox{ an infinite SAW in }\mathbb{Z}^2\backslash\Lambda_{n-1}\mbox{ starting in }\partial\Lambda_n^\mathrm{right\, hand}]\\
+        &B_n^{\mathrm{rf}}=[\exists\mbox{ an infinite SAW in }\mathbb{Z}^2\backslash\Lambda_{n-1}\mbox{ starting in }\partial\Lambda_n^\mathrm{right\, foot}].
+    \end{align*}
+	\begin{figure}[htp]
+	\centering
+	\def\svgwidth{10cm}
+	\incfig{a14}
+	\end{figure}
+	Then, $B_n=B_n^\mathrm{t}\cup B_n^\mathrm{b}\cup B_n^\mathrm{lh}\cup B_n^\mathrm{lf}\cup B_n^\mathrm{rh}\cup B_n^\mathrm{rf},$ because of all these events are increasing events, by square-root trick and $\lim\limits_{n\to\infty}\mathbb{P}_{\frac{1}{2}}(B_n)=1,$ we got that
+	\[
+	\lim_{n\to\infty}\mathbb{P}_\frac{1}{2}(B_n^\mathrm{t})\geq \lim_{n\to\infty}1-\Big[1-\mathbb{P}_\frac{1}{2}(B_n)\Big]^\frac{1}{6}=1.
+	\]
+	Given a configuration $\omega\subseteq \triangle,$ we define $\omega^\complement=V(\triangle)\backslash\omega,$ which is also a (site) configuration of $\triangle.$ Thus for any given event $A,$ we have $\mathbb{P}_p\{\omega\mid\omega\in A\}=\mathbb{P}_{1-p}\{\omega\mid\omega^\complement\in A\}.$\\
+	Because of $p=1-p$ when $p=\frac{1}{2},$ for convenience, we say $[\omega^\complement\in A]:=\{\omega\mid \omega^\complement\in A\}$ for $A$ be a event, then
+	\[
+	\lim_{n\to\infty}\mathbb{P}_\frac{1}{2}([\omega\in B_n^\mathrm{t}]\cap [\omega^\complement\in B_n^\mathrm{b}]\cap[\omega^\complement\in B_n^\mathrm{lh}]\cap[\omega\in B_n^\mathrm{lf}]\cap[\omega^\complement\in B_n^\mathrm{rh}]\cap[\omega\in B_n^\mathrm{rf}])=1.
+	\]
+	We define $C_n:=[\omega\in B_n^\mathrm{t}]\cap\cdots \cap [\omega\in B_n^\mathrm{rf}]$ in the previous step, we can take large $n$ such that $\mathbb{P}_\frac{1}{2}(C_n)\geq \frac{1}{2},$ we use $\sixedge_n$ to denote the event that all sites in $\Lambda_n$ are closed, note that $C_n$ dose not depend on sites in $\Lambda_{n-1},$ thus
+	\[
+	\mathbb{P}(N\geq 3)\geq \mathbb{P}(C_n\cap \sixedge_{n-1})=\frac{1}{2}\times \frac{1}{2^{1+3n(n-1)}}>0,
+	\]
+	which is a contradiction because of $\mathbb{P}_\frac{1}{2}(N=1)=1.\qquad \blacksquare$
+\end{enumerate}
+\end{document}
