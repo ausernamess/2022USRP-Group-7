@@ -15,7 +15,7 @@
 \usepackage{graphicx}
 \theoremstyle{plane}
 \newtheorem*{prop}{Proposition}
-
+\newtheorem*{thm}{Theorem}
 
 \begin{document}
 
@@ -40,15 +40,24 @@ that it is an infinite cluster. We define a function $\theta(p)=\mathbb{P}_p(\ex
 
 %----------
 \subsection{Useful Identities \& Applications}
-We introduce some fundamental tools which are useful when we study the Bernoulli percolation on other graphs. One important idea is the increasing event. Intuitively, if $A$ is an increasing event, $\omega\in A$ and $\omega\leq\omega'$, then $\omega'$ is in $A$. This comes our first tool, Harris-FKG inequality.
-\begin{prop}
+We introduce some fundamental tools which are useful when we study the Bernoulli percolation on other graphs. One important idea is the increasing event. Intuitively, if $A$ is an increasing event, $\omega\in A$ and $\omega\leq\omega'$, then $\omega'$ is in $A$. One noteworthy thing is that we usually consider the increasing events that "depend on finitely many edges". This comes our first tool, Harris-FKG inequality.
+\begin{thm}
 If $A$ and $B$ are two increasing events, then $\mathbb{P}(A\cap B)\geq \mathbb{P}(A)\mathbb{P}(B)$.
-\end{prop}
+\end{thm}
 This is equivalent to 
+\begin{thm}
+If \(f\) and \(g\) are increasing functions, then $\mathbb{E}[fg]\geq\mathbb{E}[f]\mathbb{E}[g].$
+\end{thm}
+The Harris-FKG inequality can be applied to the proof that on $\mathbb{Z}^2$, $p_c(\mathbb{Z}^2)\geq 1/2$ with the square-root trick. Another important tool is the B.K. inequality.
+\begin{thm}
+If A and B are increasing events that depend on finitely many edges, we have \[\mathbb{P}(A\circ B)\leq\mathbb{P}(A)\mathbb{P}(B).\]
+\end{thm}
+The event $A\circ B$ denotes "$A$ and $B$ are realized disjointly". We could view $A\circ B$ as "the edges that $A$ and $B$ depend on are disjoint". The equality holds when the events $A$ and $B$ are disjoint. Intuitively, the B.K. inequality tells us that if an increasing event holds then it gets harder for another increasing event to hold disjointly. We can manage to use this inequality in order to bound the some probability. The last tool is Russo's identity. This is useful when we study of the behavior $\mathbb{P}_p$ when $p$ varies. Here, it's necessary to introduce the idea of 
+pivotal edges. An edge $e$ is said to be pivotal of the configuration $\omega$ if the "switch" of $e$ determines whether $\omega$ is in the event $A$ or not. Write $N(A)=N(A,\omega)$ be the number of pivotal edges in $\omega$. 
 \begin{prop}
-If \(f\) and \(g\) are increasing functions, then $\mathbb{E}[fg]\geq\mathbb{E}[f]\mathbb{g}.$
+For an increasing event $A$ depending on finitely many edges, we have \[\frac{d}{dp}\mathbb{P})p(A)=\mathbb{E}_p[N(A)].\]
 \end{prop}
-The Harris-FKG inequality can be applied to the proof that on $\mathbb{Z}^2$, $p_c(\mathbb{Z}^2)\geq 2$ with the square-root trick.
+The identity is essential for the study of behavior of supercritical regime. 
 %----------
 \subsection{Exponential Decay}\label{Course_Progress:Exponentia_Decay}
 One of the reason we introduce exponential decay is to show that $p_c \leq \frac{1}{2}$ on $\mathbb{Z}^d$(shown by Harry Kesten in the 80s). 
