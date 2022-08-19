@@ -80,7 +80,7 @@ When $\beta < \beta_c$, $\mathbb{Z}_\beta$ will be less than $\infty$.
 
 %----------
 \subsection{Planar Statistical Physics and Bernoulli Percolation}
-Given an infinite undirected connected graph $G = (V,E)$. We say an edge $e \in E$ is open (resp., closed) if and only if the edge $e$ is assigned the value $1$(resp., $0$). The name "Bernoulli" is given because we put i.i.d. Bernoulli random variables on each edge and each edge opens with probability $p\in[0,1]$. A configuration $\omega$ is an event that each edge $e\in \text{E}(G)$ is either open or closed. Two vertices $a$ and $b$ are connected if there exists a path from $a$ to $b$. A cluster is a set of vertices that every pair of vertices is connected. If a cluster is infinite, then we say that it is an infinite cluster. We define a function $\theta(p)=\mathbb{P}_p(\exists\text{ an infinite cluster containing }0)$, that is, the probability of the event in the parentheses under the Bernoulli percolation with probability $p$. The key ingredient of the Bernoulli percolation is the critical probability \[p_c\coloneqq\\sup\{p\in [0,1]\mid \theta(p)=0\}\] under which the behavior of percolation changes significantly. The focus of our course is the existence and uniqueness of the infinite cluster and the behavior of the percolation when $p>p_c$ and $p<p_c$. 
+Given an infinite undirected connected graph $G = (V,E)$. We say an edge $e \in E$ is open (resp., closed) if and only if the edge $e$ is assigned the value $1$(resp., $0$). The name "Bernoulli" is given because we put i.i.d. Bernoulli random variables on each edge and each edge opens with probability $p\in[0,1]$. A configuration $\omega$ is an event that each edge $e\in \text{E}(G)$ is either open or closed. Two vertices $a$ and $b$ are connected if there exists a path from $a$ to $b$. A cluster is a set of vertices that every pair of vertices is connected. If a cluster is infinite, then we say that it is an infinite cluster. We define a function $\theta(p)=\mathbb{P}_p(\exists\text{ an infinite cluster containing }0)$, that is, the probability of the event in the parentheses under the Bernoulli percolation with probability $p$. The key ingredient of the Bernoulli percolation is the critical probability \[p_c\coloneqq\\sup\{p\in [0,1]\mid \theta(p)=0\}\] under which the behavior of percolation changes significantly. The focus of our course is the existence and uniqueness of the infinite cluster and the behavior of the percolation when $p>p_c$ (supercritical) and $p<p_c$ (subcritical). 
 
 %----------
 \subsection{Useful Identities \& Applications}
@@ -169,7 +169,7 @@ With Russo-Seymour-Welsh's theory, we're able to give a scale invariant property
 I was intended to study the paper [3], and I found the idea of correlation length and the exponents are helpful in reading the paper. Fortunately, these two are part of \ref{Course_Progress:Exponentia_Decay}. 
 The tree exercises I solved were the exponential decay on the size of the connected component $C$ under subcritical stage, correlation length, and Fekete subadditive lemma on $0 \longleftarrow \partial \Lambda_n$.
 In solving these exercises, I have more understanding on the relation between different exponents and how can they help us on the study of near critical phenomenon.  
-
+\bigskip
 \subsection*{Hsu: Double Phase Transition}
 In this section, we introduce the interesting property, double phase transition of $\mathbb{T}_d\times\mathbb{Z}$, which is different from integers lattices $\mathbb{Z}^d$, triangle lattices and regular trees. The number of infinite clusters changes on $[0,1]$; there's no infinite cluster on $(0,p_c)$, infinitely many on $(p_c,p_u)$ and one on $(p_u,1)$, where $p_u$ is defined as \[p_u=\{p\in [0,1] \mid \text{there is a.s. a unique infinite cluster}\}.\]
 The property is given by the theorem:
@@ -191,14 +191,13 @@ If $G$ is the Cayley graph of a nonamenable finitely presented group with one en
 \end{thm}
 where we consider special graphs and a combinatorial fact to obtain the desired result. The most difficult part is to show the inequality $p_c<p_u$. The essential ingredients are the following:
 \begin{thm}
-If $G$ is a $d-$regular connected multigraph, then \[\text{cogr}(G)>\sqrt{d-1} \text{ iff } \rho(G)>\frac{2\sqrt{d-1}}{d}\] in which case \[d\rho(G)=\frac{d-1}{\text{cogr}(G)}+\text{cogr}(G).\]
+If $G$ is a $d-$regular connected multigraph, then \[\text{cogr}(G)>\sqrt{d-1} \text{ iff } \rho(G)>\frac{2\sqrt{d-1}}{d},\] in which case \[d\rho(G)=\frac{d-1}{\text{cogr}(G)}+\text{cogr}(G).\]
 \end{thm}
 \begin{cor}
 For all $b\geq 1$, we have \[\rho(\mathbb{T}_d\times\mathbb{Z})=\frac{2\sqrt{b}+2}{b+3}.\]
 \end{cor}
 Of course, the proofs are nontrivial but they give the interesting property that the number of infinite clusters varies on the interval in $p$. \\
 \bigskip\\
-reference: R. Lyons, Y. Peres, \textit{Probability on Trees and Networks.} (2016)
 \subsection*{Hung: Research of other periodic lattice}
 \begin{enumerate}
     \item $\mathbb{T}_d:$
@@ -211,9 +210,7 @@ reference: R. Lyons, Y. Peres, \textit{Probability on Trees and Networks.} (2016
 	\item $\triangle:$ (triangle lattice)\\[5pt]
 	We can see that $p_c(\triangle)\geq \frac{1}{2}.$ (Actually, $p_c(\triangle)=\frac{1}{2}.$)
 \end{enumerate}
-<<<<<<< HEAD
 \newpage
-=======
 \subsection*{Su: Critical Probability for Bond Percolation on Triangular Lattice}
 \begin{thm}
 The critical probability for bond percolation on triangular lattice is $2\sin (\frac{\pi}{18})$.
@@ -224,7 +221,6 @@ Proof:
 \end{enumerate}
 
 \end{thm}
->>>>>>> af84123ea6f729d2cd0da05e9792e9bc68de65ea
 \section{Future Work}
 
 There are several directions in the future. For example, on the scaling invariant property, RSW theory gave us a way to obtain the uniform probability bounds of crossing events, but we can also ask the question about the scaling limit of a crossing event, not only the uniform bounds. We'll try to apply the discrete analytic ideas developed by Simrnov to extend the scaling problem on different types of lattice.
