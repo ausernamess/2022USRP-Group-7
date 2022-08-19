@@ -47,12 +47,24 @@ The link to Prof. Li's USRP webpage at \href{https://usrp2022.cadlag.space/}{her
 Hao is working on this.
 One motivation for the percolation models is statistical phenomenon. When trying to describe macroscopic behavior with a huge system of microscopic particles, it is nearly impossible to solve the system with so many variables.
 In the late 19th century, Ludwig Boltzmann raised a probabilistic formation to these problems. In particular, Boltzmann distribution. 
-Let $\Omega$ be our sample space, which is a collection of all possible configuration of the system. Then, the idea of energy of a configuration $\omega$ can be introduced  as Hamiltonian $H(\omega)$.
+Let $\Omega$ be our sample space, which is a collection of all possible configuration of the system. Then, the idea of energy of a configuration $\omega$ can be introduced as Hamiltonian $H(\omega)$, and $\beta$ is a parameter related to temperature.
 The probability of $\omega$ happening in Boltzmann distribution can be denoted as 
 $$
     \mathbb{P}_\beta(\omega) = \frac{1}{\mathbb{Z_\beta}}e^{-\beta H(\omega)}, 
 $$ 
 where $\mathbb{Z}_\beta = \sum_{\omega \in \Omega} e^{-\beta H(\omega)}$ is a normalization constant.
+If $\Omega$ is a finite set, the finiteness of $\mathbb{Z}_\beta$ depend on $\beta$.
+The first model we consider is polymer/self-avoiding walk model on $\mathbb{Z}^2$. The model is attributed to Chemist Paul Flory in the 50s. A \textbf{polymer} is a self avoiding walk from the origin, and a \textbf{self-avoiding walk}(SAW) is a path that does not interest its trajectory.
+Also, $H(\omega)= |\omega|$, i.e the energy of $\omega$ is determined by the length of the SAW. 
+Then, 
+$$
+    \mathbb{Z_\beta} = \sum_{\omega \in \Omega} e^{-\beta H(\omega)} = \sum_{n \in \mathbb{N}} \lambda_n e^{-\beta n}, 
+$$
+where $\lambda_n$ is the number of $\omega$ with $|\omega| = n$.
+To make the model well defined, we need to make $\mathbb{Z}_\beta < \infty$. Hence, we have to understand the asymptotic behavior of $\lambda_n$ and thus finding $\beta$ that make $\mathbb{Z}_\beta < \infty$.
+
+The property we are looking for is the subadditivity of $\lambda_n$. This property gives the limit $\mu \coloneqq \lim_n \lambda_n^{\frac{1}{n}}$. The \textbf{connective constant} $\mu$ is hard to compute, but once acquired, we can define critical beta $\beta_c \coloneqq \ln{(\mu)}$.
+When $\beta < \beta_c$, $\mathbb{Z}_\beta$ will be less than $\infty$.
 
 %----------
 \subsection{Planar Statistical Physics and Bernoulli Percolation}
