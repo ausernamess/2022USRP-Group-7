@@ -24,6 +24,21 @@
 \newtheorem*{defn}{Definition}
 \newtheorem*{remark}{Remark}
 
+
+\newcommand{\iso}{\mathrm{iso}}
+\newcommand{\esc}{\mathrm{esc}}
+\newcommand{\oversim}[1]{\parbox[t][-18pt][c]{10pt}{\scriptsize$\sim$}\hspace*{-12pt}{#1}}
+\newcommand{\bbar}[1]{\overline{#1}}
+\newcommand{\ul}[1]{\underline{#1}}
+\newcommand{\SOL}{\fbox{ \tt s\parbox[b][2pt][c]{6pt}{o}\hspace*{-7pt} L:}}
+\newcommand{\sixxedge}{\mbox{\parbox[t][-2pt][c]{10pt}{\scriptsize$\blacktriangledown\hspace{-3.6pt}\blacktriangle\hspace{-4pt}\blacktriangledown$}\hspace{-10.2pt}\parbox[b][10.7pt][c]{10pt}{\scriptsize$\blacktriangle\hspace{-3.6pt}\blacktriangledown\hspace{-3.6pt}\blacktriangle$}}}
+\newcommand{\indecate}{\mbox{\begin{turn}{65.9}
+$>$
+\end{turn}\hspace{-10.5pt}\parbox[t][-5pt][c]{10pt}{$\bot$}\hspace{-4.35pt}\parbox[t][-3.4pt][c]{4pt}{$\shortmid$}}}
+\newcommand{\inccfig}[1]{%
+\import{./picture/}{#1.pdf_tex}
+}
+
 \begin{document}
 
 \clearpage\maketitle
@@ -160,7 +175,18 @@ For all $b\geq 1$, we have \[\rho(\mathbb{T}_d\times\mathbb{Z})=\frac{2\sqrt{b}+
 Of course, the proofs are nontrivial but they give the interesting property that the number of infinite clusters varies on the interval in $p$. \\
 \bigskip\\
 reference: R. Lyons, Y. Peres, \textit{Probability on Trees and Networks.} (2016)
-
+\subsection{Hung: Research of other periodic lattice}
+\begin{enumerate}
+    \item $\mathbb{T}_d:$
+	\begin{figure}[htp]
+	\centering
+	\def\svgwidth{7cm}
+	\inccfig{T3}
+	\end{figure}\\
+	We well find that $p_c(\mathbb{T}_d)=\frac{1}{d-1},\ \mu(\mathbb{T}_d)=\frac{1}{d-1}.$
+	\item $\triangle:$ (triangle lattice)\\[5pt]
+	We can see that $p_c(\triangle)\geq \frac{1}{2}.$ (Actually, $p_c(\triangle)=\frac{1}{2}.$)
+\end{enumerate}
 
 \section{Future Work}
 
