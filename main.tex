@@ -137,7 +137,8 @@ $>$
 	K+\varepsilon=K+\frac{\varepsilon}{2}+\frac{\varepsilon}{2}>\lambda_{N_1}^{\frac{1}{N_1}}+\frac{\varepsilon}{2}>(\lambda_n)^{\frac{1}{n}}\geq K,
 	\]
 	so $\mu=\lim\limits_{n\to\infty}(\lambda_n)^\frac{1}{n}=K$ exists.\\
-	Next, for $N>1,$ we have $\forall n\in \mathbb{N}, \lambda_{nN}\leq (\lambda_N)^n$, thus $(\lambda_{nN})^\frac{1}{nN}\leq (\lambda_N)^\frac{1}{N}.$ Note that $\{(\lambda_{nN})^{\frac{1}{nN}}\}_{n=1}^{\infty}$ is a subsequence of $\{(\lambda_{n})^{\frac{1}{n}}\}_{n=1}^{\infty},$ therefore $\mu=\lim\limits_{n\to\infty}(\lambda_{nN})^\frac{1}{nN}\leq (\lambda_N)\frac{1}{N}$
+	Next, for $N>1,$ we have $\forall n\in \mathbb{N}, \lambda_{nN}\leq (\lambda_N)^n$, thus $(\lambda_{nN})^\frac{1}{nN}\leq (\lambda_N)^\frac{1}{N}.$ \\
+	Note that $\{(\lambda_{nN})^{\frac{1}{nN}}\}_{n=1}^{\infty}$ is a subsequence of $\{(\lambda_{n})^{\frac{1}{n}}\}_{n=1}^{\infty},$ therefore $\mu=\lim\limits_{n\to\infty}(\lambda_{nN})^\frac{1}{nN}\leq (\lambda_N)\frac{1}{N}$
 	\end{proof}
 	\begin{ex} Five exercises:
 	\begin{enumerate}
@@ -1322,7 +1323,28 @@ Probability space $\Omega=\{0,1\}^{\Lambda}$ where $\Lambda$ is finite or counta
         \end{align*}
         Therefore, $\mathbb{P}_\frac{1}{2}[O\leftrightarrow\Lambda_n]\geq \frac{1}{2n}.$\\[7pt]
         ii. $\mathcal{H}_n'$ is just $\mathcal{H}_n$ with no confusion.\\[7pt]
-        iii. 
+        iii. We give an example $\omega$ that belongs to $\mathcal{C}_2(O)\circ \mathcal{C}_2(O):$
+    	\begin{figure}[htp]
+    	\centering
+        \def\svgwidth{6cm}
+        \incfig{a18}
+        \end{figure}\\
+        We observe that $ \omega\in \mathcal{C}_n(O)\circ \mathcal{C}_n(O)\Leftrightarrow$ exist two disjoint SAWs connected from $O$ to $\partial\Lambda_n.$ Thus 
+        \[
+        \mathcal{H}([-n,n]\times [-n+1,n])\subseteq \bigcup_{i=-n+1}^n\mathcal{C}_n(0,i)\circ \mathcal{C}_n(0,i)\ (\mbox{See }\mathbf{Figure})
+        \]
+        Thus, 
+        \begin{align*}
+        2n\mathbb{P}_{\frac{1}{2}}\big(\mathcal{C}_n(O)\circ\mathcal{C}_n(O)\big)&\geq \mathbb{P}_{\frac{1}{2}}\bigg(\bigcup_{i=-n+1}^n\mathcal{C}_n(0,i)\circ \mathcal{C}_n(0,i)\bigg)\\
+        &\geq \mathbb{P}_{\frac{1}{2}}\big(\mathcal{H}([-n,n]\times [-n+1,n])\big)=\frac{1}{2}
+        \end{align*}
+        Therefore, $\mathbb{P}_{\frac{1}{2}}\big(\mathcal{C}_n(O)\circ\mathcal{C}_n(O)\big)\geq \frac{1}{4n}.$
+        \newpage
+    	\begin{figure}[htp]
+    	\centering
+        \def\svgwidth{12cm}
+        \incfig{a19}
+        \end{figure}
     \end{enumerate}
 \end{enumerate}
 \newpage
