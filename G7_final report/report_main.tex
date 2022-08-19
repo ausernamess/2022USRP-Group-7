@@ -52,23 +52,20 @@ We study the percolation phenomenon in planar statistical physics using probabil
 In the first three weeks, we received classes covering four main topics. Those classes introduce methods to discuss the connecting property and phase transition behavior on some regular lattice such as $\mathbb{Z}^2,\mathbb{T}_d$, triangular lattice or hexagon lattice. 
 After the classes were over, we went on individual research to explore topics such as exponential decay near critical probability and scaling invariant property of the crossing events.
 
-A more detailed version is on our \href{https://github.com/ausernamess/2022USRP-Group-7/blob/main/main.pdf}{Github} page. 
-
-The link to Prof. Li's USRP webpage at \href{https://usrp2022.cadlag.space/}{here}
+A more detailed version is on our \href{https://github.com/ausernamess/2022USRP-Group-7/blob/main/main.pdf}{Github} page. Reader who are interested in the topic can also check out Prof. Li's USRP webpage at \href{https://usrp2022.cadlag.space/}{here}
 \section{Course Progress}
 
 \setcounter{subsection}{-1}
 \subsection{(Planer) Statistical Mechanics}
-Hao is working on this.
 One motivation for the percolation models is statistical phenomenon. When trying to describe macroscopic behavior with a huge system of microscopic particles, it is nearly impossible to solve the system with so many variables.
 In the late 19th century, Ludwig Boltzmann raised a probabilistic formation to these problems. In particular, Boltzmann distribution. 
-Let $\Omega$ be our sample space, which is a collection of all possible configuration of the system. Then, the idea of energy of a configuration $\omega$ can be introduced as Hamiltonian $H(\omega)$, and $\beta$ is a parameter related to temperature.
+Let $\Omega$ be our sample space, which is a collection of all possible configuration $\omega$ of the system. Then, the 'energy' of $\omega$ can be introduced as Hamiltonian $H(\omega)$, and $\beta$ is a parameter related to temperature.
 The probability of $\omega$ happening in Boltzmann distribution can be denoted as 
 $$
     \mathbb{P}_\beta(\omega) = \frac{1}{\mathbb{Z_\beta}}e^{-\beta H(\omega)}, 
 $$ 
 where $\mathbb{Z}_\beta = \sum_{\omega \in \Omega} e^{-\beta H(\omega)}$ is a normalization constant.
-If $\Omega$ is a finite set, the finiteness of $\mathbb{Z}_\beta$ depend on $\beta$.
+If $\Omega$ is a infinite set, the finiteness of $\mathbb{Z}_\beta$ is not guaranteed and depend on $\beta$.
 The first model we consider is polymer/self-avoiding walk model on $\mathbb{Z}^2$. The model is attributed to Chemist Paul Flory in the 50s. A \textbf{polymer} is a self avoiding walk from the origin, and a \textbf{self-avoiding walk}(SAW) is a path that does not interest its trajectory.
 Also, $H(\omega)= |\omega|$, i.e the energy of $\omega$ is determined by the length of the SAW. 
 Then, 
@@ -78,12 +75,12 @@ $$
 where $\lambda_n$ is the number of $\omega$ with $|\omega| = n$.
 To make the model well defined, we need to make $\mathbb{Z}_\beta < \infty$. Hence, we have to understand the asymptotic behavior of $\lambda_n$ and thus finding $\beta$ that make $\mathbb{Z}_\beta < \infty$.
 
-The property we are looking for is the subadditivity of $\lambda_n$. This property gives the limit $\mu \coloneqq \lim_n \lambda_n^{\frac{1}{n}}$. The \textbf{connective constant} $\mu$ is hard to compute, but once acquired, we can define critical beta $\beta_c \coloneqq \ln{(\mu)}$.
+The property we are looking for is the subadditivity of $\lambda_n$. This property gives the limit $\mu \coloneqq \lim_n \lambda_n^{\frac{1}{n}}$. The \textbf{connective constant} $\mu$ is hard to compute, but once acquired, we can define critical $\beta_c \coloneqq \ln{(\mu)}$.
 When $\beta < \beta_c$, $\mathbb{Z}_\beta$ will be less than $\infty$.
 
 %----------
 \subsection{Planar Statistical Physics and Bernoulli Percolation}
-Given an infinite undirected connected graph $G$. We say an edge $e$ is open(resp., closed) if and only if the edge $e$ is assigned the value $1$(resp., $0$). The name "Bernoulli" is given because we put i.i.d. Bernoulli random variables on each edge and each edge opens with probability $p\in[0,1]$. A configuration $\omega$ is an event that each edge $e\in \text{E}(G)$ is either open or closed. Two vertices $a$ and $b$ are connected if there exists a path from $a$ to $b$. A cluster is a set of vertices that every pair of vertices is connected. If a cluster is infinite, then we say that it is an infinite cluster. We define a function $\theta(p)=\mathbb{P}_p(\exists\text{ an infinite cluster containing }0)$, that is, the probability of the event in the parentheses under the Bernoulli percolation with probability $p$. The key ingredient of the Bernoulli percolation is the critical probability \[p_c\coloneqq\\sup\{p\in [0,1]\mid \theta(p)=0\}\] under which the behavior of percolation changes significantly. The focus of our course is the existence and uniqueness of the infinite cluster and the behavior of the percolation when $p>p_c$ and $p<p_c$. 
+Given an infinite undirected connected graph $G = (V,E)$. We say an edge $e \in E$ is open (resp., closed) if and only if the edge $e$ is assigned the value $1$(resp., $0$). The name "Bernoulli" is given because we put i.i.d. Bernoulli random variables on each edge and each edge opens with probability $p\in[0,1]$. A configuration $\omega$ is an event that each edge $e\in \text{E}(G)$ is either open or closed. Two vertices $a$ and $b$ are connected if there exists a path from $a$ to $b$. A cluster is a set of vertices that every pair of vertices is connected. If a cluster is infinite, then we say that it is an infinite cluster. We define a function $\theta(p)=\mathbb{P}_p(\exists\text{ an infinite cluster containing }0)$, that is, the probability of the event in the parentheses under the Bernoulli percolation with probability $p$. The key ingredient of the Bernoulli percolation is the critical probability \[p_c\coloneqq\\sup\{p\in [0,1]\mid \theta(p)=0\}\] under which the behavior of percolation changes significantly. The focus of our course is the existence and uniqueness of the infinite cluster and the behavior of the percolation when $p>p_c$ and $p<p_c$. 
 
 %----------
 \subsection{Useful Identities \& Applications}
@@ -105,16 +102,30 @@ pivotal edges. An edge $e$ is said to be pivotal of the configuration $\omega$ i
 For an increasing event $A$ depending on finitely many edges, we have \[\frac{d}{dp}\mathbb{P}_p (A)=\mathbb{E}_p[N(A)].\]
 \end{prop}
 The identity is essential for the study of behavior of supercritical regime. 
->>>>>>> ecad8e7a64f7a529bd91aa55c764861710a58540
 %----------
 \subsection{Exponential Decay}\label{Course_Progress:Exponentia_Decay}
+\begin{thm} For $d \geq 2$, there are two facts\\
+\begin{enumerate}
+	    \item For $p < p_c$, there exists $c = c(p) > 0$ s.t For all $n\geq 1$,
+				$$
+					\mathbb{P}_p[0 \longleftrightarrow \partial \Lambda_n] \leq e^{-cn}	
+				$$
+		\item For $p > p_c$,
+			$$
+			\mathbb{P}[0\longleftrightarrow \infty ]\geq \frac{p-p_c}{p(1-p_c)}
+			$$
+\end{enumerate}
+\end{thm}
 One of the reason we introduce exponential decay is to show that $p_c \leq \frac{1}{2}$ on $\mathbb{Z}^d$(shown by Harry Kesten in the 80s). 
 For $\mathbb{Z}^d$ with $d\geq 1$, depending on whether $p$ is larger than $p_c$, the probability of the origin connected to $\partial \Lambda_n$  ($0 \longleftarrow \partial \Lambda_n$) will either decay exponentially as $n$ grows or bounded below by a constant depending on p. 
 Once knowing the above fact, we can show that $\mathbb{P}_p (\mathcal{H}_n)$, the probability of horizontal crossing on $R_n$($[0,n]\times [0,n+1]$) box, also decrease exponentially as $n$ grows under $p < p_c$. 
 In the discussion of $\mathbb{Z}^2$, if $p_c < \frac{1}{2}$, we will get a contradiction to $\mathbb{P}_{\frac{1}{2}}(\mathcal{H}_n) = 1/2$ for any $n \in \mathbb{N}$. Therefore, combining the previous discussion we know $p_c = \frac{1}{2}$ on $\mathbb{Z}^2$.
 
-We can observe exponential decay on other event. For example, the size of $C$, where $C$ is the connected component containing the origin, and the probability of the origin connected to a point on one axis with distance $n$ ($0 \longleftarrow ne_1$). In the latter event, we applied the extension of Fekete subadditive lemma to get the parameter for the decay, \textit{correlation length} $\xi(p)$. 
-Using the same method, the rate of decay $\varphi(p)$ for $0 \longleftarrow \partial \Lambda_n$ is also acquired, and we know $\varphi(p) = \xi(p)^{-1}$.
+We can observe exponential decay on other event. For example, the size of $C$, where $C$ is the connected component containing the origin, and the probability of the origin connected to a point on one axis with distance $n$ ($0 \longleftarrow ne_1$). In the latter event, we applied the extension of Fekete subadditive lemma to get the parameter for the decay, \textit{correlation length} $\xi(p)$ as 
+$$
+\xi(p) \coloneqq \inf_{n} \left(-\frac{1}{n}\ln{\mathbb{P}_p[0 \leftrightarrow ne_1]}\right)^{-1}
+$$
+Using the same method, the rate of decay $\varphi(p)$ for $0 \longleftarrow \partial \Lambda_n$ is also acquired, and we will be able to show that $\varphi(p) = \xi(p)^{-1}$.
 
 %----------
 \subsection{Russo-Seymour-Welsh Theorem}
@@ -145,7 +156,7 @@ With Russo-Seymour-Welsh's theory, we're able to give a scale invariant property
 \mathbb{P}_\frac{1}{2}\big[(a^\delta b^\delta)\xleftrightarrow{\text{$\Omega^\delta$}}(c^\delta d^\delta)\big]\geq c.
 \end{equation*}
     
-\begin{figure}[b]
+\begin{figure}[h]
 \centering
 \includegraphics[width=5.0cm]{./picture/omega_2.png}
 \includegraphics[width=5.0cm]{./picture/omega_2_crossing.png}
@@ -155,9 +166,10 @@ With Russo-Seymour-Welsh's theory, we're able to give a scale invariant property
 
 \section{Individual Research}
 \subsection*{Hao: Exponential Decay}
-I was intended to study TBD(reference), and in it I found the idea of correlation length and the exponents had to do with the \ref{Course_Progress:Exponentia_Decay} and the exercises. 
+I was intended to study the paper [3], and I found the idea of correlation length and the exponents are helpful in reading the paper. Fortunately, these two are part of \ref{Course_Progress:Exponentia_Decay}. 
 The tree exercises I solved were the exponential decay on the size of the connected component $C$ under subcritical stage, correlation length, and Fekete subadditive lemma on $0 \longleftarrow \partial \Lambda_n$.
 In solving these exercises, I have more understanding on the relation between different exponents and how can they help us on the study of near critical phenomenon.  
+
 \subsection*{Hsu: Double Phase Transition}
 In this section, we introduce the interesting property, double phase transition of $\mathbb{T}_d\times\mathbb{Z}$, which is different from integers lattices $\mathbb{Z}^d$, triangle lattices and regular trees. The number of infinite clusters changes on $[0,1]$; there's no infinite cluster on $(0,p_c)$, infinitely many on $(p_c,p_u)$ and one on $(p_u,1)$, where $p_u$ is defined as \[p_u=\{p\in [0,1] \mid \text{there is a.s. a unique infinite cluster}\}.\]
 The property is given by the theorem:
@@ -199,11 +211,12 @@ reference: R. Lyons, Y. Peres, \textit{Probability on Trees and Networks.} (2016
 	\item $\triangle:$ (triangle lattice)\\[5pt]
 	We can see that $p_c(\triangle)\geq \frac{1}{2}.$ (Actually, $p_c(\triangle)=\frac{1}{2}.$)
 \end{enumerate}
-
+\newpage
 \section{Future Work}
 
 There are several directions in the future. For example, on the scaling invariant property, RSW theory gave us a way to obtain the uniform probability bounds of crossing events, but we can also ask the question about the scaling limit of a crossing event, not only the uniform bounds. We'll try to apply the discrete analytic ideas developed by Simrnov to extend the scaling problem on different types of lattice.
 We can also back to the starting point, thinking the method of finding critical probability or connective constant in some periodic lattice (ex. $\triangle,\ \sixedge,$ etc.) 
+
 
 \section*{Reference}
 
