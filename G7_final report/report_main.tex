@@ -13,6 +13,8 @@
 %\newcommand{\DueDate}{\DTMdisplaydate{2021}{9}{27}{-1}}
 \newcommand{\sixedge}{\mbox{\parbox[t][-2pt][c]{10pt}{\scriptsize$\blacktriangledown\hspace{-3.6pt}\blacktriangle\hspace{-4pt}\blacktriangledown$}\hspace{-10.2pt}\parbox[b][10.7pt][c]{10pt}{\scriptsize$\blacktriangle\hspace{-3.6pt}\blacktriangledown\hspace{-3.6pt}\blacktriangle$}}}
 \usepackage{graphicx}
+\theoremstyle{plane}
+\newtheorem*{prop}{Proposition}
 
 
 \begin{document}
@@ -38,6 +40,15 @@ that it is an infinite cluster. We define a function $\theta(p)=\mathbb{P}_p(\ex
 
 %----------
 \subsection{Useful Identities \& Applications}
+We introduce some fundamental tools which are useful when we study the Bernoulli percolation on other graphs. One important idea is the increasing event. Intuitively, if $A$ is an increasing event, $\omega\in A$ and $\omega\leq\omega'$, then $\omega'$ is in $A$. This comes our first tool, Harris-FKG inequality.
+\begin{prop}
+If $A$ and $B$ are two increasing events, then $\mathbb{P}(A\cap B)\geq \mathbb{P}(A)\mathbb{P}(B)$.
+\end{prop}
+This is equivalent to 
+\begin{prop}
+If \(f\) and \(g\) are increasing functions, then $\mathbb{E}[fg]\geq\mathbb{E}[f]\mathbb{g}.$
+\end{prop}
+The Harris-FKG inequality can be applied to the proof that on $\mathbb{Z}^2$, $p_c(\mathbb{Z}^2)\geq 2$ with the square-root trick.
 %----------
 \subsection{Exponential Decay}\label{Course_Progress:Exponentia_Decay}
 One of the reason we introduce exponential decay is to show that $p_c \leq \frac{1}{2}$ on $\mathbb{Z}^d$(shown by Harry Kesten in the 80s). 
