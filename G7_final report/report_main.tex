@@ -80,7 +80,7 @@ When $\beta < \beta_c$, $\mathbb{Z}_\beta$ will be less than $\infty$.
 
 %----------
 \subsection{Planar Statistical Physics and Bernoulli Percolation}
-Given an infinite undirected connected graph $G = (V,E)$. We say an edge $e \in E$ is open (resp., closed) if and only if the edge $e$ is assigned the value $1$(resp., $0$). The name "Bernoulli" is given because we put i.i.d. Bernoulli random variables on each edge and each edge opens with probability $p\in[0,1]$. A configuration $\omega$ is an event that each edge $e\in \text{E}(G)$ is either open or closed. Two vertices $a$ and $b$ are connected if there exists a path from $a$ to $b$. A cluster is a set of vertices that every pair of vertices is connected. If a cluster is infinite, then we say that it is an infinite cluster. We define a function $\theta(p)=\mathbb{P}_p(\exists\text{ an infinite cluster containing }0)$, that is, the probability of the event in the parentheses under the Bernoulli percolation with probability $p$. The key ingredient of the Bernoulli percolation is the critical probability \[p_c\coloneqq\\sup\{p\in [0,1]\mid \theta(p)=0\}\] under which the behavior of percolation changes significantly. The focus of our course is the existence and uniqueness of the infinite cluster and the behavior of the percolation when $p>p_c$ (supercritical) and $p<p_c$ (subcritical). 
+Given an infinite undirected connected graph $G = (V,E)$. We say an edge $e \in E$ is open (resp., closed) if and only if the edge $e$ is assigned the value $1$(resp., $0$). The name "Bernoulli" is given because we put i.i.d. Bernoulli random variables on each edge and each edge opens with probability $p\in[0,1]$. A configuration $\omega$ is an event that each edge $e\in \text{E}(G)$ is either open or closed. Two vertices $a$ and $b$ are connected if there exists a path from $a$ to $b$. A cluster is a set of vertices that every pair of vertices is connected. If a cluster is infinite, then we say that it is an infinite cluster. We define a function $\theta(p)=\mathbb{P}_p(\exists\text{ an infinite cluster containing }0)$, that is, the probability of the event in the parentheses under the Bernoulli percolation with probability $p$. The key ingredient of the Bernoulli percolation is the critical probability \[p_c\coloneqq\\sup\{p\in [0,1]\mid \theta(p)=0\},\] under which the behavior of percolation changes significantly. The focus of our course is the existence and uniqueness of the infinite cluster and the behavior of the percolation when $p>p_c$ (supercritical) and $p<p_c$ (subcritical). 
 
 %----------
 \subsection{Useful Identities \& Applications}
@@ -108,11 +108,11 @@ The identity is essential for the study of behavior of supercritical regime.
 \begin{enumerate}
 	    \item For $p < p_c$, there exists $c = c(p) > 0$ s.t For all $n\geq 1$,
 				$$
-					\mathbb{P}_p[0 \longleftrightarrow \partial \Lambda_n] \leq e^{-cn}	
+					\mathbb{P}_p[0 \longleftrightarrow \partial \Lambda_n] \leq e^{-cn}.	
 				$$
 		\item For $p > p_c$,
 			$$
-			\mathbb{P}[0\longleftrightarrow \infty ]\geq \frac{p-p_c}{p(1-p_c)}
+			\mathbb{P}[0\longleftrightarrow \infty ]\geq \frac{p-p_c}{p(1-p_c)}.
 			$$
 \end{enumerate}
 \end{thm}
@@ -123,7 +123,7 @@ In the discussion of $\mathbb{Z}^2$, if $p_c < \frac{1}{2}$, we will get a contr
 
 We can observe exponential decay on other event. For example, the size of $C$, where $C$ is the connected component containing the origin, and the probability of the origin connected to a point on one axis with distance $n$ ($0 \longleftarrow ne_1$). In the latter event, we applied the extension of Fekete subadditive lemma to get the parameter for the decay, \textit{correlation length} $\xi(p)$ as 
 $$
-\xi(p) \coloneqq \inf_{n} \left(-\frac{1}{n}\ln{\mathbb{P}_p[0 \leftrightarrow ne_1]}\right)^{-1}
+\xi(p) \coloneqq \inf_{n} \left(-\frac{1}{n}\ln{\mathbb{P}_p[0 \leftrightarrow ne_1]}\right)^{-1}.
 $$
 Using the same method, the rate of decay $\varphi(p)$ for $0 \longleftarrow \partial \Lambda_n$ is also acquired, and we will be able to show that $\varphi(p) = \xi(p)^{-1}$.
 
@@ -224,7 +224,7 @@ Proof:
 \section{Future Work}
 
 There are several directions in the future. For example, on the scaling invariant property, RSW theory gave us a way to obtain the uniform probability bounds of crossing events, but we can also ask the question about the scaling limit of a crossing event, not only the uniform bounds. We'll try to apply the discrete analytic ideas developed by Simrnov to extend the scaling problem on different types of lattice.
-We can also back to the starting point, thinking the method of finding critical probability or connective constant in some periodic lattice (ex. $\triangle,\ \sixedge,$ etc.) 
+We can also back to the starting point, thinking the method of finding critical probability or connective constant in some periodic lattice (ex. $\triangle,\ \sixedge,$ etc.). 
 
 
 \section*{Reference}
@@ -233,7 +233,7 @@ We can also back to the starting point, thinking the method of finding critical 
 \item S. Smirnov, \textit{Critical percolation in the plane: Conformal invariance, Cardy's formula, scaling limits, C. R. Acad. Sci. Paris} (2001).
 \item Hugo Duminil-Copin, \textit{Introduction to Bernoulli percolation}, (2018).
 \item Geoffrey R. Grimmett, Ioan Manolescu, \textit{Universality for bond percolation in two dimensions, Ann. Probab.} (2013).
-\item R. Lyons, Y. Peres, \textit{Probability on Trees and Networks.} (2016)
+\item R. Lyons, Y. Peres, \textit{Probability on Trees and Networks.} (2016).
 \end{enumerate}
 
 
