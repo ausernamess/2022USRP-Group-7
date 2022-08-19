@@ -1,7 +1,7 @@
 \documentclass[12pt]{article}
 \input{header.tex}
 \input{./ListStyle.tex}
-\author{Chia-Cheng, Hao \quad Le-Rong, Hsu \quad TBD \quad TBD \quad TBD \quad TBD}
+\author{Chia-Cheng, Hao \quad Le-Rong, Hsu \quad Wei-Chieh, Hung \quad TBD \quad TBD \quad TBD}
 \newcommand{\Instuition}{2022 NCTS USRP Group 7}
 %\newcommand{\SeasonYear}{}
 \newcommand{\Course}{Planar Statistical Physics and Bernoulli Percolation}
@@ -11,8 +11,18 @@
 %\newcommand{\UMID}{5950 8197}
 \newcommand{\Instructor}{Prof. Jhih-Huang Li(NTU), Prof. Wai-Kit Lam(NTU)}
 %\newcommand{\DueDate}{\DTMdisplaydate{2021}{9}{27}{-1}}
+\newcommand{\sixedge}{\mbox{\parbox[t][-2pt][c]{10pt}{\scriptsize$\blacktriangledown\hspace{-3.6pt}\blacktriangle\hspace{-4pt}\blacktriangledown$}\hspace{-10.2pt}\parbox[b][10.7pt][c]{10pt}{\scriptsize$\blacktriangle\hspace{-3.6pt}\blacktriangledown\hspace{-3.6pt}\blacktriangle$}}}
 \usepackage{graphicx}
-
+\theoremstyle{plane}
+\newtheorem*{thm}{Theorem}
+\newtheorem*{cor}{Corollary}
+\newtheorem*{claim}{Claim}
+\newtheorem*{prop}{Proposition}
+\newtheorem*{application}{Application}
+\theoremstyle{definition}
+\newtheorem{case}{Case}
+\newtheorem*{defn}{Definition}
+\newtheorem*{remark}{Remark}
 
 \begin{document}
 
@@ -37,12 +47,33 @@ The link to Prof. Li's USRP webpage at \href{https://usrp2022.cadlag.space/}{her
 
 %----------
 \subsection{Planar Statistical Physics and Bernoulli Percolation}
-
+Given an infinite undirected connected graph $G$. We say an edge $e$ is open(resp., closed) if and only if the edge $e$ is assigned the value $1$(resp., $0$). The name "Bernoulli" is given because we put i.i.d. Bernoulli random variables on each edge and each edge opens with probability $p\in[0,1]$. A configuration $\omega$ is an event that each edge $e\in \text{E}(G)$ is either open or closed. Two vertices $a$ and $b$ are connected if there exists a path from $a$ to $b$. A cluster is a set of vertices that every pair of vertices is connected. If a cluster is infinite, then we say that it is an infinite cluster. We define a function $\theta(p)=\mathbb{P}_p(\exists\text{ an infinite cluster containing }0)$, that is, the probability of the event in the parentheses under the Bernoulli percolation with probability $p$. The key ingredient of the Bernoulli percolation is the critical probability \[p_c\coloneqq\\sup\{p\in [0,1]\mid \theta(p)=0\}\] under which the behavior of percolation changes significantly. The focus of our course is the existence and uniqueness of the infinite cluster and the behavior of the percolation when $p>p_c$ and $p<p_c$. 
 
 %----------
 \subsection{Useful Identities \& Applications}
+<<<<<<< HEAD
 
 
+=======
+We introduce some fundamental tools which are useful when we study the Bernoulli percolation on other graphs. One important idea is the increasing event. Intuitively, if $A$ is an increasing event, $\omega\in A$ and $\omega\leq\omega'$, then $\omega'$ is in $A$. One noteworthy thing is that we usually consider the increasing events that "depend on finitely many edges". This comes our first tool, Harris-FKG inequality.
+\begin{thm}
+If $A$ and $B$ are two increasing events, then $\mathbb{P}(A\cap B)\geq \mathbb{P}(A)\mathbb{P}(B)$.
+\end{thm}
+This is equivalent to 
+\begin{thm}
+If \(f\) and \(g\) are increasing functions, then $\mathbb{E}[fg]\geq\mathbb{E}[f]\mathbb{E}[g].$
+\end{thm}
+The Harris-FKG inequality can be applied to the proof that on $\mathbb{Z}^2$, $p_c(\mathbb{Z}^2)\geq 1/2$ with the square-root trick. Another important tool is the B.K. inequality.
+\begin{thm}
+If A and B are increasing events that depend on finitely many edges, we have \[\mathbb{P}(A\circ B)\leq\mathbb{P}(A)\mathbb{P}(B).\]
+\end{thm}
+The event $A\circ B$ denotes "$A$ and $B$ are realized disjointly". We could view $A\circ B$ as "the edges that $A$ and $B$ depend on are disjoint". The equality holds when the events $A$ and $B$ are disjoint. Intuitively, the B.K. inequality tells us that if an increasing event holds then it gets harder for another increasing event to hold disjointly. We can manage to use this inequality in order to bound the some probability. The last tool is Russo's identity. This is useful when we study of the behavior $\mathbb{P}_p$ when $p$ varies. Here, it's necessary to introduce the idea of 
+pivotal edges. An edge $e$ is said to be pivotal of the configuration $\omega$ if the "switch" of $e$ determines whether $\omega$ is in the event $A$ or not. Write $N(A)=N(A,\omega)$ be the number of pivotal edges in $\omega$. 
+\begin{prop}
+For an increasing event $A$ depending on finitely many edges, we have \[\frac{d}{dp}\mathbb{P}_p (A)=\mathbb{E}_p[N(A)].\]
+\end{prop}
+The identity is essential for the study of behavior of supercritical regime. 
+>>>>>>> ecad8e7a64f7a529bd91aa55c764861710a58540
 %----------
 \subsection{Exponential Decay}\label{Course_Progress:Exponentia_Decay}
 One of the reason we introduce exponential decay is to show that $p_c \leq \frac{1}{2}$ on $\mathbb{Z}^d$(shown by Harry Kesten in the 80s). 
@@ -87,20 +118,54 @@ With Russo-Seymour-Welsh's theory, we're able to give a scale invariant property
 \includegraphics[width=5.0cm]{./RSWpart/omega_2.png}
 \includegraphics[width=5.0cm]{./RSWpart/omega_2_crossing.png}
 \end{figure}
-    
+\newpage
     
 
 \section{Individual Research}
 \subsection*{Hao: Exponential Decay}
+<<<<<<< HEAD
 I was intended to study TBD(reference), and in it I found the idea of correlation length and the exponents had to do with the \ref{Course_Progress:Exponentia_Decay} and the exercises. 
 The tree exercises I solved were the exponential decay on the size of the connected component $C$ under subcritical stage, correlation length, and Fekete subadditive lemma on $0 \longleftarrow \partial \Lambda_n$.
 In solving these exercises, I have more understanding on the relation between different exponents and how can they help us on the study of near critical phenomenon.  
 
 
+=======
+In \ref{Course_Progress:Exponentia_Decay}, we were left with on solved exercise 
+\subsection*{Hsu: Double Phase Transition}
+In this section, we introduce the interesting property, double phase transition of $\mathbb{T}_d\times\mathbb{Z}$, which is different from integers lattices $\mathbb{Z}^d$, triangle lattices and regular trees. The number of infinite clusters changes on $[0,1]$; there's no infinite cluster on $(0,p_c)$, infinitely many on $(p_c,p_u)$ and one on $(p_u,1)$, where $p_u$ is defined as \[p_u=\{p\in [0,1] \mid \text{there is a.s. a unique infinite cluster}\}.\]
+The property is given by the theorem:
+\begin{thm}
+For $d\geq 6$, \[0<p_c(\mathbb{T}_d\times\mathbb{Z})<p_u(\mathbb{T}_d\times\mathbb{Z})<1.\]
+\end{thm}
+For the lower bound of $p_c>0$, we can use the following lemma:
+\begin{prop}
+For an infinite connected graph $G$, $p_c\geq\frac{1}{\mu}$, where $\mu$ is the connective constant of $G$.
+\end{prop}
+The main idea is through bounding the $\theta(p)$ by the number of self-avoiding walks of length $n$ with probability $p^n$.\\To make sure $p_c<1$, 
+we can use 
+\begin{thm}
+If $G$ is Cayley graph of a group with exponential growth, then $p_c<1$.
+\end{thm}
+where we bound the $p_c$ of $G$ by the $p_c$ of its subgraph, lexicographically minimal spanning tree. As for the inequality $p_u<1$, we apply the theorem showed by Babson and Benjamini
+\begin{thm}
+If $G$ is the Cayley graph of a nonamenable finitely presented group with one end, then $p_u<1$.
+\end{thm}
+where we consider special graphs and a combinatorial fact to obtain the desired result. The most difficult part is to show the inequality $p_c<p_u$. The essential ingredients are the following:
+\begin{thm}
+If $G$ is a $d-$regular connected multigraph, then \[\text{cogr}(G)>\sqrt{d-1} \text{ iff } \rho(G)>\frac{2\sqrt{d-1}}{d}\] in which case \[d\rho(G)=\frac{d-1}{\text{cogr}(G)}+\text{cogr}(G).\]
+\end{thm}
+\begin{cor}
+For all $b\geq 1$, we have \[\rho(\mathbb{T}_d\times\mathbb{Z})=\frac{2\sqrt{b}+2}{b+3}.\]
+\end{cor}
+Of course, the proofs are nontrivial but they give the interesting property that the number of infinite clusters varies on the interval in $p$. \\
+\bigskip\\
+reference: R. Lyons, Y. Peres, \textit{Probability on Trees and Networks.} (2016)
+>>>>>>> ecad8e7a64f7a529bd91aa55c764861710a58540
 
 \section{Future Work}
 
 There are several directions in the future. For example, on the scaling invariant property, RSW theory gave us a way to obtain the uniform probability bounds of crossing events, but we can also ask the question about the scaling limit of a crossing event, not only the uniform bounds. We'll try to apply the discrete analytic ideas developed by Simrnov to extend the scaling problem on different types of lattice.
+We can also back to the starting point, thinking the method of finding critical probability or connective constant in some periodic lattice (ex. $\triangle,\ \sixedge,$ etc.) 
 
 \section*{Reference}
 
