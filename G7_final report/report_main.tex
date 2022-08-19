@@ -206,9 +206,30 @@ Of course, the proofs are nontrivial but they give the interesting property that
 	\def\svgwidth{7cm}
 	\inccfig{T3}
 	\end{figure}\\
-	We well find that $p_c(\mathbb{T}_d)=\frac{1}{d-1},\ \mu(\mathbb{T}_d)=\frac{1}{d-1}.$
+	We well find that either in bond percolation or in site percolation, $p_c(\mathbb{T}_d)=\frac{1}{d-1}$ and $ \mu(\mathbb{T}_d)=d-1.$
+	\begin{proof}
+	\begin{enumerate}
+	    \item The idea of $\mu(\mathbb{T}_d)=d-1$ is easy to see because of the following recursive relation : 
+	    \[
+	    \lambda_n=\lambda_{n-1}\times(d-1).
+	    \]
+	    \item We define the connective graph $\mathbb{I}_d$ to be a connective component contain $O$ of a subgraph of $\mathbb{T}_d$ that cut an edge beside $O.$
+    	\begin{figure}[htp]
+    	\centering
+    	\def\svgwidth{7cm}
+    	\inccfig{I3}
+    	\end{figure}\\
+    	And then, we define a function $\beta:[0,1]\to [0,1]$ as $\beta(p)=\mathbb{P}_p\{O\leftrightarrow\infty\mbox{ in }\mathbb{I}_d\}.$\\
+    	Last, using the fact that $p_c(\mathbb{T}_d)=p_c(\mathbb{I}_d)$ we can see that $p_c(\mathbb{T}_d)=\frac{1}{d-1}.$
+	\end{enumerate}
+	\end{proof}
 	\item $\triangle:$ (triangle lattice)\\[5pt]
 	We can see that in site percolation, $p_c(\triangle)\geq \frac{1}{2}.$ (Actually, $p_c(\triangle)=\frac{1}{2}.$)
+	\begin{figure}[htp]
+	\centering
+	\def\svgwidth{7cm}
+	\inccfig{nothing}
+	\end{figure}
 \end{enumerate}
 \subsection*{Su: Critical Probability for Bond Percolation on $\triangle$}
 \begin{thm}
@@ -227,10 +248,8 @@ Proof:
 		\end{itemize}
 	\item By checking that both cases where $p_{c}^{\triangle} > p_{G}$ and $p_{c}^{\triangle} < p_{G}$ gives us contradiction, we eventually will have $p_{c}^{\triangle} = p_{G}$, where $p_{G}$, as the solution of the above formula, can be written in the form of $2\sin(\frac{\pi}{18})$.
 \end{enumerate}
-=======
 
 \newpage
->>>>>>> c6529aaa2a1434f311956bfbe4594eb5c27127a5
 \section{Future Work}
 
 There are several directions in the future. For example, on the scaling invariant property, RSW theory gave us a way to obtain the uniform probability bounds of crossing events, but we can also ask the question about the scaling limit of a crossing event, not only the uniform bounds. We'll try to apply the discrete analytic ideas developed by Simrnov to extend the scaling problem on different types of lattice.
@@ -251,3 +270,4 @@ We can also back to the starting point, thinking the method of finding critical 
 
 
 \end{document}
+
