@@ -14,8 +14,15 @@
 \newcommand{\sixedge}{\mbox{\parbox[t][-2pt][c]{10pt}{\scriptsize$\blacktriangledown\hspace{-3.6pt}\blacktriangle\hspace{-4pt}\blacktriangledown$}\hspace{-10.2pt}\parbox[b][10.7pt][c]{10pt}{\scriptsize$\blacktriangle\hspace{-3.6pt}\blacktriangledown\hspace{-3.6pt}\blacktriangle$}}}
 \usepackage{graphicx}
 \theoremstyle{plane}
-\newtheorem*{prop}{Proposition}
 \newtheorem*{thm}{Theorem}
+\newtheorem*{cor}{Corollary}
+\newtheorem*{claim}{Claim}
+\newtheorem*{prop}{Proposition}
+\newtheorem*{application}{Application}
+\theoremstyle{definition}
+\newtheorem{case}{Case}
+\newtheorem*{defn}{Definition}
+\newtheorem*{remark}{Remark}
 
 \begin{document}
 
@@ -35,8 +42,7 @@ After the classes were over, we went on individual research to explore topics su
 
 %----------
 \subsection{Planar Statistical Physics and Bernoulli Percolation}
-Given an infinite undirected connected graph $G$. We say an edge $e$ is open(resp., closed) if and only if the edge $e$ is assigned the value $1$(resp., $0$). The name "Bernoulli" is given because we put i.i.d. Bernoulli random variables on each edge and each edge opens with probability $p\in[0,1]$. A configuration $\omega$ is an event that each edge $e\in \text{E}(G)$ is either open or closed. Two vertices $a$ and $b$ are connected if there exists a path from $a$ to $b$. A cluster is a set of vertices that every pair of vertices is connected. If the clusters is infinite, then we say
-that it is an infinite cluster. We define a function $\theta(p)=\mathbb{P}_p(\exists\text{ an infinite cluster containing }0)$, that is, the probability of the event in the parentheses under the Bernoulli percolation with probability $p$. The key ingredient of the Bernoulli percolation is the critical probability \[p_c\coloneqq\\sup\{p\in [0,1]\mid \theta(p)=0\}\] under which the behavior of percolation changes significantly. The focus of our course is the existence and uniqueness of the infinite cluster and the behavior of the percolation when $p>p_c$ and $p<p_c$. 
+Given an infinite undirected connected graph $G$. We say an edge $e$ is open(resp., closed) if and only if the edge $e$ is assigned the value $1$(resp., $0$). The name "Bernoulli" is given because we put i.i.d. Bernoulli random variables on each edge and each edge opens with probability $p\in[0,1]$. A configuration $\omega$ is an event that each edge $e\in \text{E}(G)$ is either open or closed. Two vertices $a$ and $b$ are connected if there exists a path from $a$ to $b$. A cluster is a set of vertices that every pair of vertices is connected. If a cluster is infinite, then we say that it is an infinite cluster. We define a function $\theta(p)=\mathbb{P}_p(\exists\text{ an infinite cluster containing }0)$, that is, the probability of the event in the parentheses under the Bernoulli percolation with probability $p$. The key ingredient of the Bernoulli percolation is the critical probability \[p_c\coloneqq\\sup\{p\in [0,1]\mid \theta(p)=0\}\] under which the behavior of percolation changes significantly. The focus of our course is the existence and uniqueness of the infinite cluster and the behavior of the percolation when $p>p_c$ and $p<p_c$. 
 
 %----------
 \subsection{Useful Identities \& Applications}
@@ -102,13 +108,41 @@ With Russo-Seymour-Welsh's theory, we're able to give a scale invariant property
 \includegraphics[width=5.0cm]{./RSWpart/omega_2.png}
 \includegraphics[width=5.0cm]{./RSWpart/omega_2_crossing.png}
 \end{figure}
-    
+\newpage
     
 
 \section{Individual Research}
 \subsection*{Hao: Exponential Decay}
 In \ref{Course_Progress:Exponentia_Decay}, we were left with on solved exercise 
-
+\subsection*{Hsu: Double Phase Transition}
+In this section, we introduce the interesting property, double phase transition of $\mathbb{T}_d\times\mathbb{Z}$, which is different from integers lattices $\mathbb{Z}^d$, triangle lattices and regular trees. The number of infinite clusters changes on $[0,1]$; there's no infinite cluster on $(0,p_c)$, infinitely many on $(p_c,p_u)$ and one on $(p_u,1)$, where $p_u$ is defined as \[p_u=\{p\in [0,1] \mid \text{there is a.s. a unique infinite cluster}\}.\]
+The property is given by the theorem:
+\begin{thm}
+For $d\geq 6$, \[0<p_c(\mathbb{T}_d\times\mathbb{Z})<p_u(\mathbb{T}_d\times\mathbb{Z})<1.\]
+\end{thm}
+For the lower bound of $p_c>0$, we can use the following lemma:
+\begin{prop}
+For an infinite connected graph $G$, $p_c\geq\frac{1}{\mu}$, where $\mu$ is the connective constant of $G$.
+\end{prop}
+The main idea is through bounding the $\theta(p)$ by the number of self-avoiding walks of length $n$ with probability $p^n$.\\To make sure $p_c<1$, 
+we can use 
+\begin{thm}
+If $G$ is Cayley graph of a group with exponential growth, then $p_c<1$.
+\end{thm}
+where we bound the $p_c$ of $G$ by the $p_c$ of its subgraph, lexicographically minimal spanning tree. As for the inequality $p_u<1$, we apply the theorem showed by Babson and Benjamini
+\begin{thm}
+If $G$ is the Cayley graph of a nonamenable finitely presented group with one end, then $p_u<1$.
+\end{thm}
+where we consider special graphs and a combinatorial fact to obtain the desired result. The most difficult part is to show the inequality $p_c<p_u$. The essential ingredients are the following:
+\begin{thm}
+If $G$ is a $d-$regular connected multigraph, then \[\text{cogr}(G)>\sqrt{d-1} \text{ iff } \rho(G)>\frac{2\sqrt{d-1}}{d}\] in which case \[d\rho(G)=\frac{d-1}{\text{cogr}(G)}+\text{cogr}(G).\]
+\end{thm}
+\begin{cor}
+For all $b\geq 1$, we have \[\rho(\mathbb{T}_d\times\mathbb{Z})=\frac{2\sqrt{b}+2}{b+3}.\]
+\end{cor}
+Of course, the proofs are nontrivial but they give the interesting property that the number of infinite clusters varies on the interval in $p$. \\
+\bigskip\\
+reference: R. Lyons, Y. Peres, \textit{Probability on Trees and Networks.} (2016)
 
 \section{Future Work}
 
