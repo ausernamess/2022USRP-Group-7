@@ -199,16 +199,23 @@ reference: R. Lyons, Y. Peres, \textit{Probability on Trees and Networks.} (2016
 	\item $\triangle:$ (triangle lattice)\\[5pt]
 	We can see that $p_c(\triangle)\geq \frac{1}{2}.$ (Actually, $p_c(\triangle)=\frac{1}{2}.$)
 \end{enumerate}
-\subsection*{Su: Critical Probability for Bond Percolation on Triangular Lattice}
+\subsection*{Su: Critical Probability for Bond Percolation on $\triangle$}
 \begin{thm}
-The critical probability for bond percolation on triangular lattice is $2\sin (\frac{\pi}{18})$.
-Proof:	
-\begin{enumerate}
-	\item consider a defined graph $G'$ and try to consider the relations between $G$ and $G'$.
-	
-\end{enumerate}
-
+The critical probability for bond percolation on $\triangle$ is $2\sin (\frac{\pi}{18})$.\\
 \end{thm}
+Proof:
+\begin{enumerate}
+	\item Consider a single triangle $G$ and a defined graph $G'$ and try to find the relations between $G$ and $G'$.
+	\begin{center}
+		\includegraphics[width=9cm]{./picture/try_an_goal.png}
+	\end{center}
+	\item We obtain that the graph $G'$ conserves the connectivity on $G$ if the following holds: 
+		\begin{itemize}
+			\item $p_{G'} = 1 - p_{G}$.
+			\item $p_{G}$ is the only solution between $[0,1]$ satisfying the formula $p^3-3p+1=0$.
+		\end{itemize}
+	\item By checking that both cases where $p_{c}^{\triangle} > p_{G}$ and $p_{c}^{\triangle} < p_{G}$ gives us contradiction, we eventually will have $p_{c}^{\triangle} = p_{G}$, where $p_{G}$, as the solution of the above formula, can be written in the form of $2\sin(\frac{\pi}{18})$.
+\end{enumerate}
 \section{Future Work}
 
 There are several directions in the future. For example, on the scaling invariant property, RSW theory gave us a way to obtain the uniform probability bounds of crossing events, but we can also ask the question about the scaling limit of a crossing event, not only the uniform bounds. We'll try to apply the discrete analytic ideas developed by Simrnov to extend the scaling problem on different types of lattice.
