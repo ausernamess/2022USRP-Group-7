@@ -1408,7 +1408,7 @@ We want to show study the behavior of  $\mathbb{P}_p(A)$ as $p$ varies (One can 
 %------------------------------------------
 \chapter{Exponential Decay}
 One of the reason we introduce this tool is to show that $p_c \leq \frac{1}{2}$ on $\mathbb{Z}^d$ 
-\section{Statement and Proof}
+\section{Statement}
 \colorbox{pink}{
 	\begin{minipage}{1 \textwidth}
 		For $d \geq 2$, there are two facts\\
@@ -1424,22 +1424,20 @@ One of the reason we introduce this tool is to show that $p_c \leq \frac{1}{2}$ 
 	\end{minipage}
 }
 \begin{enumerate}
-	\item[\textbf{Remark}] For the case $p < p_c$, we can think of the event $0 \longleftarrow \partial \Lambda_{nL}$. If the previous event happens, it implies that there must exsists a path from $0$ to $\partial \Lambda_{(n-1)L}$. This is shown in Fig. \ref{Exp1}. However, the inequalities may not holds.
+	\item[\textbf{Remark}] For the case $p < p_c$, we can think of the event $0 \longleftarrow \partial \Lambda_{nL}$. If the previous event happens, it implies that there must exsists a path from $0$ to $\partial \Lambda_{(n-1)L}$. This is shown in Fig. \ref{Exp1}. However, the inequalities may not hold because the direction of the inequality is not correct if we consider FKG.
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width = 0.3\textwidth]{picture/Exp1.png}
 		\caption{\label{Exp1}Intuitive understanding of $ \mathbb{P}_p[0 \longleftrightarrow \Lambda_{nL}] \text{{\color{red} $\quad \leq \quad$ }} \mathbb{P}_p[0 \longleftrightarrow \Lambda_L]\mathbb{P}_p[0 \longleftrightarrow \Lambda_{(n-1)L}].$}
 	\end{figure}
-	\item[\textbf{Exercise}] Can the decay rate be faster than exponential?\\
+	\item[\textbf{Exercise}] (Similar to exercise 30 in \cite{Copin18}) Can the decay rate be faster than exponential?\\
 	\item[\SOL] No. One direct argument is that the probability from $\Lambda_{(n-1)L}$	to $\Lambda_{nL}$ will not be smaller than $p^L$. Hence, the decay rate decay at some exponential rates.
 \end{enumerate}
-\begin{proof}
-	TBD. Check out the handout "USRP3" 
-\end{proof}
 \begin{enumerate}
-	\item[\textbf{Exercises}] For a planar periodic graph $G$ and look at the bond percolation on $G$, show that $p_c(G) + p_c(G*) = 1$.
-	\item[\SOL] TBD
-	\item[\textbf{Exercise}] (Adapted from exercise 31 in \cite{Copin18})
+	\item[\textbf{Exercises}] For a planar periodic graph $G$ and look at the bond percolation on $G$, show that $p_c(G) + p_c(G^*) = 1$.
+	\item[\SOL] In this exercise we should use the fact that the \textbf{exponential decay} and \textbf{uniqueness} properties should work for all bond percolation on planar periodic graph $G$. Then, we may argue that $p_c(G) + P_c(G^*)$ both greater/less than equal to 1, so the sum is equal to 1.
+				
+	\item[\textbf{Exercise}] (Adapted from exercise 31 in \cite{Copin18}) Find $p_c$ for the bond percolation on $\mathbb{T} = \text{triangular lattice}$
 	\item[\SOL] TBD	
 \end{enumerate}
 \section{Size of the Finite Cluster Containing the Origin}
